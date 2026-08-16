@@ -12,9 +12,15 @@ dokładniejsze i nie obciąża ich serwera tysiącami zapytań co 12h. Warto
 zapytać obsługę CedarDrop (drop@cedardrop.com) czy taki feed jest dostępny -
 to prawdopodobnie lepsze rozwiązanie niż ten skrypt.
 
-Ten skrypt to "plan B": odwiedza stronę KAŻDEGO produktu i sprawdza status
-dostępności (widoczny bez logowania), ponieważ strony kategorii same w sobie
-nie pokazują dostępności - tylko "cena po zalogowaniu".
+JAK WYKRYWANA JEST DOSTĘPNOŚĆ (ważne, po realnym debugowaniu):
+Strona produktu ZAWSZE zawiera ukryty formularz "powiadom mnie o dostępności"
+z tekstem "Produkt wyprzedany" - niezależnie od realnego stanu magazynowego
+(to stały, zawsze obecny w HTML element, tylko wyświetlany/ukrywany przez
+JS/CSS). Szukanie tego tekstu dawało więc fałszywe "wyprzedany" dla WSZYSTKICH
+produktów. Prawdziwym, wiarygodnym wskaźnikiem jest obrazek "poziomu
+magazynowego" w sekcji SKU/EAN (plik available_graph/graph_1_N.png, gdzie N to
+poziom: 0 = brak w magazynie, wyżej = więcej towaru) wraz z jego opisowym
+tekstem alt (np. "Produkt dostępny w bardzo dużej ilości").
 
 Zmienne środowiskowe:
     SMTP_USER       - adres e-mail, z którego wysyłany jest raport (wymagane)
@@ -49,9 +55,8 @@ STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.jso
 # Główne kategorie sklepu (nazwa, URL) - punkt startowy do znalezienia wszystkich
 # produktów. Strona kategorii nadrzędnej pokazuje też produkty z podkategorii,
 # więc nie trzeba osobno przechodzić każdej podkategorii.
-# "Letnia wyprzedaż" jest CELOWO na końcu listy: to kategoria "przekrojowa"
-# (produkty z niej pochodzą też z innych kategorii), więc ma najniższy
-# priorytet przy przypisywaniu produktu do kategorii w raporcie.
+# "Letnia wyprzedaż" jest CELOWO na końcu listy: to kategoria "przekrojowa",
+# więc ma najniższy priorytet przy przypisywaniu produktu do kategorii.
 # Jeśli CedarDrop doda nową kategorię główną, trzeba ją tu dopisać ręcznie.
 CATEGORIES = [
     ("Zestawy prezentowe", "https://cedardrop.com/pol_m_Zestawy-prezentowe-1928.html"),
@@ -69,10 +74,9 @@ CATEGORIES = [
 ]
 
 LINK_RE = re.compile(r'href="(/product-pol-(\d+)-[^"]+\.html)"')
-# Najlepsza-możliwa próba wyłuskania SKU z widocznego tekstu strony produktu.
-# To pole jest "best effort" - jeśli CedarDrop użyje innego układu, może
-# zostać puste (nie przerywa to działania bota).
-SKU_RE = re.compile(r"\bSKU\s*[:\-]?\s*([A-Za-z0-9][A-Za-z0-9\-_/]{2,40})")
+# Wskaźnik poziomu magazynowego - patrz komentarz na górze pliku.
+# Grupa 2 (N w graph_M_N.png) to poziom: 0 = brak, >0 = jest w magazynie.
+GRAPH_IMG_RE = re.compile(r"available_graph/graph_(\d+)_(\d+)\.png")
 
 CONCURRENCY = 5                # równoległe zapytania - uprzejmie dla serwera CedarDrop
 REQUEST_TIMEOUT = 25
@@ -84,14 +88,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; CedarDropStockBot/1.0; sprawdzanie dostepnosci dla partnera dropshipping)"
 }
 
-# Frazy, których obecność na stronie produktu oznacza brak towaru.
-# Jeśli CedarDrop zmieni szatę graficzną strony, ta lista może wymagać poprawki.
-OUT_OF_STOCK_MARKERS = [
-    "produkt wyprzedany",
-    "powiadom mnie o dostępności",
-]
-
-STATUS_LABELS = {True: "Dostępny", False: "Wyprzedany", None: "Błąd sprawdzania"}
+STATUS_LABELS = {True: "Dostępny", False: "Wyprzedany", None: "Nieznany"}
 
 
 def load_state():
@@ -172,14 +169,24 @@ def parse_product(html, url, pid):
     else:
         name = pid
 
-    text = soup.get_text(" ", strip=True)
-    text_lower = text.lower()
-    in_stock = not any(marker in text_lower for marker in OUT_OF_STOCK_MARKERS)
+    # Zobacz komentarz na górze pliku: NIE szukamy tekstu "produkt wyprzedany"
+    # (jest zawsze obecny w ukrytym formularzu na każdej stronie produktu).
+    # Zamiast tego czytamy obrazek poziomu magazynowego.
+    tier, stock_label = None, ""
+    img = soup.find("img", src=GRAPH_IMG_RE) or soup.find("img", attrs={"data-src": GRAPH_IMG_RE})
+    if img:
+        src_val = img.get("src") or img.get("data-src") or ""
+        m = GRAPH_IMG_RE.search(src_val)
+        if m:
+            tier = int(m.group(2))
+            stock_label = (img.get("alt") or "").strip()
+    if tier is None:
+        m = GRAPH_IMG_RE.search(html)  # zapasowo, gdyby obrazek był poza <img>
+        if m:
+            tier = int(m.group(2))
 
-    sku_match = SKU_RE.search(text)
-    sku = sku_match.group(1) if sku_match else ""
-
-    return {"id": pid, "name": name, "url": url, "in_stock": in_stock, "sku": sku}
+    in_stock = None if tier is None else (tier > 0)
+    return {"id": pid, "name": name, "url": url, "in_stock": in_stock, "stock_label": stock_label}
 
 
 async def check_all_products(session, semaphore, product_urls):
@@ -191,7 +198,7 @@ async def check_all_products(session, semaphore, product_urls):
         if html is None:
             results[pid] = {
                 "id": pid, "name": pid, "url": url, "category": category,
-                "in_stock": None, "sku": "", "error": True,
+                "in_stock": None, "stock_label": "", "error": True,
             }
         else:
             parsed = parse_product(html, url, pid)
@@ -210,7 +217,9 @@ async def check_all_products(session, semaphore, product_urls):
 
 
 def compute_changes(old_products, new_results):
-    """pid -> etykieta zmiany: '', 'nowy w ofercie', 'wypadł z magazynu', 'wrócił do magazynu'."""
+    """pid -> etykieta zmiany: '', 'nowy w ofercie', 'wypadł z magazynu', 'wrócił do magazynu'.
+    Zmianę zgłaszamy tylko, gdy oba odczyty (stary i nowy) są jednoznaczne (True/False) -
+    status "Nieznany" nigdy nie generuje fałszywej zmiany."""
     changes = {}
     for pid, new in new_results.items():
         if new.get("error"):
@@ -218,9 +227,11 @@ def compute_changes(old_products, new_results):
         old = old_products.get(pid)
         if old is None:
             changes[pid] = "nowy w ofercie"
-        elif old.get("in_stock") is True and new["in_stock"] is False:
+            continue
+        old_stock, new_stock = old.get("in_stock"), new.get("in_stock")
+        if old_stock is True and new_stock is False:
             changes[pid] = "wypadł z magazynu"
-        elif old.get("in_stock") is False and new["in_stock"] is True:
+        elif old_stock is False and new_stock is True:
             changes[pid] = "wrócił do magazynu"
         else:
             changes[pid] = ""
@@ -232,18 +243,17 @@ def build_csv(new_results, changes):
     rows = []
     for pid, r in new_results.items():
         if r.get("error"):
-            category = r.get("category", "")
-            rows.append((category, r.get("name", pid), "Błąd sprawdzania", "", "", r.get("url", "")))
+            rows.append((r.get("category", ""), r.get("name", pid), "Błąd sprawdzania", "", "", r.get("url", "")))
             continue
         status = STATUS_LABELS[r["in_stock"]]
         change = changes.get(pid, "")
-        rows.append((r.get("category", ""), r["name"], status, change, r.get("sku", ""), r["url"]))
+        rows.append((r.get("category", ""), r["name"], status, r.get("stock_label", ""), change, r["url"]))
 
     rows.sort(key=lambda row: (row[0], row[1]))
 
     output = io.StringIO()
     writer = csv.writer(output, delimiter=";")  # średnik - wygodniejszy dla Excela w polskiej wersji językowej
-    writer.writerow(["Kategoria", "Nazwa produktu", "Status", "Zmiana od ostatniego raportu", "SKU", "Link do produktu"])
+    writer.writerow(["Kategoria", "Nazwa produktu", "Status", "Poziom dostępności", "Zmiana od ostatniego raportu", "Link do produktu"])
     writer.writerows(rows)
     return output.getvalue()
 
@@ -257,13 +267,20 @@ def build_summary_body(new_results, changes, errors_count, is_first_run, total_t
         if r.get("error"):
             continue
         cat = r.get("category") or "(brak kategorii)"
-        d = per_cat.setdefault(cat, {"in": 0, "out": 0})
-        d["in" if r["in_stock"] else "out"] += 1
+        d = per_cat.setdefault(cat, {"in": 0, "out": 0, "unknown": 0})
+        if r["in_stock"] is True:
+            d["in"] += 1
+        elif r["in_stock"] is False:
+            d["out"] += 1
+        else:
+            d["unknown"] += 1
 
-    lines.append("Stan wg kategorii (dostępne / niedostępne):")
+    lines.append("Stan wg kategorii (dostępne / niedostępne / nieznane):")
     for cat in sorted(per_cat):
         d = per_cat[cat]
-        lines.append(f"  {cat}: {d['in']} / {d['out']}  (razem {d['in'] + d['out']})")
+        total = d["in"] + d["out"] + d["unknown"]
+        extra = f" / {d['unknown']} nieznanych" if d["unknown"] else ""
+        lines.append(f"  {cat}: {d['in']} / {d['out']}{extra}  (razem {total})")
     lines.append("")
 
     newly_out = sum(1 for c in changes.values() if c == "wypadł z magazynu")
@@ -349,6 +366,9 @@ async def main():
     print("Krok 3/3: buduję CSV, porównuję ze stanem poprzednim i wysyłam raport...")
     changes = compute_changes(state.get("products", {}), new_results)
     errors_count = sum(1 for r in new_results.values() if r.get("error"))
+    unknown_count = sum(1 for r in new_results.values() if not r.get("error") and r.get("in_stock") is None)
+    if unknown_count:
+        print(f"  [i] {unknown_count} produktów bez jednoznacznego wskaźnika dostępności (status: Nieznany)")
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H%M")
     csv_filename = f"cedardrop_stany_{now_str}.csv"
@@ -379,7 +399,7 @@ async def main():
             continue
         merged_products[pid] = {
             "name": r["name"], "url": r["url"], "category": r.get("category", ""),
-            "sku": r.get("sku", ""), "in_stock": r["in_stock"],
+            "stock_label": r.get("stock_label", ""), "in_stock": r["in_stock"],
         }
 
     save_state({
