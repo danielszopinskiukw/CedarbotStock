@@ -1,0 +1,44 @@
+name: Sprawdzanie stanow magazynowych CedarDrop
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC (~7-8 rano czasu polskiego)
+    - cron: "0 18 * * *"  # 18:00 UTC (~19-20 wieczorem czasu polskiego)
+  workflow_dispatch: {}    # pozwala uruchomić ręcznie z zakładki "Actions"
+
+permissions:
+  contents: write   # potrzebne, żeby bot mógł zapisać state.json z powrotem do repo
+
+jobs:
+  check-stock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Ustaw Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj zależności
+        run: pip install -r requirements.txt
+
+      - name: Uruchom sprawdzanie i wyślij raport
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          MAX_PRODUCTS: ${{ secrets.MAX_PRODUCTS }}
+        run: python stock_checker.py
+
+      - name: Zapisz nowy stan w repozytorium
+        run: |
+          git config user.name "cedardrop-stock-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json
+          git diff --quiet --cached || git commit -m "Aktualizacja stanu magazynowego [skip ci]"
+          git push
