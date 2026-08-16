@@ -5,20 +5,6 @@ dziennie i wysyła e-mail z **pełną listą produktów w załączniku CSV**,
 podzieloną na kategorie (portfele, torebki, plecaki...), plus krótkie
 podsumowanie zmian w treści wiadomości.
 
-## Zanim zaczniesz - rozważ lepszą opcję
-
-CedarDrop.com to platforma dropshippingowa (IdoSell) skierowana do firm.
-Prawie każda polska hurtownia dropshippingowa udostępnia partnerom
-**oficjalny plik/feed XML lub CSV ze stanami magazynowymi** (czasem też API) -
-to szybsze, dokładniejsze i nie obciąża ich serwera tysiącami zapytań co 12h.
-
-Warto zapytać obsługę CedarDrop (**drop@cedardrop.com**, +48 607 900 998) albo
-swojego opiekuna handlowego, czy taki plik jest dostępny - to prawdopodobnie
-lepsze rozwiązanie niż ten bot.
-
-Ten skrypt to "plan B": odwiedza stronę każdego produktu, bo strony kategorii
-same w sobie nie pokazują dostępności - tylko status "cena po zalogowaniu".
-
 ## Jak to działa
 
 1. Wchodzi na strony wszystkich głównych kategorii i zbiera linki do produktów,
