@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-17T07:21:24.862364+00:00",
+  "last_checked": "2026-08-17T19:08:18.995766+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -26710,6 +26710,41 @@
       "name": "Czarny, turystyczny plecak z poliestru zawieszony na regulowanych szelkach - Peterson",
       "url": "https://cedardrop.com/product-pol-29206-Czarny-turystyczny-plecak-z-poliestru-zawieszony-na-regulowanych-szelkach-Peterson.html",
       "category": "Plecaki",
+      "stock_label": "Cena na telefon",
+      "in_stock": true
+    },
+    "28917": {
+      "name": "Portfel damski ze skóry ekologicznej w czerwonym kolorze zamykany na zatrzask i bigiel - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-28917-Portfel-damski-ze-skory-ekologicznej-w-czerwonym-kolorze-zamykany-na-zatrzask-i-bigiel-4U-Cavaldi.html",
+      "category": "Portfele damskie",
+      "stock_label": "Cena na telefon",
+      "in_stock": true
+    },
+    "26690": {
+      "name": "Duży, poziomy portfel damski ze skóry ekologicznej - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-26690-Duzy-poziomy-portfel-damski-ze-skory-ekologicznej-4U-Cavaldi.html",
+      "category": "Portfele damskie",
+      "stock_label": "Cena na telefon",
+      "in_stock": true
+    },
+    "28930": {
+      "name": "Niewielka shopperka damska z poliestru w beżowym kolorze z dopinanym paskiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-28930-Niewielka-shopperka-damska-z-poliestru-w-bezowym-kolorze-z-dopinanym-paskiem-Peterson.html",
+      "category": "Torebki damskie",
+      "stock_label": "Cena na telefon",
+      "in_stock": true
+    },
+    "28311": {
+      "name": "Elegancki plecak damski miejski w czarnym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-28311-Elegancki-plecak-damski-miejski-w-czarnym-kolorze-Peterson.html",
+      "category": "Plecaki",
+      "stock_label": "Cena na telefon",
+      "in_stock": true
+    },
+    "25566": {
+      "name": "Lekka torba podróżna z wytrzymałego poliestru - Rovicky",
+      "url": "https://cedardrop.com/product-pol-25566-Lekka-torba-podrozna-z-wytrzymalego-poliestru-Rovicky.html",
+      "category": "Walizki i torby podróżne",
       "stock_label": "Cena na telefon",
       "in_stock": true
     }
