@@ -156,6 +156,28 @@ async def discover_products(session, semaphore):
     return product_urls
 
 
+def sample_across_categories(product_urls, limit):
+    """Do testów (MAX_PRODUCTS): wybiera próbkę rozłożoną po kategoriach (round-robin),
+    zamiast pierwszych z rzędu (które przy sporym MAX_PRODUCTS i tak wypadałyby
+    z jednej, pierwszej przetworzonej kategorii - słaby test różnych szablonów stron)."""
+    by_category = {}
+    for pid, info in product_urls.items():
+        by_category.setdefault(info["category"], []).append((pid, info))
+    lists = list(by_category.values())
+
+    sampled = {}
+    idx = 0
+    while len(sampled) < limit and idx < max((len(l) for l in lists), default=0):
+        for lst in lists:
+            if idx < len(lst):
+                pid, info = lst[idx]
+                sampled[pid] = info
+                if len(sampled) >= limit:
+                    break
+        idx += 1
+    return sampled
+
+
 def parse_product(html, url, pid):
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(["script", "style"]):
@@ -171,19 +193,22 @@ def parse_product(html, url, pid):
 
     # Zobacz komentarz na górze pliku: NIE szukamy tekstu "produkt wyprzedany"
     # (jest zawsze obecny w ukrytym formularzu na każdej stronie produktu).
-    # Zamiast tego czytamy obrazek poziomu magazynowego.
+    # Czytamy obrazek poziomu magazynowego - ALE ten sam wzorzec pliku
+    # (available_graph/graph_M_N.png) jest też użyty przez inną, niepowiązaną
+    # ikonkę "Cena na telefon", która na stronie występuje WCZEŚNIEJ niż
+    # prawdziwy wskaźnik stanu magazynowego. Trzeba ją jawnie pominąć, inaczej
+    # find() złapie zawsze tę pierwszą (błąd, który złapaliśmy w praktyce -
+    # dawał "Cena na telefon" jako "poziom dostępności" dla 100% produktów).
     tier, stock_label = None, ""
-    img = soup.find("img", src=GRAPH_IMG_RE) or soup.find("img", attrs={"data-src": GRAPH_IMG_RE})
-    if img:
-        src_val = img.get("src") or img.get("data-src") or ""
-        m = GRAPH_IMG_RE.search(src_val)
+    for img in soup.find_all("img", src=GRAPH_IMG_RE):
+        alt = (img.get("alt") or "").strip()
+        if "cena" in alt.lower() or "telefon" in alt.lower():
+            continue
+        m = GRAPH_IMG_RE.search(img.get("src", ""))
         if m:
             tier = int(m.group(2))
-            stock_label = (img.get("alt") or "").strip()
-    if tier is None:
-        m = GRAPH_IMG_RE.search(html)  # zapasowo, gdyby obrazek był poza <img>
-        if m:
-            tier = int(m.group(2))
+            stock_label = alt
+            break
 
     in_stock = None if tier is None else (tier > 0)
     return {"id": pid, "name": name, "url": url, "in_stock": in_stock, "stock_label": stock_label}
@@ -357,8 +382,8 @@ async def main():
         max_products = os.environ.get("MAX_PRODUCTS")
         if max_products:
             limit = int(max_products)
-            product_urls = dict(list(product_urls.items())[:limit])
-            print(f"UWAGA: tryb testowy (MAX_PRODUCTS={limit}), sprawdzam tylko część produktów")
+            product_urls = sample_across_categories(product_urls, limit)
+            print(f"UWAGA: tryb testowy (MAX_PRODUCTS={limit}), próbka rozłożona po kategoriach")
 
         print("Krok 2/3: sprawdzam dostępność każdego produktu...")
         new_results = await check_all_products(session, semaphore, product_urls)
