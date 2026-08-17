@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-16T18:58:31.214841+00:00",
+  "last_checked": "2026-08-17T07:21:24.862364+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -26696,6 +26696,20 @@
       "name": "Miejski, pojemny plecak damski ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-26258-Miejski-pojemny-plecak-damski-ze-skory-ekologicznej-Peterson.html",
       "category": "Letnia wyprzedaż",
+      "stock_label": "Cena na telefon",
+      "in_stock": true
+    },
+    "31735": {
+      "name": "Czarny portfel damski ze skóry naturalnej i ekologicznej zamykany zatrzaskiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-31735-Czarny-portfel-damski-ze-skory-naturalnej-i-ekologicznej-zamykany-zatrzaskiem-Peterson.html",
+      "category": "Portfele damskie",
+      "stock_label": "Cena na telefon",
+      "in_stock": true
+    },
+    "29206": {
+      "name": "Czarny, turystyczny plecak z poliestru zawieszony na regulowanych szelkach - Peterson",
+      "url": "https://cedardrop.com/product-pol-29206-Czarny-turystyczny-plecak-z-poliestru-zawieszony-na-regulowanych-szelkach-Peterson.html",
+      "category": "Plecaki",
       "stock_label": "Cena na telefon",
       "in_stock": true
     }
