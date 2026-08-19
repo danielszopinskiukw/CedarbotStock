@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-18T19:07:57.952019+00:00",
+  "last_checked": "2026-08-19T07:12:47.790939+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -1146,7 +1146,7 @@
       "name": "Portfel męski ze skóry naturalnej w czarnym kolorze, model zamykany zatrzaskiem - Peterson",
       "url": "https://cedardrop.com/product-pol-30961-Portfel-meski-ze-skory-naturalnej-w-czarnym-kolorze-model-zamykany-zatrzaskiem-Peterson.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
+      "stock_label": "Produkt dostępny w bardzo małej ilości",
       "in_stock": true
     },
     "30891": {
@@ -7334,7 +7334,7 @@
       "name": "Portfel damski ze skóry ekologicznej w czarnym kolorze wyposażony w system RFID - Peterson",
       "url": "https://cedardrop.com/product-pol-30601-Portfel-damski-ze-skory-ekologicznej-w-czarnym-kolorze-wyposazony-w-system-RFID-Peterson.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
+      "stock_label": "Produkt dostępny w bardzo małej ilości",
       "in_stock": true
     },
     "30593": {
@@ -8482,7 +8482,7 @@
       "name": "Pojemny, modny portfel damski w czerwonym kolorze wykonany ze skóry ekologicznej - 4U Cavaldi",
       "url": "https://cedardrop.com/product-pol-28918-Pojemny-modny-portfel-damski-w-czerwonym-kolorze-wykonany-ze-skory-ekologicznej-4U-Cavaldi.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
+      "stock_label": "Produkt dostępny w bardzo małej ilości",
       "in_stock": true
     },
     "28913": {
@@ -12542,7 +12542,7 @@
       "name": "Czarna torebka damska z poliestru zamykana suwakiem, dwukomorowa - Peterson",
       "url": "https://cedardrop.com/product-pol-30698-Czarna-torebka-damska-z-poliestru-zamykana-suwakiem-dwukomorowa-Peterson.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
+      "stock_label": "Produkt dostępny w bardzo małej ilości",
       "in_stock": true
     },
     "30684": {
@@ -20186,7 +20186,7 @@
       "name": "Klasyczny, damski plecak z poliestru w roślinny wzór - Rovicky",
       "url": "https://cedardrop.com/product-pol-27497-Klasyczny-damski-plecak-z-poliestru-w-roslinny-wzor-Rovicky.html",
       "category": "Plecaki",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
+      "stock_label": "Produkt dostępny w bardzo małej ilości",
       "in_stock": true
     },
     "27496": {
@@ -21726,7 +21726,7 @@
       "name": "Granatowy, uniseksowy pasek parciany - Rovicky",
       "url": "https://cedardrop.com/product-pol-29603-Granatowy-uniseksowy-pasek-parciany-Rovicky.html",
       "category": "Paski",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
+      "stock_label": "Produkt niedostępny",
       "in_stock": true
     },
     "29040": {
@@ -26759,7 +26759,7 @@
       "name": "Pionowy, czarny portfel męski ze skóry ekologicznej bez zapięcia - 4U Cavaldi",
       "url": "https://cedardrop.com/product-pol-31158-Pionowy-czarny-portfel-meski-ze-skory-ekologicznej-bez-zapiecia-4U-Cavaldi.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
+      "stock_label": "Produkt dostępny w bardzo małej ilości",
       "in_stock": true
     },
     "31034": {
@@ -26921,6 +26921,13 @@
       "url": "https://cedardrop.com/product-pol-31536-Rozowa-kluczowka-damska-ze-skory-naturalnej-zamykana-suwakiem-Peterson.html",
       "category": "Akcesoria",
       "stock_label": "Produkt dostępny w bardzo małej ilości",
+      "in_stock": true
+    },
+    "30729": {
+      "name": "Kubek termiczny ze stali nierdzewnej w czarnym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-30729-Kubek-termiczny-ze-stali-nierdzewnej-w-czarnym-kolorze-Peterson.html",
+      "category": "Akcesoria",
+      "stock_label": "Produkt niedostępny",
       "in_stock": true
     }
   }
