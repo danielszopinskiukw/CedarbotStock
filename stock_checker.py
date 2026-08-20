@@ -33,7 +33,6 @@ Zmienne środowiskowe:
 """
 
 import asyncio
-import csv
 import io
 import json
 import os
@@ -48,6 +47,9 @@ from email.mime.text import MIMEText
 
 import aiohttp
 from bs4 import BeautifulSoup
+from openpyxl import Workbook
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.utils import get_column_letter
 
 BASE_URL = "https://cedardrop.com"
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.json")
@@ -263,27 +265,149 @@ def compute_changes(old_products, new_results):
     return changes
 
 
-def build_csv(new_results, changes):
-    """Pełna lista wszystkich sprawdzonych produktów, posortowana wg kategorii i nazwy."""
-    rows = []
-    for pid, r in new_results.items():
+SHEET_HEADERS = ["Nazwa produktu", "Status", "Poziom dostępności", "Zmiana od ostatniego raportu", "Link do produktu"]
+SHEET_COL_WIDTHS = [50, 14, 32, 26, 60]
+
+HEADER_FONT = Font(name="Arial", bold=True, color="FFFFFF")
+HEADER_FILL = PatternFill(start_color="4A5568", end_color="4A5568", fill_type="solid")
+NORMAL_FONT = Font(name="Arial", size=10)
+BOLD_FONT = Font(name="Arial", size=10, bold=True)
+LINK_FONT = Font(name="Arial", size=10, color="1155CC", underline="single")
+STATUS_FONTS = {
+    "Dostępny": Font(name="Arial", size=10, color="1B7A3D", bold=True),
+    "Wyprzedany": Font(name="Arial", size=10, color="C0392B", bold=True),
+    "Nieznany": Font(name="Arial", size=10, color="8A6D00", bold=True),
+    "Błąd sprawdzania": Font(name="Arial", size=10, color="8A6D00"),
+}
+
+
+def _style_header_row(ws, n_cols):
+    for col in range(1, n_cols + 1):
+        cell = ws.cell(row=1, column=col)
+        cell.font = HEADER_FONT
+        cell.fill = HEADER_FILL
+        cell.alignment = Alignment(vertical="center")
+    ws.freeze_panes = "A2"
+
+
+def _write_category_sheet(wb, title, rows):
+    """rows: lista (pid, wynik) dla jednej kategorii, wynik jak z new_results + 'change'."""
+    ws = wb.create_sheet(title=title[:31])
+    ws.append(SHEET_HEADERS)
+    _style_header_row(ws, len(SHEET_HEADERS))
+
+    for pid, r, change in sorted(rows, key=lambda t: t[1].get("name", "")):
+        status = "Błąd sprawdzania" if r.get("error") else STATUS_LABELS[r["in_stock"]]
+        row = [r.get("name", pid), status, r.get("stock_label", ""), change, r.get("url", "")]
+        ws.append(row)
+        row_idx = ws.max_row
+        for col in (1, 3, 4):
+            ws.cell(row=row_idx, column=col).font = NORMAL_FONT
+        ws.cell(row=row_idx, column=2).font = STATUS_FONTS.get(status, NORMAL_FONT)
+        link_cell = ws.cell(row=row_idx, column=5)
+        if r.get("url"):
+            link_cell.hyperlink = r["url"]
+        link_cell.font = LINK_FONT
+
+    for i, width in enumerate(SHEET_COL_WIDTHS, start=1):
+        ws.column_dimensions[get_column_letter(i)].width = width
+    if ws.max_row >= 1:
+        ws.auto_filter.ref = f"A1:{get_column_letter(len(SHEET_HEADERS))}{ws.max_row}"
+    return ws
+
+
+def _write_summary_sheet(wb, new_results, changes, errors_count, is_first_run, total_tracked, now_label):
+    ws = wb.create_sheet(title="Podsumowanie")
+    ws["A1"] = "Raport stanów magazynowych CedarDrop.com"
+    ws["A1"].font = Font(name="Arial", size=14, bold=True)
+    ws["A2"] = now_label
+    ws["A2"].font = Font(name="Arial", size=10, italic=True, color="666666")
+
+    per_cat = {}
+    for r in new_results.values():
         if r.get("error"):
-            rows.append((r.get("category", ""), r.get("name", pid), "Błąd sprawdzania", "", "", r.get("url", "")))
             continue
-        status = STATUS_LABELS[r["in_stock"]]
-        change = changes.get(pid, "")
-        rows.append((r.get("category", ""), r["name"], status, r.get("stock_label", ""), change, r["url"]))
+        cat = r.get("category") or "(brak kategorii)"
+        d = per_cat.setdefault(cat, {"in": 0, "out": 0, "unknown": 0})
+        if r["in_stock"] is True:
+            d["in"] += 1
+        elif r["in_stock"] is False:
+            d["out"] += 1
+        else:
+            d["unknown"] += 1
 
-    rows.sort(key=lambda row: (row[0], row[1]))
+    headers = ["Kategoria (zakładka)", "Dostępne", "Niedostępne", "Nieznane", "Razem"]
+    header_row = 4
+    for col, h in enumerate(headers, start=1):
+        cell = ws.cell(row=header_row, column=col, value=h)
+        cell.font = HEADER_FONT
+        cell.fill = HEADER_FILL
+    ws.freeze_panes = f"A{header_row + 1}"
 
-    output = io.StringIO()
-    writer = csv.writer(output, delimiter=";")  # średnik - wygodniejszy dla Excela w polskiej wersji językowej
-    writer.writerow(["Kategoria", "Nazwa produktu", "Status", "Poziom dostępności", "Zmiana od ostatniego raportu", "Link do produktu"])
-    writer.writerows(rows)
-    return output.getvalue()
+    row_idx = header_row + 1
+    total_in = total_out = total_unknown = 0
+    for cat_name, _ in CATEGORIES:
+        d = per_cat.get(cat_name, {"in": 0, "out": 0, "unknown": 0})
+        total_in += d["in"]; total_out += d["out"]; total_unknown += d["unknown"]
+        values = [cat_name, d["in"], d["out"], d["unknown"], d["in"] + d["out"] + d["unknown"]]
+        for col, v in enumerate(values, start=1):
+            ws.cell(row=row_idx, column=col, value=v).font = NORMAL_FONT
+        row_idx += 1
+
+    total_row = row_idx
+    totals = ["RAZEM", total_in, total_out, total_unknown, total_in + total_out + total_unknown]
+    for col, v in enumerate(totals, start=1):
+        ws.cell(row=total_row, column=col, value=v).font = BOLD_FONT
+    ws.auto_filter.ref = f"A{header_row}:E{total_row}"
+
+    row_idx = total_row + 2
+    if is_first_run:
+        ws.cell(row=row_idx, column=1, value="To pierwsze sprawdzenie - brak jeszcze danych o zmianach.").font = NORMAL_FONT
+    else:
+        newly_out = sum(1 for c in changes.values() if c == "wypadł z magazynu")
+        newly_in = sum(1 for c in changes.values() if c == "wrócił do magazynu")
+        new_products = sum(1 for c in changes.values() if c == "nowy w ofercie")
+        ws.cell(row=row_idx, column=1, value="Zmiany od ostatniego sprawdzenia:").font = BOLD_FONT
+        row_idx += 1
+        for label, val in [("Wypadło z magazynu", newly_out), ("Wróciło do magazynu", newly_in), ("Nowe w ofercie", new_products)]:
+            ws.cell(row=row_idx, column=1, value=label).font = NORMAL_FONT
+            ws.cell(row=row_idx, column=2, value=val).font = NORMAL_FONT
+            row_idx += 1
+
+    if errors_count:
+        row_idx += 1
+        ws.cell(row=row_idx, column=1, value=f"Nie udało się sprawdzić {errors_count} produktów (błąd sieci) - spróbuję ponownie następnym razem.").font = NORMAL_FONT
+
+    for i, width in enumerate([28, 12, 14, 12, 10], start=1):
+        ws.column_dimensions[get_column_letter(i)].width = width
+    return ws
 
 
-def build_summary_body(new_results, changes, errors_count, is_first_run, total_tracked, csv_filename):
+def build_xlsx(new_results, changes, errors_count, is_first_run, total_tracked):
+    """Jeden plik .xlsx: zakładka 'Podsumowanie' + jedna zakładka na kategorię
+    (w kolejności z CATEGORIES), żeby dało się kliknąć np. od razu w 'Akcesoria'
+    albo 'Letnia wyprzedaż' zamiast przewijać jedną wspólną listę."""
+    now_label = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    by_category = {}
+    for pid, r in new_results.items():
+        cat = r.get("category") or "(brak kategorii)"
+        by_category.setdefault(cat, []).append((pid, r, changes.get(pid, "")))
+
+    wb = Workbook()
+    wb.remove(wb.active)  # domyślny pusty arkusz - zastąpimy własnymi, w naszej kolejności
+
+    _write_summary_sheet(wb, new_results, changes, errors_count, is_first_run, total_tracked, now_label)
+    for cat_name, _ in CATEGORIES:
+        _write_category_sheet(wb, cat_name, by_category.get(cat_name, []))
+
+    wb.active = 0  # przy otwarciu pliku od razu widoczne Podsumowanie
+    buf = io.BytesIO()
+    wb.save(buf)
+    return buf.getvalue()
+
+
+def build_summary_body(new_results, changes, errors_count, is_first_run, total_tracked, xlsx_filename):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lines = [f"Raport stanów magazynowych CedarDrop.com — {now}", ""]
 
@@ -313,25 +437,25 @@ def build_summary_body(new_results, changes, errors_count, is_first_run, total_t
     new_products = sum(1 for c in changes.values() if c == "nowy w ofercie")
 
     if is_first_run:
-        lines.append("To pierwsze sprawdzenie - pełna lista wszystkich produktów jest w załączonym pliku CSV.")
+        lines.append("To pierwsze sprawdzenie - pełna lista wszystkich produktów jest w załączonym pliku Excel (jedna zakładka na kategorię).")
     else:
         lines.append(
             f"Zmiany od ostatniego sprawdzenia: {newly_out} wypadło z magazynu, "
             f"{newly_in} wróciło, {new_products} nowych w ofercie."
         )
-        lines.append("Pełna lista WSZYSTKICH produktów (z kolumną \"Zmiana\") jest w załączonym pliku CSV.")
+        lines.append("Pełna lista WSZYSTKICH produktów (z kolumną \"Zmiana\") jest w załączonym pliku Excel - osobna zakładka na każdą kategorię, plus zakładka Podsumowanie na start.")
 
     if errors_count:
         lines.append(f"Nie udało się sprawdzić {errors_count} produktów (błąd sieci) - spróbuję ponownie następnym razem.")
 
     lines.append("")
     lines.append(f"Łącznie śledzonych produktów: {total_tracked}")
-    lines.append(f"Załącznik: {csv_filename} (otwórz w Excelu / Arkuszach Google)")
+    lines.append(f"Załącznik: {xlsx_filename}")
 
     return "\n".join(lines)
 
 
-def send_email(subject, body, attachment_text=None, attachment_filename=None):
+def send_email(subject, body, attachment_bytes=None, attachment_filename=None):
     smtp_host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
     smtp_port = int(os.environ.get("SMTP_PORT") or "587")
     smtp_user = os.environ["SMTP_USER"]
@@ -344,10 +468,9 @@ def send_email(subject, body, attachment_text=None, attachment_filename=None):
     msg["Subject"] = subject
     msg.attach(MIMEText(body, "plain", "utf-8"))
 
-    if attachment_text is not None:
-        part = MIMEBase("application", "octet-stream")
-        # utf-8-sig dodaje BOM, żeby Excel poprawnie pokazał polskie znaki (ą, ć, ę...)
-        part.set_payload(attachment_text.encode("utf-8-sig"))
+    if attachment_bytes is not None:
+        part = MIMEBase("application", "vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+        part.set_payload(attachment_bytes)
         encoders.encode_base64(part)
         part.add_header("Content-Disposition", f'attachment; filename="{attachment_filename}"')
         msg.attach(part)
@@ -396,8 +519,8 @@ async def main():
         print(f"  [i] {unknown_count} produktów bez jednoznacznego wskaźnika dostępności (status: Nieznany)")
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H%M")
-    csv_filename = f"cedardrop_stany_{now_str}.csv"
-    csv_content = build_csv(new_results, changes)
+    xlsx_filename = f"cedardrop_stany_{now_str}.xlsx"
+    xlsx_bytes = build_xlsx(new_results, changes, errors_count, is_first_run, len(product_urls))
 
     out_count = sum(1 for r in new_results.values() if r.get("in_stock") is False)
     total = len(product_urls)
@@ -408,11 +531,11 @@ async def main():
         newly_in = sum(1 for c in changes.values() if c == "wrócił do magazynu")
         subject = f"Raport CedarDrop: {out_count}/{total} niedostępnych ({newly_out} nowo, {newly_in} wróciło)"
 
-    body = build_summary_body(new_results, changes, errors_count, is_first_run, total, csv_filename)
+    body = build_summary_body(new_results, changes, errors_count, is_first_run, total, xlsx_filename)
 
     try:
-        send_email(subject, body, attachment_text=csv_content, attachment_filename=csv_filename)
-        print("E-mail z załącznikiem CSV wysłany.")
+        send_email(subject, body, attachment_bytes=xlsx_bytes, attachment_filename=xlsx_filename)
+        print("E-mail z załącznikiem XLSX wysłany.")
     except Exception as e:
         print(f"BŁĄD wysyłki e-maila: {e}")
 
