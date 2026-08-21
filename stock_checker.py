@@ -212,6 +212,26 @@ async def _new_page(browser):
     return page
 
 
+async def _is_button_blocked(button):
+    """Sprawdza, czy przycisk jest faktycznie niedostępny do kliknięcia -
+    nie tylko przez prawdziwy atrybut disabled, ale też przez aria-disabled
+    albo czysto wizualne zablokowanie w CSS (pointer-events: none). Strony
+    często "wyszarzają" przycisk samym stylem, bez ustawiania disabled -
+    sam is_disabled() by tego nie złapał (sprawdzone lokalnie)."""
+    if await button.is_disabled():
+        return True
+    aria = await button.get_attribute("aria-disabled")
+    if aria and aria.lower() == "true":
+        return True
+    try:
+        pointer_events = await button.evaluate("el => getComputedStyle(el).pointerEvents")
+        if pointer_events == "none":
+            return True
+    except Exception:
+        pass
+    return False
+
+
 async def check_product(browser, url, pid, category):
     """Otwiera stronę produktu w prawdziwej przeglądarce, czeka aż JavaScript
     się wykona, i czyta REALNY stan przycisku 'Dodaj do koszyka' - patrz duży
@@ -234,7 +254,7 @@ async def check_product(browser, url, pid, category):
             in_stock = None
             btn = page.locator(BUY_BUTTON_SELECTOR)
             if await btn.count() > 0:
-                in_stock = not await btn.first.is_disabled()
+                in_stock = not await _is_button_blocked(btn.first)
             else:
                 # zapasowo: brak przycisku - sprawdź czy widoczny jest formularz "powiadom mnie"
                 tell = page.locator(TELL_AVAILABILITY_SELECTOR)
@@ -256,7 +276,11 @@ async def debug_product(url):
     podany produkt w prawdziwej przeglądarce i wypisuje jego rzeczywisty,
     PO-JS-owy stan (to, co faktycznie widziałby klient), żeby dało się
     sprawdzić, czy wykrywanie działa poprawnie na konkretnym przykładzie.
-    Kończy działanie od razu po wypisaniu - nie odpala pełnego sprawdzania."""
+    Wypisuje NIE TYLKO atrybut disabled, ale też klasy CSS, aria-disabled
+    i obliczony styl przycisku - bo "wygląda na szary" może być realizowane
+    samą stylizacją (klasą CSS), bez ustawiania prawdziwego atrybutu disabled,
+    a wtedy is_disabled() by tego nie złapał. Kończy działanie od razu po
+    wypisaniu - nie odpala pełnego sprawdzania."""
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         try:
@@ -274,19 +298,34 @@ async def debug_product(url):
 
             btn = page.locator(BUY_BUTTON_SELECTOR)
             if await btn.count() > 0:
-                disabled = await btn.first.is_disabled()
-                btn_text = (await btn.first.text_content() or "").strip()
-                print(f"Przycisk '{BUY_BUTTON_SELECTOR}': znaleziony, tekst='{btn_text}', disabled={disabled}")
-                print(f"  -> wg tego: {'WYPRZEDANY' if disabled else 'DOSTĘPNY'}")
+                b = btn.first
+                disabled_attr = await b.is_disabled()
+                class_name = await b.get_attribute("class")
+                aria_disabled = await b.get_attribute("aria-disabled")
+                btn_text = (await b.text_content() or "").strip()
+                computed = await b.evaluate(
+                    "el => { const s = getComputedStyle(el); "
+                    "return {opacity: s.opacity, pointerEvents: s.pointerEvents, cursor: s.cursor, "
+                    "backgroundColor: s.backgroundColor}; }"
+                )
+                print(f"Przycisk '{BUY_BUTTON_SELECTOR}' znaleziony:")
+                print(f"  tekst              = '{btn_text}'")
+                print(f"  atrybut disabled   = {disabled_attr}")
+                print(f"  aria-disabled      = {aria_disabled!r}")
+                print(f"  class              = {class_name!r}")
+                print(f"  computed style     = {computed}")
+                print(f"  -> wg samego atrybutu disabled: {'WYPRZEDANY' if disabled_attr else 'DOSTĘPNY'}")
+                print("  (porównaj 'class' i computed style z tym, co widać na oko w przeglądarce -")
+                print("   jeśli tu wygląda na aktywny, a na żywo jest szary, klucz leży w class/style, nie w disabled)")
             else:
                 print(f"Przycisk '{BUY_BUTTON_SELECTOR}': NIE ZNALEZIONY na stronie")
 
             tell = page.locator(TELL_AVAILABILITY_SELECTOR)
             if await tell.count() > 0:
                 visible = await tell.first.is_visible()
-                print(f"Formularz '{TELL_AVAILABILITY_SELECTOR}': znaleziony, widoczny={visible}")
+                print(f"\nFormularz '{TELL_AVAILABILITY_SELECTOR}': znaleziony, widoczny={visible}")
             else:
-                print(f"Formularz '{TELL_AVAILABILITY_SELECTOR}': NIE ZNALEZIONY na stronie")
+                print(f"\nFormularz '{TELL_AVAILABILITY_SELECTOR}': NIE ZNALEZIONY na stronie")
         except Exception as e:
             print(f"BŁĄD: {e}")
         finally:
