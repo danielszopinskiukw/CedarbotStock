@@ -12,15 +12,21 @@ dokładniejsze i nie obciąża ich serwera tysiącami zapytań co 12h. Warto
 zapytać obsługę CedarDrop (drop@cedardrop.com) czy taki feed jest dostępny -
 to prawdopodobnie lepsze rozwiązanie niż ten skrypt.
 
-JAK WYKRYWANA JEST DOSTĘPNOŚĆ (ważne, po realnym debugowaniu):
-Strona produktu ZAWSZE zawiera ukryty formularz "powiadom mnie o dostępności"
-z tekstem "Produkt wyprzedany" - niezależnie od realnego stanu magazynowego
-(to stały, zawsze obecny w HTML element, tylko wyświetlany/ukrywany przez
-JS/CSS). Szukanie tego tekstu dawało więc fałszywe "wyprzedany" dla WSZYSTKICH
-produktów. Prawdziwym, wiarygodnym wskaźnikiem jest obrazek "poziomu
-magazynowego" w sekcji SKU/EAN (plik available_graph/graph_1_N.png, gdzie N to
-poziom: 0 = brak w magazynie, wyżej = więcej towaru) wraz z jego opisowym
-tekstem alt (np. "Produkt dostępny w bardzo dużej ilości").
+JAK WYKRYWANA JEST DOSTĘPNOŚĆ (ważne, po realnym debugowaniu razem z użytkownikiem):
+Strona produktu wysyła z serwera HTML, w którym przycisk "Dodaj do koszyka" WYGLĄDA
+na aktywny niezależnie od realnego stanu magazynowego - prawdziwy stan (przycisk
+zablokowany / formularz "powiadom mnie o dostępności" pokazany) jest ustawiany
+DOPIERO przez JavaScript wykonywany w przeglądarce, już PO załadowaniu strony
+(potwierdzone: użytkownik widział szary przycisk na żywo, a surowy HTML z tego
+samego produktu pokazywał przycisk BEZ atrybutu disabled). Zwykłe pobranie strony
+(requests/aiohttp) tego nie złapie - trzeba faktycznie uruchomić przeglądarkę.
+
+Dlatego ten bot używa Playwright (headless Chromium) do sprawdzania KAŻDEGO
+produktu: ładuje stronę, czeka aż JavaScript się wykona, i dopiero wtedy czyta
+prawdziwy stan przycisku "Dodaj do koszyka" (atrybut disabled). To wolniejsze
+i cięższe niż zwykłe pobieranie stron, ale to jedyny sposób, żeby zobaczyć to,
+co realnie widzi klient. Wyszukiwanie linków do produktów w kategoriach (faza
+"discovery") dalej używa szybkiego aiohttp, bo tam JS nie jest potrzebny.
 
 Zmienne środowiskowe:
     SMTP_USER       - adres e-mail, z którego wysyłany jest raport (wymagane)
@@ -30,6 +36,9 @@ Zmienne środowiskowe:
     SMTP_PORT       - domyślnie 587
     MAX_PRODUCTS    - opcjonalnie: ogranicz liczbę sprawdzanych produktów
                       (przydatne do testów, np. MAX_PRODUCTS=30)
+    DEBUG_PRODUCT_URL - opcjonalnie: zamiast pełnego sprawdzania, otwiera JEDEN
+                      podany produkt w przeglądarce i wypisuje jego prawdziwy,
+                      po-JS-owy stan (przycisk, formularz powiadomień)
 """
 
 import asyncio
@@ -46,10 +55,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 import aiohttp
-from bs4 import BeautifulSoup
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
+from playwright.async_api import async_playwright
 
 BASE_URL = "https://cedardrop.com"
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.json")
@@ -76,19 +85,27 @@ CATEGORIES = [
 ]
 
 LINK_RE = re.compile(r'href="(/product-pol-(\d+)-[^"]+\.html)"')
-# Wskaźnik poziomu magazynowego - patrz komentarz na górze pliku.
-# Grupa 2 (N w graph_M_N.png) to poziom: 0 = brak, >0 = jest w magazynie.
-GRAPH_IMG_RE = re.compile(r"available_graph/graph_(\d+)_(\d+)\.png")
 
-CONCURRENCY = 5                # równoległe zapytania - uprzejmie dla serwera CedarDrop
+CONCURRENCY = 5                 # równoległe zapytania przy SZUKANIU produktów (aiohttp, lekkie)
+BROWSER_CONCURRENCY = 4         # równoległe zakładki przeglądarki przy SPRAWDZANIU (cięższe - realny Chromium)
 REQUEST_TIMEOUT = 25
 RETRIES = 2
-DELAY_BETWEEN_REQUESTS = 0.4   # sekundy, dodatkowa uprzejmość
-MAX_PAGES_PER_CATEGORY = 200   # zabezpieczenie przed nieskończoną pętlą
+DELAY_BETWEEN_REQUESTS = 0.4    # sekundy, dodatkowa uprzejmość (tylko dla fazy szukania produktów)
+MAX_PAGES_PER_CATEGORY = 200    # zabezpieczenie przed nieskończoną pętlą
+
+PAGE_TIMEOUT_MS = 25000
+NETWORK_IDLE_TIMEOUT_MS = 8000  # ile najwyżej czekać, aż JS strony "się uspokoi" po załadowaniu
+BLOCKED_RESOURCE_TYPES = {"image", "media", "font", "stylesheet"}  # przyspiesza ładowanie stron
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; CedarDropStockBot/1.0; sprawdzanie dostepnosci dla partnera dropshipping)"
 }
+
+# Selektory sprawdzane PO wykonaniu JavaScriptu (nie w surowym HTML - patrz komentarz
+# na górze pliku o tym, dlaczego to konieczne). Ustalone na podstawie prawdziwego zrzutu
+# strony CedarDrop dostarczonego przez użytkownika.
+BUY_BUTTON_SELECTOR = "#projector_button_basket"
+TELL_AVAILABILITY_SELECTOR = "#projector_tell_availability"
 
 STATUS_LABELS = {True: "Dostępny", False: "Wyprzedany", None: "Nieznany"}
 
@@ -180,82 +197,109 @@ def sample_across_categories(product_urls, limit):
     return sampled
 
 
-def parse_product(html, url, pid):
-    soup = BeautifulSoup(html, "html.parser")
-    for tag in soup(["script", "style"]):
-        tag.decompose()
+async def _new_page(browser):
+    """Nowa zakładka z zablokowanymi obrazkami/czcionkami/CSS - dużo szybsze
+    ładowanie, a nam potrzebny jest tylko HTML+JS, nie wygląd strony."""
+    page = await browser.new_page(user_agent=HEADERS["User-Agent"])
 
-    h1 = soup.find("h1")
-    if h1:
-        name = h1.get_text(strip=True)
-    elif soup.title:
-        name = soup.title.get_text(strip=True)
-    else:
-        name = pid
+    async def _block(route):
+        if route.request.resource_type in BLOCKED_RESOURCE_TYPES:
+            await route.abort()
+        else:
+            await route.continue_()
 
-    # Zobacz komentarz na górze pliku: NIE szukamy tekstu "produkt wyprzedany"
-    # (jest zawsze obecny w ukrytym formularzu na każdej stronie produktu).
-    # Czytamy obrazek poziomu magazynowego - ALE ten sam wzorzec pliku
-    # (available_graph/graph_M_N.png) jest też użyty przez inną, niepowiązaną
-    # ikonkę "Cena na telefon", która na stronie występuje WCZEŚNIEJ niż
-    # prawdziwy wskaźnik stanu magazynowego. Trzeba ją jawnie pominąć, inaczej
-    # find() złapie zawsze tę pierwszą (błąd, który złapaliśmy w praktyce -
-    # dawał "Cena na telefon" jako "poziom dostępności" dla 100% produktów).
-    tier, stock_label = None, ""
-    for img in soup.find_all("img", src=GRAPH_IMG_RE):
-        alt = (img.get("alt") or "").strip()
-        if "cena" in alt.lower() or "telefon" in alt.lower():
-            continue
-        m = GRAPH_IMG_RE.search(img.get("src", ""))
-        if m:
-            tier = int(m.group(2))
-            stock_label = alt
-            break
+    await page.route("**/*", _block)
+    return page
 
-    in_stock = None if tier is None else (tier > 0)
-    return {"id": pid, "name": name, "url": url, "in_stock": in_stock, "stock_label": stock_label}
+
+async def check_product(browser, url, pid, category):
+    """Otwiera stronę produktu w prawdziwej przeglądarce, czeka aż JavaScript
+    się wykona, i czyta REALNY stan przycisku 'Dodaj do koszyka' - patrz duży
+    komentarz na górze pliku o tym, dlaczego to konieczne."""
+    last_error = None
+    for attempt in range(RETRIES + 1):
+        page = None
+        try:
+            page = await _new_page(browser)
+            await page.goto(url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT_MS)
+            try:
+                await page.wait_for_load_state("networkidle", timeout=NETWORK_IDLE_TIMEOUT_MS)
+            except Exception:
+                pass  # niekrytyczne - jedziemy dalej z tym co już się załadowało
+
+            h1 = page.locator("h1").first
+            name = (await h1.text_content()) if await h1.count() else None
+            name = name.strip() if name else pid
+
+            in_stock = None
+            btn = page.locator(BUY_BUTTON_SELECTOR)
+            if await btn.count() > 0:
+                in_stock = not await btn.first.is_disabled()
+            else:
+                # zapasowo: brak przycisku - sprawdź czy widoczny jest formularz "powiadom mnie"
+                tell = page.locator(TELL_AVAILABILITY_SELECTOR)
+                if await tell.count() > 0:
+                    in_stock = not await tell.first.is_visible()
+
+            return {"id": pid, "name": name, "url": url, "category": category, "in_stock": in_stock}
+        except Exception as e:
+            last_error = str(e)
+        finally:
+            if page:
+                await page.close()
+    print(f"  [!] Nie udało się sprawdzić {url} ({last_error})")
+    return {"id": pid, "name": pid, "url": url, "category": category, "in_stock": None, "error": True}
 
 
 async def debug_product(url):
-    """Tryb debugowania (patrz DEBUG_PRODUCT_URL w main()): pobiera JEDEN
-    produkt i wypisuje surowe fragmenty HTML wokół wskaźników dostępności -
-    np. klasy CSS czy atrybuty 'style=display:none', które mogą decydować,
-    co REALNIE widzi klient w przeglądarce, a czego nie widać w tekście po
-    konwersji. Kończy działanie od razu po wypisaniu - nie odpala pełnego
-    sprawdzania sklepu."""
-    semaphore = asyncio.Semaphore(1)
-    async with aiohttp.ClientSession() as session:
-        html = await fetch(session, url, semaphore)
-    if html is None:
-        print("Nie udało się pobrać strony - sprawdź, czy DEBUG_PRODUCT_URL jest poprawnym, pełnym linkiem.")
-        return
-    print(f"Pobrano {len(html)} znaków surowego HTML z: {url}\n")
-    markers = ["available_graph", "Produkt wyprzedany", "tellAvailability", "Dodaj do koszyka", "disabled"]
-    for marker in markers:
-        idx = html.find(marker)
-        print(f"\n{'=' * 70}\nFragment wokół '{marker}'" + (f" (pozycja {idx})" if idx != -1 else " - NIE ZNALEZIONO"))
-        print("=" * 70)
-        if idx == -1:
-            continue
-        start, end = max(0, idx - 500), min(len(html), idx + 700)
-        print(html[start:end])
+    """Tryb debugowania (patrz DEBUG_PRODUCT_URL w main()): otwiera JEDEN
+    podany produkt w prawdziwej przeglądarce i wypisuje jego rzeczywisty,
+    PO-JS-owy stan (to, co faktycznie widziałby klient), żeby dało się
+    sprawdzić, czy wykrywanie działa poprawnie na konkretnym przykładzie.
+    Kończy działanie od razu po wypisaniu - nie odpala pełnego sprawdzania."""
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        try:
+            page = await _new_page(browser)
+            resp = await page.goto(url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT_MS)
+            print(f"HTTP status: {resp.status if resp else '???'}")
+            try:
+                await page.wait_for_load_state("networkidle", timeout=NETWORK_IDLE_TIMEOUT_MS)
+            except Exception:
+                print("(uwaga: przekroczony czas oczekiwania na 'uspokojenie się' sieci - wynik mimo to poniżej)")
+
+            h1 = page.locator("h1").first
+            name = (await h1.text_content()) if await h1.count() else "???"
+            print(f"Nazwa produktu: {name.strip() if name else '???'}\n")
+
+            btn = page.locator(BUY_BUTTON_SELECTOR)
+            if await btn.count() > 0:
+                disabled = await btn.first.is_disabled()
+                btn_text = (await btn.first.text_content() or "").strip()
+                print(f"Przycisk '{BUY_BUTTON_SELECTOR}': znaleziony, tekst='{btn_text}', disabled={disabled}")
+                print(f"  -> wg tego: {'WYPRZEDANY' if disabled else 'DOSTĘPNY'}")
+            else:
+                print(f"Przycisk '{BUY_BUTTON_SELECTOR}': NIE ZNALEZIONY na stronie")
+
+            tell = page.locator(TELL_AVAILABILITY_SELECTOR)
+            if await tell.count() > 0:
+                visible = await tell.first.is_visible()
+                print(f"Formularz '{TELL_AVAILABILITY_SELECTOR}': znaleziony, widoczny={visible}")
+            else:
+                print(f"Formularz '{TELL_AVAILABILITY_SELECTOR}': NIE ZNALEZIONY na stronie")
+        except Exception as e:
+            print(f"BŁĄD: {e}")
+        finally:
+            await browser.close()
 
 
-async def check_all_products(session, semaphore, product_urls):
+async def check_all_products(browser, product_urls):
     results = {}
+    semaphore = asyncio.Semaphore(BROWSER_CONCURRENCY)
 
     async def worker(pid, info):
-        url, category = info["url"], info["category"]
-        html = await fetch(session, url, semaphore)
-        if html is None:
-            results[pid] = {
-                "id": pid, "name": pid, "url": url, "category": category,
-                "in_stock": None, "stock_label": "", "error": True,
-            }
-        else:
-            parsed = parse_product(html, url, pid)
-            parsed["category"] = category
-            results[pid] = parsed
+        async with semaphore:
+            results[pid] = await check_product(browser, info["url"], pid, info["category"])
 
     tasks = [asyncio.create_task(worker(pid, info)) for pid, info in product_urls.items()]
     total = len(tasks)
@@ -263,7 +307,7 @@ async def check_all_products(session, semaphore, product_urls):
     for coro in asyncio.as_completed(tasks):
         await coro
         done += 1
-        if done % 200 == 0 or done == total:
+        if done % 50 == 0 or done == total:
             print(f"  Sprawdzono {done}/{total} produktów...")
     return results
 
@@ -290,8 +334,8 @@ def compute_changes(old_products, new_results):
     return changes
 
 
-SHEET_HEADERS = ["Nazwa produktu", "Status", "Poziom dostępności", "Zmiana od ostatniego raportu", "Link do produktu"]
-SHEET_COL_WIDTHS = [50, 14, 32, 26, 60]
+SHEET_HEADERS = ["Nazwa produktu", "Status", "Zmiana od ostatniego raportu", "Link do produktu"]
+SHEET_COL_WIDTHS = [50, 14, 26, 60]
 
 HEADER_FONT = Font(name="Arial", bold=True, color="FFFFFF")
 HEADER_FILL = PatternFill(start_color="4A5568", end_color="4A5568", fill_type="solid")
@@ -323,13 +367,13 @@ def _write_category_sheet(wb, title, rows):
 
     for pid, r, change in sorted(rows, key=lambda t: t[1].get("name", "")):
         status = "Błąd sprawdzania" if r.get("error") else STATUS_LABELS[r["in_stock"]]
-        row = [r.get("name", pid), status, r.get("stock_label", ""), change, r.get("url", "")]
+        row = [r.get("name", pid), status, change, r.get("url", "")]
         ws.append(row)
         row_idx = ws.max_row
-        for col in (1, 3, 4):
+        for col in (1, 3):
             ws.cell(row=row_idx, column=col).font = NORMAL_FONT
         ws.cell(row=row_idx, column=2).font = STATUS_FONTS.get(status, NORMAL_FONT)
-        link_cell = ws.cell(row=row_idx, column=5)
+        link_cell = ws.cell(row=row_idx, column=4)
         if r.get("url"):
             link_cell.hyperlink = r["url"]
         link_cell.font = LINK_FONT
@@ -527,14 +571,19 @@ async def main():
         product_urls = await discover_products(session, semaphore)
         print(f"Znaleziono {len(product_urls)} unikalnych produktów.")
 
-        max_products = os.environ.get("MAX_PRODUCTS")
-        if max_products:
-            limit = int(max_products)
-            product_urls = sample_across_categories(product_urls, limit)
-            print(f"UWAGA: tryb testowy (MAX_PRODUCTS={limit}), próbka rozłożona po kategoriach")
+    max_products = os.environ.get("MAX_PRODUCTS")
+    if max_products:
+        limit = int(max_products)
+        product_urls = sample_across_categories(product_urls, limit)
+        print(f"UWAGA: tryb testowy (MAX_PRODUCTS={limit}), próbka rozłożona po kategoriach")
 
-        print("Krok 2/3: sprawdzam dostępność każdego produktu...")
-        new_results = await check_all_products(session, semaphore, product_urls)
+    print("Krok 2/3: sprawdzam dostępność każdego produktu w przeglądarce (to potrwa dłużej niż szukanie linków)...")
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        try:
+            new_results = await check_all_products(browser, product_urls)
+        finally:
+            await browser.close()
 
     print("Krok 3/3: buduję CSV, porównuję ze stanem poprzednim i wysyłam raport...")
     changes = compute_changes(state.get("products", {}), new_results)
@@ -572,7 +621,7 @@ async def main():
             continue
         merged_products[pid] = {
             "name": r["name"], "url": r["url"], "category": r.get("category", ""),
-            "stock_label": r.get("stock_label", ""), "in_stock": r["in_stock"],
+            "in_stock": r["in_stock"],
         }
 
     save_state({
