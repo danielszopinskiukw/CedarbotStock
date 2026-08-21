@@ -216,6 +216,31 @@ def parse_product(html, url, pid):
     return {"id": pid, "name": name, "url": url, "in_stock": in_stock, "stock_label": stock_label}
 
 
+async def debug_product(url):
+    """Tryb debugowania (patrz DEBUG_PRODUCT_URL w main()): pobiera JEDEN
+    produkt i wypisuje surowe fragmenty HTML wokół wskaźników dostępności -
+    np. klasy CSS czy atrybuty 'style=display:none', które mogą decydować,
+    co REALNIE widzi klient w przeglądarce, a czego nie widać w tekście po
+    konwersji. Kończy działanie od razu po wypisaniu - nie odpala pełnego
+    sprawdzania sklepu."""
+    semaphore = asyncio.Semaphore(1)
+    async with aiohttp.ClientSession() as session:
+        html = await fetch(session, url, semaphore)
+    if html is None:
+        print("Nie udało się pobrać strony - sprawdź, czy DEBUG_PRODUCT_URL jest poprawnym, pełnym linkiem.")
+        return
+    print(f"Pobrano {len(html)} znaków surowego HTML z: {url}\n")
+    markers = ["available_graph", "Produkt wyprzedany", "tellAvailability", "Dodaj do koszyka", "disabled"]
+    for marker in markers:
+        idx = html.find(marker)
+        print(f"\n{'=' * 70}\nFragment wokół '{marker}'" + (f" (pozycja {idx})" if idx != -1 else " - NIE ZNALEZIONO"))
+        print("=" * 70)
+        if idx == -1:
+            continue
+        start, end = max(0, idx - 500), min(len(html), idx + 700)
+        print(html[start:end])
+
+
 async def check_all_products(session, semaphore, product_urls):
     results = {}
 
@@ -558,4 +583,8 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    debug_url = os.environ.get("DEBUG_PRODUCT_URL")
+    if debug_url:
+        asyncio.run(debug_product(debug_url))
+    else:
+        asyncio.run(main())
