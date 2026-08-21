@@ -336,7 +336,7 @@ def _write_summary_sheet(wb, new_results, changes, errors_count, is_first_run, t
         else:
             d["unknown"] += 1
 
-    headers = ["Kategoria (zakładka)", "Dostępne", "Niedostępne", "Nieznane", "Razem"]
+    headers = ["Kategoria (zakładka)", "Dostępne", "Niedostępne"]
     header_row = 4
     for col, h in enumerate(headers, start=1):
         cell = ws.cell(row=header_row, column=col, value=h)
@@ -349,16 +349,16 @@ def _write_summary_sheet(wb, new_results, changes, errors_count, is_first_run, t
     for cat_name, _ in CATEGORIES:
         d = per_cat.get(cat_name, {"in": 0, "out": 0, "unknown": 0})
         total_in += d["in"]; total_out += d["out"]; total_unknown += d["unknown"]
-        values = [cat_name, d["in"], d["out"], d["unknown"], d["in"] + d["out"] + d["unknown"]]
+        values = [cat_name, d["in"], d["out"]]
         for col, v in enumerate(values, start=1):
             ws.cell(row=row_idx, column=col, value=v).font = NORMAL_FONT
         row_idx += 1
 
     total_row = row_idx
-    totals = ["RAZEM", total_in, total_out, total_unknown, total_in + total_out + total_unknown]
+    totals = ["RAZEM", total_in, total_out]
     for col, v in enumerate(totals, start=1):
         ws.cell(row=total_row, column=col, value=v).font = BOLD_FONT
-    ws.auto_filter.ref = f"A{header_row}:E{total_row}"
+    ws.auto_filter.ref = f"A{header_row}:C{total_row}"
 
     row_idx = total_row + 2
     if is_first_run:
@@ -378,7 +378,7 @@ def _write_summary_sheet(wb, new_results, changes, errors_count, is_first_run, t
         row_idx += 1
         ws.cell(row=row_idx, column=1, value=f"Nie udało się sprawdzić {errors_count} produktów (błąd sieci) - spróbuję ponownie następnym razem.").font = NORMAL_FONT
 
-    for i, width in enumerate([28, 12, 14, 12, 10], start=1):
+    for i, width in enumerate([28, 12, 14], start=1):
         ws.column_dimensions[get_column_letter(i)].width = width
     return ws
 
