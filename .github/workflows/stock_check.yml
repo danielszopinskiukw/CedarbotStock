@@ -33,6 +33,7 @@ jobs:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           MAX_PRODUCTS: ${{ secrets.MAX_PRODUCTS }}
+          DEBUG_PRODUCT_URL: ${{ secrets.DEBUG_PRODUCT_URL }}
         run: python -u stock_checker.py
 
       - name: Zapisz nowy stan w repozytorium
