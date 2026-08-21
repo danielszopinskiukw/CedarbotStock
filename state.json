@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-20T19:09:07.087525+00:00",
+  "last_checked": "2026-08-21T07:13:36.290015+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -19731,7 +19731,7 @@
       "name": "Plecaczek damski z kieszeniami w czarnym kolorze - Rovicky",
       "url": "https://cedardrop.com/product-pol-28104-Plecaczek-damski-z-kieszeniami-w-czarnym-kolorze-Rovicky.html",
       "category": "Plecaki",
-      "stock_label": "Produkt niedostępny",
+      "stock_label": "Produkt dostępny w bardzo dużej ilości",
       "in_stock": true
     },
     "28074": {
@@ -20186,7 +20186,7 @@
       "name": "Klasyczny, damski plecak z poliestru w roślinny wzór - Rovicky",
       "url": "https://cedardrop.com/product-pol-27497-Klasyczny-damski-plecak-z-poliestru-w-roslinny-wzor-Rovicky.html",
       "category": "Plecaki",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
+      "stock_label": "Produkt dostępny w bardzo dużej ilości",
       "in_stock": true
     },
     "27496": {
@@ -27327,6 +27327,13 @@
       "url": "https://cedardrop.com/product-pol-25904-Maly-plecak-damski-ze-skory-ekologicznej-Rovicky.html",
       "category": "Letnia wyprzedaż",
       "stock_label": "Produkt dostępny w bardzo małej ilości",
+      "in_stock": true
+    },
+    "30950": {
+      "name": "Skórzany, czarny portfel męski zamykany na zatrzask, wyposażony w system RFID - Peterson",
+      "url": "https://cedardrop.com/product-pol-30950-Skorzany-czarny-portfel-meski-zamykany-na-zatrzask-wyposazony-w-system-RFID-Peterson.html",
+      "category": "Portfele męskie",
+      "stock_label": "Produkt dostępny w bardzo dużej ilości",
       "in_stock": true
     }
   }
