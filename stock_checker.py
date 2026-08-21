@@ -214,14 +214,19 @@ async def _new_page(browser):
 
 async def _is_button_blocked(button):
     """Sprawdza, czy przycisk jest faktycznie niedostępny do kliknięcia -
-    nie tylko przez prawdziwy atrybut disabled, ale też przez aria-disabled
-    albo czysto wizualne zablokowanie w CSS (pointer-events: none). Strony
-    często "wyszarzają" przycisk samym stylem, bez ustawiania disabled -
-    sam is_disabled() by tego nie złapał (sprawdzone lokalnie)."""
+    nie tylko przez prawdziwy atrybut disabled, ale też przez aria-disabled,
+    literalną klasę CSS 'disabled' (potwierdzone na żywo: CedarDrop dokleja
+    tę klasę do przycisku, gdy produkt jest niedostępny - bez ustawiania
+    atrybutu disabled ani zauważalnej zmiany stylu), albo czysto wizualne
+    zablokowanie (pointer-events: none). Strony różnie sygnalizują "martwy"
+    przycisk - sam is_disabled() by tego wszystkiego nie złapał."""
     if await button.is_disabled():
         return True
     aria = await button.get_attribute("aria-disabled")
     if aria and aria.lower() == "true":
+        return True
+    class_attr = await button.get_attribute("class") or ""
+    if "disabled" in class_attr.split():
         return True
     try:
         pointer_events = await button.evaluate("el => getComputedStyle(el).pointerEvents")
@@ -313,10 +318,12 @@ async def debug_product(url):
                 print(f"  atrybut disabled   = {disabled_attr}")
                 print(f"  aria-disabled      = {aria_disabled!r}")
                 print(f"  class              = {class_name!r}")
+                print(f"  'disabled' w class = {'disabled' in (class_name or '').split()}")
                 print(f"  computed style     = {computed}")
-                print(f"  -> wg samego atrybutu disabled: {'WYPRZEDANY' if disabled_attr else 'DOSTĘPNY'}")
-                print("  (porównaj 'class' i computed style z tym, co widać na oko w przeglądarce -")
-                print("   jeśli tu wygląda na aktywny, a na żywo jest szary, klucz leży w class/style, nie w disabled)")
+                blocked = await _is_button_blocked(b)
+                print(f"  -> ŁĄCZNY WYNIK (wszystkie sygnały): {'WYPRZEDANY' if blocked else 'DOSTĘPNY'}")
+                print("  (jeśli mimo 'DOSTĘPNY' produkt na żywo wygląda na zablokowany,")
+                print("   wklej mi ten log - może być kolejny, jeszcze inny sposób sygnalizacji)")
             else:
                 print(f"Przycisk '{BUY_BUTTON_SELECTOR}': NIE ZNALEZIONY na stronie")
 
