@@ -87,14 +87,17 @@ CATEGORIES = [
 LINK_RE = re.compile(r'href="(/product-pol-(\d+)-[^"]+\.html)"')
 
 CONCURRENCY = 5                 # równoległe zapytania przy SZUKANIU produktów (aiohttp, lekkie)
-BROWSER_CONCURRENCY = 4         # równoległe zakładki przeglądarki przy SPRAWDZANIU (cięższe - realny Chromium)
+BROWSER_CONCURRENCY = 2          # równoległe zakładki przy SPRAWDZANIU (zmniejszone z 4 - podejrzenie,
+                                 # że przy większym obciążeniu JS strony nie zdążał "odznaczyć" klasy
+                                 # disabled dla produktów faktycznie dostępnych, patrz _is_button_blocked)
 REQUEST_TIMEOUT = 25
 RETRIES = 2
 DELAY_BETWEEN_REQUESTS = 0.4    # sekundy, dodatkowa uprzejmość (tylko dla fazy szukania produktów)
 MAX_PAGES_PER_CATEGORY = 200    # zabezpieczenie przed nieskończoną pętlą
 
 PAGE_TIMEOUT_MS = 25000
-NETWORK_IDLE_TIMEOUT_MS = 8000  # ile najwyżej czekać, aż JS strony "się uspokoi" po załadowaniu
+NETWORK_IDLE_TIMEOUT_MS = 10000  # ile najwyżej czekać, aż JS strony "się uspokoi" po załadowaniu
+SETTLE_CHECK_DELAY_MS = 900      # odstęp między dwoma odczytami stanu przycisku (patrz _is_button_blocked)
 BLOCKED_RESOURCE_TYPES = {"image", "media", "font", "stylesheet"}  # przyspiesza ładowanie stron
 
 HEADERS = {
@@ -212,29 +215,41 @@ async def _new_page(browser):
     return page
 
 
-async def _is_button_blocked(button):
-    """Sprawdza, czy przycisk jest faktycznie niedostępny do kliknięcia -
-    nie tylko przez prawdziwy atrybut disabled, ale też przez aria-disabled,
-    literalną klasę CSS 'disabled' (potwierdzone na żywo: CedarDrop dokleja
-    tę klasę do przycisku, gdy produkt jest niedostępny - bez ustawiania
-    atrybutu disabled ani zauważalnej zmiany stylu), albo czysto wizualne
-    zablokowanie (pointer-events: none). Strony różnie sygnalizują "martwy"
-    przycisk - sam is_disabled() by tego wszystkiego nie złapał."""
-    if await button.is_disabled():
-        return True
-    aria = await button.get_attribute("aria-disabled")
-    if aria and aria.lower() == "true":
-        return True
-    class_attr = await button.get_attribute("class") or ""
-    if "disabled" in class_attr.split():
-        return True
-    try:
-        pointer_events = await button.evaluate("el => getComputedStyle(el).pointerEvents")
-        if pointer_events == "none":
+async def _is_button_blocked(button, page):
+    """Sprawdza, czy przycisk jest faktycznie niedostępny do kliknięcia - i to
+    W SPOSÓB STABILNY, nie chwilowy. Podejrzenie (po analizie skoku z 0% na 95%
+    niedostępnych między testami): klasa 'disabled' może być stanem
+    POCZĄTKOWYM/DOMYŚLNYM, który JavaScript dopiero USUWA po potwierdzeniu, że
+    towar jest dostępny - a nie czymś dodawanym dopiero przy braku towaru. Pod
+    obciążeniem (kilka stron jednocześnie) JS może nie zdążyć się wykonać przed
+    odczytem. Dlatego sprawdzamy DWA razy w krótkim odstępie i ufamy dopiero
+    powtarzającemu się, ustabilizowanemu wynikowi."""
+
+    async def _read_once():
+        if await button.is_disabled():
             return True
-    except Exception:
-        pass
-    return False
+        aria = await button.get_attribute("aria-disabled")
+        if aria and aria.lower() == "true":
+            return True
+        class_attr = await button.get_attribute("class") or ""
+        if "disabled" in class_attr.split():
+            return True
+        try:
+            pointer_events = await button.evaluate("el => getComputedStyle(el).pointerEvents")
+            if pointer_events == "none":
+                return True
+        except Exception:
+            pass
+        return False
+
+    first = await _read_once()
+    await page.wait_for_timeout(SETTLE_CHECK_DELAY_MS)
+    second = await _read_once()
+    if first != second:
+        # wynik się zmienił w międzyczasie - dajemy JS-owi jeszcze chwilę i bierzemy ostatni odczyt
+        await page.wait_for_timeout(SETTLE_CHECK_DELAY_MS)
+        return await _read_once()
+    return second
 
 
 async def check_product(browser, url, pid, category):
@@ -259,7 +274,7 @@ async def check_product(browser, url, pid, category):
             in_stock = None
             btn = page.locator(BUY_BUTTON_SELECTOR)
             if await btn.count() > 0:
-                in_stock = not await _is_button_blocked(btn.first)
+                in_stock = not await _is_button_blocked(btn.first, page)
             else:
                 # zapasowo: brak przycisku - sprawdź czy widoczny jest formularz "powiadom mnie"
                 tell = page.locator(TELL_AVAILABILITY_SELECTOR)
@@ -320,10 +335,20 @@ async def debug_product(url):
                 print(f"  class              = {class_name!r}")
                 print(f"  'disabled' w class = {'disabled' in (class_name or '').split()}")
                 print(f"  computed style     = {computed}")
-                blocked = await _is_button_blocked(b)
-                print(f"  -> ŁĄCZNY WYNIK (wszystkie sygnały): {'WYPRZEDANY' if blocked else 'DOSTĘPNY'}")
-                print("  (jeśli mimo 'DOSTĘPNY' produkt na żywo wygląda na zablokowany,")
-                print("   wklej mi ten log - może być kolejny, jeszcze inny sposób sygnalizacji)")
+
+                # Sprawdź, czy klasa się "ustabilizowała", czy jeszcze się zmienia (podejrzenie
+                # race condition - patrz komentarz w _is_button_blocked) - próbkujemy co ok. 1s.
+                print("\n  Śledzenie klasy w czasie (sprawdzenie, czy się jeszcze zmienia):")
+                for i in range(4):
+                    c = await b.get_attribute("class") or ""
+                    has_disabled = "disabled" in c.split()
+                    print(f"    t+{i}s: 'disabled' w class = {has_disabled}")
+                    await page.wait_for_timeout(1000)
+
+                blocked = await _is_button_blocked(b, page)
+                print(f"\n  -> ŁĄCZNY WYNIK (wszystkie sygnały, z podwójnym sprawdzeniem): {'WYPRZEDANY' if blocked else 'DOSTĘPNY'}")
+                print("  (jeśli powyższe 4 odczyty w czasie się różnią - to potwierdza race condition;")
+                print("   jeśli są identyczne, a mimo to wynik wygląda źle - wklej mi ten log)")
             else:
                 print(f"Przycisk '{BUY_BUTTON_SELECTOR}': NIE ZNALEZIONY na stronie")
 
