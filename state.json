@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-22T09:44:58.447833+00:00",
+  "last_checked": "2026-08-22T20:37:57.898356+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -1232,8 +1232,7 @@
       "name": "Duży, czarny portfel męski ze skóry ekologicznej - 4U Cavaldi",
       "url": "https://cedardrop.com/product-pol-31149-Duzy-czarny-portfel-meski-ze-skory-ekologicznej-4U-Cavaldi.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "30970": {
       "name": "Skórzany portfel męski w czarnym kolorze bez zapięcia zewnętrznego - Rovicky",
@@ -23826,6 +23825,18 @@
       "name": "Cienki portfel męski ze skóry naturalnej - Always Wild",
       "url": "https://cedardrop.com/product-pol-22316-Cienki-portfel-meski-ze-skory-naturalnej-Always-Wild.html",
       "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "25903": {
+      "name": "Klasyczna listonoszka damska z portmonetką wykonana ze skóry ekologicznej - Rovicky",
+      "url": "https://cedardrop.com/product-pol-25903-Klasyczna-listonoszka-damska-z-portmonetka-wykonana-ze-skory-ekologicznej-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "5931": {
+      "name": "Duża pojemna torba na laptopa do 15 cali, sportowa - Rovicky",
+      "url": "https://cedardrop.com/product-pol-5931-Duza-pojemna-torba-na-laptopa-do-15-cali-sportowa-Rovicky.html",
+      "category": "Na laptopa",
       "in_stock": false
     }
   }
