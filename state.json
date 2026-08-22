@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-21T20:12:17.927350+00:00",
+  "last_checked": "2026-08-22T09:44:58.447833+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -15070,8 +15070,7 @@
       "name": "Zielony, kabinowy plecak z poliestru zamykany suwakiem, dwukomorowy - Peterson",
       "url": "https://cedardrop.com/product-pol-31743-Zielony-kabinowy-plecak-z-poliestru-zamykany-suwakiem-dwukomorowy-Peterson.html",
       "category": "Plecaki",
-      "stock_label": "Produkt niedostępny",
-      "in_stock": true
+      "in_stock": false
     },
     "31740": {
       "name": "Granatowy, turystyczny plecak wykonany z poliestru, wyposażony w przegrodę na laptopa - Peterson",
@@ -23192,8 +23191,7 @@
       "name": "Różowa kluczówka damska ze skóry naturalnej zamykana suwakiem - Peterson",
       "url": "https://cedardrop.com/product-pol-31536-Rozowa-kluczowka-damska-ze-skory-naturalnej-zamykana-suwakiem-Peterson.html",
       "category": "Akcesoria",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "30729": {
       "name": "Kubek termiczny ze stali nierdzewnej w czarnym kolorze - Peterson",
