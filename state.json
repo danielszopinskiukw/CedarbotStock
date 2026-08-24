@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-24T08:55:40.182367+00:00",
+  "last_checked": "2026-08-24T20:54:44.555464+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -11884,8 +11884,7 @@
       "name": "Pojemna torebka damska na ramię shopper - Rovicky",
       "url": "https://cedardrop.com/product-pol-28389-Pojemna-torebka-damska-na-ramie-shopper-Rovicky.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "28869": {
       "name": "Niebieska torebka damska z poliestru z kieszenią na suwak na froncie - Peterson",
@@ -12229,8 +12228,7 @@
       "name": "Saszetka damska z trwałego poliestru - Rovicky",
       "url": "https://cedardrop.com/product-pol-27823-Saszetka-damska-z-trwalego-poliestru-Rovicky.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "27514": {
       "name": "Praktyczna saszetka damska z trwałego poliestru - Rovicky",
@@ -15827,8 +15825,7 @@
       "name": "Młodzieżowy, miękki plecak szkolny z poliestru w czarnym kolorze, zawieszony na regulowanych szelkach - Peterson",
       "url": "https://cedardrop.com/product-pol-29837-Mlodziezowy-miekki-plecak-szkolny-z-poliestru-w-czarnym-kolorze-zawieszony-na-regulowanych-szelkach-Peterson.html",
       "category": "Plecaki",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "29656": {
       "name": "Plecak damski z poliestru, zawieszony na regulowanych szelkach i uchwycie na dłoń - Rovicky",
@@ -16448,8 +16445,7 @@
       "name": "Miejski plecak damski z poliestru w modnym kolorze lila - Peterson",
       "url": "https://cedardrop.com/product-pol-28896-Miejski-plecak-damski-z-poliestru-w-modnym-kolorze-lila-Peterson.html",
       "category": "Plecaki",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "28794": {
       "name": "Plecak podróżny w czarnym kolorze zawieszony na regulowanych szelkach - Peterson",
@@ -17939,8 +17935,7 @@
       "name": "Pojemny plecak na laptopa z portem USB - Himawari",
       "url": "https://cedardrop.com/product-pol-23210-Pojemny-plecak-na-laptopa-z-portem-USB-Himawari.html",
       "category": "Plecaki",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "21963": {
       "name": "Torba na laptopa z wytrzymałego poliestru - Peterson",
@@ -18264,7 +18259,7 @@
       "name": "Skórzany pasek męski w jasnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31252-Skorzany-pasek-meski-w-jasnobrazowym-kolorze-z-automatyczna-czarna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31251": {
       "name": "Elegancki, skórzany pasek męski w jasnobrązowym kolorze z automatyczną klamrą - Peterson",
@@ -23836,6 +23831,240 @@
       "name": "Duża pojemna torba na laptopa do 15 cali, sportowa - Rovicky",
       "url": "https://cedardrop.com/product-pol-5931-Duza-pojemna-torba-na-laptopa-do-15-cali-sportowa-Rovicky.html",
       "category": "Na laptopa",
+      "in_stock": false
+    },
+    "31839": {
+      "name": "Fioletowy portfel damski ze skóry naturalnej zamykany suwakiem i zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31839-Fioletowy-portfel-damski-ze-skory-naturalnej-zamykany-suwakiem-i-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31838": {
+      "name": "Różowy portfel damski ze skóry naturalnej zamykany suwakiem i zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31838-Rozowy-portfel-damski-ze-skory-naturalnej-zamykany-suwakiem-i-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31837": {
+      "name": "Pionowy, czarny portfel damski ze skóry naturalnej zamykany suwakiem i zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31837-Pionowy-czarny-portfel-damski-ze-skory-naturalnej-zamykany-suwakiem-i-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31836": {
+      "name": "Pionowy portfel damski ze skóry naturalnej w czerwonym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31836-Pionowy-portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31835": {
+      "name": "Pionowy portfel damski ze skóry naturalnej w granatowym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31835-Pionowy-portfel-damski-ze-skory-naturalnej-w-granatowym-kolorze-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31834": {
+      "name": "Fioletowy portfel damski ze skóry naturalnej zamykany zatrzaskiem, wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31834-Fioletowy-portfel-damski-ze-skory-naturalnej-zamykany-zatrzaskiem-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31833": {
+      "name": "Różowy portfel damski ze skóry naturalnej zamykany zatrzaskiem, wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31833-Rozowy-portfel-damski-ze-skory-naturalnej-zamykany-zatrzaskiem-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31832": {
+      "name": "Kompaktowy, czarny portfel damski ze skóry naturalnej zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31832-Kompaktowy-czarny-portfel-damski-ze-skory-naturalnej-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31831": {
+      "name": "Kompaktowy portfel damski ze skóry naturalnej w czerwonym kolorze zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31831-Kompaktowy-portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31830": {
+      "name": "Kompaktowy portfel damski ze skóry naturalnej w granatowym kolorze zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31830-Kompaktowy-portfel-damski-ze-skory-naturalnej-w-granatowym-kolorze-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31829": {
+      "name": "Fioletowy portfel damski ze skóry naturalnej wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31829-Fioletowy-portfel-damski-ze-skory-naturalnej-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31828": {
+      "name": "Różowy portfel damski ze skóry naturalnej wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31828-Rozowy-portfel-damski-ze-skory-naturalnej-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31827": {
+      "name": "Mały, czarny portfel damski ze skóry naturalnej wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31827-Maly-czarny-portfel-damski-ze-skory-naturalnej-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31826": {
+      "name": "Mały portfel damski ze skóry naturalnej w czerwonym kolorze, wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31826-Maly-portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31825": {
+      "name": "Mały portfel damski ze skóry naturalnej w granatowym kolorze, wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31825-Maly-portfel-damski-ze-skory-naturalnej-w-granatowym-kolorze-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31824": {
+      "name": "Fioletowy portfel damski ze skóry naturalnej wyposażony w system RFID, zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31824-Fioletowy-portfel-damski-ze-skory-naturalnej-wyposazony-w-system-RFID-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31823": {
+      "name": "Różowy portfel damski ze skóry naturalnej wyposażony w system RFID, zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31823-Rozowy-portfel-damski-ze-skory-naturalnej-wyposazony-w-system-RFID-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31822": {
+      "name": "Pojemny, czarny portfel damski ze skóry naturalnej wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31822-Pojemny-czarny-portfel-damski-ze-skory-naturalnej-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31821": {
+      "name": "Duży, pojemny portfel damski ze skóry naturalnej w czerwonym kolorze, wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31821-Duzy-pojemny-portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31820": {
+      "name": "Duży, pojemny portfel damski ze skóry naturalnej w granatowym kolorze, wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31820-Duzy-pojemny-portfel-damski-ze-skory-naturalnej-w-granatowym-kolorze-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31819": {
+      "name": "Duży portfel damski ze skóry naturalnej w fioletowym kolorze zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31819-Duzy-portfel-damski-ze-skory-naturalnej-w-fioletowym-kolorze-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31818": {
+      "name": "Różowy, duży portfel damski ze skóry naturalnej zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31818-Rozowy-duzy-portfel-damski-ze-skory-naturalnej-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31817": {
+      "name": "Czarny, duży portfel damski ze skóry naturalnej zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31817-Czarny-duzy-portfel-damski-ze-skory-naturalnej-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31816": {
+      "name": "Portfel damski ze skóry naturalnej w czerwonym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31816-Portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31815": {
+      "name": "Duży portfel damski ze skóry naturalnej w granatowym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31815-Duzy-portfel-damski-ze-skory-naturalnej-w-granatowym-kolorze-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31814": {
+      "name": "Skórzany portfel damski w fioletowym kolorze wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31814-Skorzany-portfel-damski-w-fioletowym-kolorze-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31813": {
+      "name": "Różowy, skórzany portfel damski zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31813-Rozowy-skorzany-portfel-damski-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31812": {
+      "name": "Czarny, skórzany portfel damski zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31812-Czarny-skorzany-portfel-damski-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31811": {
+      "name": "Duży, skórzany portfel damski w czerwonym kolorze zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31811-Duzy-skorzany-portfel-damski-w-czerwonym-kolorze-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31810": {
+      "name": "Duży, skórzany portfel damski w granatowym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31810-Duzy-skorzany-portfel-damski-w-granatowym-kolorze-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31843": {
+      "name": "Czarna listonoszka damska ze skóry ekologicznej zawieszona na odpinanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31843-Czarna-listonoszka-damska-ze-skory-ekologicznej-zawieszona-na-odpinanym-pasku-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31842": {
+      "name": "Beżowa listonoszka damska ze skóry ekologicznej zawieszona na odpinanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31842-Bezowa-listonoszka-damska-ze-skory-ekologicznej-zawieszona-na-odpinanym-pasku-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31841": {
+      "name": "Listonoszka damska ze skóry ekologicznej w czarnym kolorze, zamykana klipsem magnetycznym i suwakiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31841-Listonoszka-damska-ze-skory-ekologicznej-w-czarnym-kolorze-zamykana-klipsem-magnetycznym-i-suwakiem-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31840": {
+      "name": "Listonoszka damska ze skóry ekologicznej w beżowym kolorze, zamykana klipsem magnetycznym i suwakiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31840-Listonoszka-damska-ze-skory-ekologicznej-w-bezowym-kolorze-zamykana-klipsem-magnetycznym-i-suwakiem-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "25871": {
+      "name": "Listonoszka damska ze skóry ekologicznej z odpinaną portmonetką - Rovicky",
+      "url": "https://cedardrop.com/product-pol-25871-Listonoszka-damska-ze-skory-ekologicznej-z-odpinana-portmonetka-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30668": {
+      "name": "Beżowy plecak damski wykonany z poliestru, zawieszony na regulowanych szelkach - Peterson",
+      "url": "https://cedardrop.com/product-pol-30668-Bezowy-plecak-damski-wykonany-z-poliestru-zawieszony-na-regulowanych-szelkach-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "30633": {
+      "name": "Elegancki plecak damski z bocznymi kieszeniami wykonany ze skóry ekologicznej w beżowym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30633-Elegancki-plecak-damski-z-bocznymi-kieszeniami-wykonany-ze-skory-ekologicznej-w-bezowym-kolorze-Rovicky.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "28898": {
+      "name": "Niewielki plecak damski z poliestru w niebieskim kolorze z kieszonkami zamykanymi na suwak - Peterson",
+      "url": "https://cedardrop.com/product-pol-28898-Niewielki-plecak-damski-z-poliestru-w-niebieskim-kolorze-z-kieszonkami-zamykanymi-na-suwak-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "25451": {
+      "name": "Duży plecak damski z poliestru - Peterson",
+      "url": "https://cedardrop.com/product-pol-25451-Duzy-plecak-damski-z-poliestru-Peterson.html",
+      "category": "Plecaki",
       "in_stock": false
     }
   }
