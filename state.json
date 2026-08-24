@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-23T20:40:47.897934+00:00",
+  "last_checked": "2026-08-24T08:55:40.182367+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -7986,8 +7986,7 @@
       "name": "Elegancki portfel damski na zatrzask ze skóry naturalnej - Rovicky",
       "url": "https://cedardrop.com/product-pol-27816-Elegancki-portfel-damski-na-zatrzask-ze-skory-naturalnej-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "27807": {
       "name": "Mały portfel damski na zatrzask ze skóry naturalnej - Rovicky",
@@ -23822,10 +23821,10 @@
       "in_stock": false
     },
     "22316": {
-      "name": "Cienki portfel męski ze skóry naturalnej - Always Wild",
+      "name": "22316",
       "url": "https://cedardrop.com/product-pol-22316-Cienki-portfel-meski-ze-skory-naturalnej-Always-Wild.html",
       "category": "Portfele męskie",
-      "in_stock": false
+      "in_stock": null
     },
     "25903": {
       "name": "Klasyczna listonoszka damska z portmonetką wykonana ze skóry ekologicznej - Rovicky",
