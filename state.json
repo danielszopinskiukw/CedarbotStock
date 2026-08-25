@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-24T20:54:44.555464+00:00",
+  "last_checked": "2026-08-25T08:57:42.197596+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -2685,8 +2685,7 @@
       "name": "Skórzany portfel męski w orientacji pionowej - Rovicky",
       "url": "https://cedardrop.com/product-pol-23518-Skorzany-portfel-meski-w-orientacji-pionowej-Rovicky.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "23223": {
       "name": "Skórzany portfel męski z patriotycznym wzorem - Peterson",
@@ -18626,7 +18625,7 @@
       "name": "Klasyczny pasek męski w czarnym kolorze z automatyczną, srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29717-Klasyczny-pasek-meski-w-czarnym-kolorze-z-automatyczna-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29716": {
       "name": "Skórzany pasek męski w czarnym kolorze z automatyczną, srebrną klamrą - Peterson",
@@ -18831,7 +18830,7 @@
       "name": "Pasek męski z klamrą automatyczną wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-27049-Pasek-meski-z-klamra-automatyczna-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "27791": {
       "name": "Elegancki, skórzany pasek męski z klamrą automatyczną - Peterson",
@@ -18843,7 +18842,7 @@
       "name": "Elegancki pasek męski z klamrą automatyczną wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-27048-Elegancki-pasek-meski-z-klamra-automatyczna-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "27047": {
       "name": "Elegancki pasek męski z klamrą automatyczną - Peterson",
@@ -18897,7 +18896,7 @@
       "name": "Skórzany pasek męski z klamrą automatyczną - Peterson",
       "url": "https://cedardrop.com/product-pol-27043-Skorzany-pasek-meski-z-klamra-automatyczna-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "25027": {
       "name": "Męski pasek ze skóry naturalnej - Rovicky",
