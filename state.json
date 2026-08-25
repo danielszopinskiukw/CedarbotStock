@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-25T08:57:42.197596+00:00",
+  "last_checked": "2026-08-25T20:34:41.037606+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -3358,8 +3358,7 @@
       "name": "Elegancki portfel ze skóry naturalnej z zapięciem - Always Wild",
       "url": "https://cedardrop.com/product-pol-22322-Elegancki-portfel-ze-skory-naturalnej-z-zapieciem-Always-Wild.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "22317": {
       "name": "Elegancki, skórzany portfel męski na zatrzask - Always Wild",
@@ -5285,15 +5284,13 @@
       "name": "Granatowy portfel damski wykonany ze skóry naturalnej i ekologicznej, zamykany zatrzaskiem - Peterson",
       "url": "https://cedardrop.com/product-pol-31721-Granatowy-portfel-damski-wykonany-ze-skory-naturalnej-i-ekologicznej-zamykany-zatrzaskiem-Peterson.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31718": {
       "name": "Granatowy portfel damski wykonany ze skóry naturalnej i ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-31718-Granatowy-portfel-damski-wykonany-ze-skory-naturalnej-i-ekologicznej-Peterson.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31717": {
       "name": "Duży portfel damski w czarnym kolorze wykonany ze skóry naturalnej i ekologicznej - Peterson",
@@ -9505,8 +9502,7 @@
       "name": "Duży, skórzany portfel damski na zatrzask - Peterson",
       "url": "https://cedardrop.com/product-pol-22948-Duzy-skorzany-portfel-damski-na-zatrzask-Peterson.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "22942": {
       "name": "Portfel damski ze skóry naturalnej - Peterson",
@@ -18625,7 +18621,7 @@
       "name": "Klasyczny pasek męski w czarnym kolorze z automatyczną, srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29717-Klasyczny-pasek-meski-w-czarnym-kolorze-z-automatyczna-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29716": {
       "name": "Skórzany pasek męski w czarnym kolorze z automatyczną, srebrną klamrą - Peterson",
@@ -18830,7 +18826,7 @@
       "name": "Pasek męski z klamrą automatyczną wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-27049-Pasek-meski-z-klamra-automatyczna-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "27791": {
       "name": "Elegancki, skórzany pasek męski z klamrą automatyczną - Peterson",
@@ -18842,7 +18838,7 @@
       "name": "Elegancki pasek męski z klamrą automatyczną wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-27048-Elegancki-pasek-meski-z-klamra-automatyczna-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "27047": {
       "name": "Elegancki pasek męski z klamrą automatyczną - Peterson",
@@ -18896,7 +18892,7 @@
       "name": "Skórzany pasek męski z klamrą automatyczną - Peterson",
       "url": "https://cedardrop.com/product-pol-27043-Skorzany-pasek-meski-z-klamra-automatyczna-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "25027": {
       "name": "Męski pasek ze skóry naturalnej - Rovicky",
@@ -19064,7 +19060,7 @@
       "name": "Wygodny parciany pasek metalową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-21846-Wygodny-parciany-pasek-metalowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "21287": {
       "name": "Cavaldi klasyczny pasek damski skórzany czarny",
@@ -19371,13 +19367,13 @@
       "name": "Cienki pasek damski z przeszywanej skóry ekologicznej - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9017-Cienki-pasek-damski-z-przeszywanej-skory-ekologicznej-Cavaldi.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "9049": {
       "name": "Wąski pasek damski ze skóry ekologicznej  - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9049-Waski-pasek-damski-ze-skory-ekologicznej-Cavaldi.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "9014": {
       "name": "Cienki pasek damski z gładkiej skóry ekologicznej - Cavaldi",
@@ -21007,8 +21003,7 @@
       "name": "Saszetka damska czarna na ramię ze skóry ekologicznej mała listonoszka - Peterson",
       "url": "https://cedardrop.com/product-pol-31377-Saszetka-damska-czarna-na-ramie-ze-skory-ekologicznej-mala-listonoszka-Peterson.html",
       "category": "Akcesoria",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "31379": {
       "name": "Bokserki męskie bawełniane majtki zestaw 3 pary czarne - szare XL - Peterson",
@@ -23100,8 +23095,7 @@
       "name": "Saszetka damska ze skóry ekologicznej w jasnobeżowym kolorze, zamykana suwakiem - Peterson",
       "url": "https://cedardrop.com/product-pol-30096-Saszetka-damska-ze-skory-ekologicznej-w-jasnobezowym-kolorze-zamykana-suwakiem-Peterson.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "29116": {
       "name": "Czarna kopertówka damska ze skóry ekologicznej w prążki - Rovicky",
@@ -24064,6 +24058,144 @@
       "name": "Duży plecak damski z poliestru - Peterson",
       "url": "https://cedardrop.com/product-pol-25451-Duzy-plecak-damski-z-poliestru-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "31601": {
+      "name": "Zestaw prezentowy: skórzany portfel męski w czarnym kolorze i pasek ze skóry naturalnej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31601-Zestaw-prezentowy-skorzany-portfel-meski-w-czarnym-kolorze-i-pasek-ze-skory-naturalnej-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "30038": {
+      "name": "Beżowy, pionowy portfel damski zamykany na magnes i suwak, wykonany ze skóry naturalnej i ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-30038-Bezowy-pionowy-portfel-damski-zamykany-na-magnes-i-suwak-wykonany-ze-skory-naturalnej-i-ekologicznej-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30037": {
+      "name": "Duży, czerwony, pionowy portfel damski zamykany na magnes i suwak - Peterson",
+      "url": "https://cedardrop.com/product-pol-30037-Duzy-czerwony-pionowy-portfel-damski-zamykany-na-magnes-i-suwak-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30036": {
+      "name": "Duży, pionowy portfel damski w czarnym kolorze zamykany na magnes i suwak - Peterson",
+      "url": "https://cedardrop.com/product-pol-30036-Duzy-pionowy-portfel-damski-w-czarnym-kolorze-zamykany-na-magnes-i-suwak-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30018": {
+      "name": "Beżowy portfel w orientacji pionowej wykonany ze skóry naturalnej i ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-30018-Bezowy-portfel-w-orientacji-pionowej-wykonany-ze-skory-naturalnej-i-ekologicznej-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30017": {
+      "name": "Czerwony portfel w orientacji pionowej wykonany ze skóry naturalnej i ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-30017-Czerwony-portfel-w-orientacji-pionowej-wykonany-ze-skory-naturalnej-i-ekologicznej-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30014": {
+      "name": "Portfel wykonany ze skóry naturalnej i ekologicznej w beżowym kolorze, zamykany na suwak i zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-30014-Portfel-wykonany-ze-skory-naturalnej-i-ekologicznej-w-bezowym-kolorze-zamykany-na-suwak-i-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30013": {
+      "name": "Czerwony portfel wykonany ze skóry naturalnej i ekologicznej zamykany na suwak i zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-30013-Czerwony-portfel-wykonany-ze-skory-naturalnej-i-ekologicznej-zamykany-na-suwak-i-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30010": {
+      "name": "Duży portfel damski ze skóry naturalnej i ekologicznej w beżowym kolorze z zewnętrzną kieszenią - Peterson",
+      "url": "https://cedardrop.com/product-pol-30010-Duzy-portfel-damski-ze-skory-naturalnej-i-ekologicznej-w-bezowym-kolorze-z-zewnetrzna-kieszenia-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30009": {
+      "name": "Czerwony, duży portfel damski ze skóry naturalnej i ekologicznej zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-30009-Czerwony-duzy-portfel-damski-ze-skory-naturalnej-i-ekologicznej-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30008": {
+      "name": "Poziomy, duży portfel damski ze skóry naturalnej i ekologicznej w czarnym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-30008-Poziomy-duzy-portfel-damski-ze-skory-naturalnej-i-ekologicznej-w-czarnym-kolorze-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30184": {
+      "name": "Brokatowa kopertówka damska wykonana z tkaniny syntetycznej w srebrnym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30184-Brokatowa-kopertowka-damska-wykonana-z-tkaniny-syntetycznej-w-srebrnym-kolorze-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30182": {
+      "name": "Brokatowa kopertówka damska wykonana z tkaniny syntetycznej w czarnym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30182-Brokatowa-kopertowka-damska-wykonana-z-tkaniny-syntetycznej-w-czarnym-kolorze-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30081": {
+      "name": "Czarna saszetka damska ze skóry ekologicznej, zamykana suwakiem i zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-30081-Czarna-saszetka-damska-ze-skory-ekologicznej-zamykana-suwakiem-i-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30080": {
+      "name": "Saszetka damska w beżowym kolorze wykonana ze skóry ekologicznej, zamykana suwakiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-30080-Saszetka-damska-w-bezowym-kolorze-wykonana-ze-skory-ekologicznej-zamykana-suwakiem-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "27857": {
+      "name": "Wieczorowa kopertówka damska ze skóry ekologicznej - Rovicky",
+      "url": "https://cedardrop.com/product-pol-27857-Wieczorowa-kopertowka-damska-ze-skory-ekologicznej-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "25751": {
+      "name": "Praktyczny torboplecak damski wykonany z nylonu - Peterson",
+      "url": "https://cedardrop.com/product-pol-25751-Praktyczny-torboplecak-damski-wykonany-z-nylonu-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "24164": {
+      "name": "Mini torebka-portfel ze skóry ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-24164-Mini-torebka-portfel-ze-skory-ekologicznej-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29926": {
+      "name": "Elegancka listonoszka męska ze skóry naturalnej w brązowym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-29926-Elegancka-listonoszka-meska-ze-skory-naturalnej-w-brazowym-kolorze-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "28897": {
+      "name": "Beżowy plecak damski z poliestru zawieszony na regulowanych szelkach - Peterson",
+      "url": "https://cedardrop.com/product-pol-28897-Bezowy-plecak-damski-z-poliestru-zawieszony-na-regulowanych-szelkach-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "28791": {
+      "name": "Dwukomorowy plecak podróżny w turkusowym kolorze z uchwytem na walizkę i portem USB - Peterson",
+      "url": "https://cedardrop.com/product-pol-28791-Dwukomorowy-plecak-podrozny-w-turkusowym-kolorze-z-uchwytem-na-walizke-i-portem-USB-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "29738": {
+      "name": "Elegancki, czarny pasek męski ze skóry naturalnej - Peterson",
+      "url": "https://cedardrop.com/product-pol-29738-Elegancki-czarny-pasek-meski-ze-skory-naturalnej-Peterson.html",
+      "category": "Paski",
+      "in_stock": false
+    },
+    "28004": {
+      "name": "Organizer podróżny w złotym kolorze z uchwytem do przenoszenia - Peterson",
+      "url": "https://cedardrop.com/product-pol-28004-Organizer-podrozny-w-zlotym-kolorze-z-uchwytem-do-przenoszenia-Peterson.html",
+      "category": "Walizki i torby podróżne",
       "in_stock": false
     }
   }
