@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-26T09:01:19.140556+00:00",
+  "last_checked": "2026-08-26T21:45:49.457831+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -7217,8 +7217,7 @@
       "name": "Skórzany portfel damski na zatrzask w czerwonym kolorze - Rovicky",
       "url": "https://cedardrop.com/product-pol-28980-Skorzany-portfel-damski-na-zatrzask-w-czerwonym-kolorze-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "28963": {
       "name": "Portfel z lakierowanej skóry naturalnej w czarno-złotym kolorze - Peterson",
@@ -12238,8 +12237,7 @@
       "name": "Torebka damska na ramię A4 w brązowym kolorze - David Jones",
       "url": "https://cedardrop.com/product-pol-27317-Torebka-damska-na-ramie-A4-w-brazowym-kolorze-David-Jones.html",
       "category": "Torebki damskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "27313": {
       "name": "Duża torebka damska ze skóry ekologicznej - David Jones",
@@ -18005,7 +18003,7 @@
       "name": "Dwustronny pasek męski w czarnym i ciemnobrązowym kolorze z obrotową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31312-Dwustronny-pasek-meski-w-czarnym-i-ciemnobrazowym-kolorze-z-obrotowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31628": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -18215,7 +18213,7 @@
       "name": "Pasek męski ze skóry naturalnej w ciemnobrązowym kolorze z automatyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31260-Pasek-meski-ze-skory-naturalnej-w-ciemnobrazowym-kolorze-z-automatyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31259": {
       "name": "Skórzany, solidny pasek męski w ciemnobrązowym kolorze z automatyczną klamrą - Peterson",
@@ -18516,7 +18514,7 @@
       "name": "Skórzany, czarny pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30371-Skorzany-czarny-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29949": {
       "name": "Skórzany pasek męski w brązowym kolorze z możliwością samodzielnego skrócenia - Peterson",
@@ -18552,7 +18550,7 @@
       "name": "Skórzany pasek męski w brązowym kolorze z automatyczną, srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29941-Skorzany-pasek-meski-w-brazowym-kolorze-z-automatyczna-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29943": {
       "name": "Brązowy pasek męski ze skóry naturalnej z automatyczną klamrą - Peterson",
@@ -18588,7 +18586,7 @@
       "name": "Pasek męski w brązowym kolorze wykonany ze skóry naturalnej z automatyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29942-Pasek-meski-w-brazowym-kolorze-wykonany-ze-skory-naturalnej-z-automatyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29737": {
       "name": "Skórzany pasek męski w jasnobrązowym kolorze z tradycyjną klamrą - Peterson",
@@ -19328,7 +19326,7 @@
       "name": "Klasyczny pasek damski z gładkiej eko skóry - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9071-Klasyczny-pasek-damski-z-gladkiej-eko-skory-Cavaldi.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "9053": {
       "name": "Wąski pasek damski ze skóry ekologicznej  - Cavaldi",
@@ -24295,6 +24293,12 @@
       "name": "Beżowa nerka damska z poliestru zawieszona na regulowanym pasku - Peterson",
       "url": "https://cedardrop.com/product-pol-28956-Bezowa-nerka-damska-z-poliestru-zawieszona-na-regulowanym-pasku-Peterson.html",
       "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "27966": {
+      "name": "Praktyczny plecak szkolny z portem USB mieszczący format A4 - Peterson",
+      "url": "https://cedardrop.com/product-pol-27966-Praktyczny-plecak-szkolny-z-portem-USB-mieszczacy-format-A4-Peterson.html",
+      "category": "Plecaki",
       "in_stock": false
     }
   }
