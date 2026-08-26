@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-25T20:34:41.037606+00:00",
+  "last_checked": "2026-08-26T09:01:19.140556+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -5824,8 +5824,7 @@
       "name": "Niebieski portfel damski zamykany na zatrzask, wyposażony w system RFID - Peterson",
       "url": "https://cedardrop.com/product-pol-31208-Niebieski-portfel-damski-zamykany-na-zatrzask-wyposazony-w-system-RFID-Peterson.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31206": {
       "name": "Duży, skórzany portfel damski w jasnozielonym kolorze zamykany na zatrzask - Peterson",
@@ -5849,8 +5848,7 @@
       "name": "Mały, poręczny portfel damski ze skóry naturalnej w kwiatowy wzór - Peterson",
       "url": "https://cedardrop.com/product-pol-31182-Maly-poreczny-portfel-damski-ze-skory-naturalnej-w-kwiatowy-wzor-Peterson.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31137": {
       "name": "Mały portfel damski z lakierowanej skóry naturalnej zamykany na bigiel i zatrzask - Peterson",
@@ -11716,8 +11714,7 @@
       "name": "Listonoszka damska w odcieniu khaki z kieszonką zewnętrzną wykonana z nylonu - Peterson",
       "url": "https://cedardrop.com/product-pol-29059-Listonoszka-damska-w-odcieniu-khaki-z-kieszonka-zewnetrzna-wykonana-z-nylonu-Peterson.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "29058": {
       "name": "Nylonowa listonoszka damska w zielono-brązowym kolorze zawieszona na regulowanym pasku - Peterson",
@@ -24196,6 +24193,108 @@
       "name": "Organizer podróżny w złotym kolorze z uchwytem do przenoszenia - Peterson",
       "url": "https://cedardrop.com/product-pol-28004-Organizer-podrozny-w-zlotym-kolorze-z-uchwytem-do-przenoszenia-Peterson.html",
       "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "31351": {
+      "name": "Lakierowany czerwony portfel damski skórzany średniej wielkości  RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31351-Lakierowany-czerwony-portfel-damski-skorzany-sredniej-wielkosci-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31348": {
+      "name": "Duży portfel damski czerwony lakierowany ze skóry naturalnej i ekologicznej  RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31348-Duzy-portfel-damski-czerwony-lakierowany-ze-skory-naturalnej-i-ekologicznej-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31185": {
+      "name": "Duży portfel-piórnik damski ze skóry naturalnej w kwiatowy wzór - Peterson",
+      "url": "https://cedardrop.com/product-pol-31185-Duzy-portfel-piornik-damski-ze-skory-naturalnej-w-kwiatowy-wzor-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30746": {
+      "name": "Wielokolorowy portfel damski wykonany ze skóry ekologicznej, ozdobiony kwiatowym wzorem - Peterson",
+      "url": "https://cedardrop.com/product-pol-30746-Wielokolorowy-portfel-damski-wykonany-ze-skory-ekologicznej-ozdobiony-kwiatowym-wzorem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31339": {
+      "name": "Duży lakierowany portfel damski ze skóry naturalnej i ekologicznej klasyczny poziomy na zatrzask ochrona RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31339-Duzy-lakierowany-portfel-damski-ze-skory-naturalnej-i-ekologicznej-klasyczny-poziomy-na-zatrzask-ochrona-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31227": {
+      "name": "Portfel damski w kolorze ecru, zamykany na zatrzask, wykonany ze skóry naturalnej i ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31227-Portfel-damski-w-kolorze-ecru-zamykany-na-zatrzask-wykonany-ze-skory-naturalnej-i-ekologicznej-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31205": {
+      "name": "Duży, skórzany portfel damski w czarnym kolorze zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-31205-Duzy-skorzany-portfel-damski-w-czarnym-kolorze-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31181": {
+      "name": "Elegancki portfel damski ze skóry naturalnej w kwiatowy wzór - Peterson",
+      "url": "https://cedardrop.com/product-pol-31181-Elegancki-portfel-damski-ze-skory-naturalnej-w-kwiatowy-wzor-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "29527": {
+      "name": "Średniej wielkości złoty portfel damski z motywem kwiatowym portmonetka na zatrzask i bigiel skóra naturalna i eko RFID STOP Peterson",
+      "url": "https://cedardrop.com/product-pol-29527-Sredniej-wielkosci-zloty-portfel-damski-z-motywem-kwiatowym-portmonetka-na-zatrzask-i-bigiel-skora-naturalna-i-eko-RFID-STOP-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "29070": {
+      "name": "Poziomy portfel damski ze skóry naturalnej w kwiatowy, kolorowy wzór, zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-29070-Poziomy-portfel-damski-ze-skory-naturalnej-w-kwiatowy-kolorowy-wzor-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30719": {
+      "name": "Torebka damska w ciemnobeżowym kolorze wyposażona w kieszeń zewnętrzną - Peterson",
+      "url": "https://cedardrop.com/product-pol-30719-Torebka-damska-w-ciemnobezowym-kolorze-wyposazona-w-kieszen-zewnetrzna-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30700": {
+      "name": "Mała, czarna torebka damska z poliestru zamykana suwakiem, dwukomorowa - Peterson",
+      "url": "https://cedardrop.com/product-pol-30700-Mala-czarna-torebka-damska-z-poliestru-zamykana-suwakiem-dwukomorowa-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30697": {
+      "name": "Bordowa torebka damska z poliestru zamykana suwakiem, dwukomorowa - Peterson",
+      "url": "https://cedardrop.com/product-pol-30697-Bordowa-torebka-damska-z-poliestru-zamykana-suwakiem-dwukomorowa-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30680": {
+      "name": "Bordowa listonoszka damska z poliestru zawieszona na szerokim pasku i poręcznych uchwytach - Peterson",
+      "url": "https://cedardrop.com/product-pol-30680-Bordowa-listonoszka-damska-z-poliestru-zawieszona-na-szerokim-pasku-i-porecznych-uchwytach-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30672": {
+      "name": "Beżowa, poręczna listonoszka damska z poliestru zawieszona na szerokim pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-30672-Bezowa-poreczna-listonoszka-damska-z-poliestru-zawieszona-na-szerokim-pasku-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29102": {
+      "name": "Nylonowa listonoszka damska w zielono-brązowym kolorze z zewnętrzną kieszenią - Peterson",
+      "url": "https://cedardrop.com/product-pol-29102-Nylonowa-listonoszka-damska-w-zielono-brazowym-kolorze-z-zewnetrzna-kieszenia-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "28956": {
+      "name": "Beżowa nerka damska z poliestru zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-28956-Bezowa-nerka-damska-z-poliestru-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "category": "Torebki damskie",
       "in_stock": false
     }
   }
