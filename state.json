@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-26T21:45:49.457831+00:00",
+  "last_checked": "2026-08-27T19:18:21.649150+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -1238,8 +1238,7 @@
       "name": "Skórzany portfel męski w czarnym kolorze bez zapięcia zewnętrznego - Rovicky",
       "url": "https://cedardrop.com/product-pol-30970-Skorzany-portfel-meski-w-czarnym-kolorze-bez-zapiecia-zewnetrznego-Rovicky.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31556": {
       "name": "Mały, czarny portfel ze skóry naturalnej zamykany zatrzaskiem",
@@ -2585,8 +2584,7 @@
       "name": "Duży, skórzany portfel męski na zatrzask - Rovicky",
       "url": "https://cedardrop.com/product-pol-23523-Duzy-skorzany-portfel-meski-na-zatrzask-Rovicky.html",
       "category": "Portfele męskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "24113": {
       "name": "Duży, pionowy portfel męski ze skóry naturalnej - Always Wild",
@@ -5117,8 +5115,7 @@
       "name": "Czerwony portfel damski wykonany ze skóry naturalnej, zamykany zatrzaskiem - Rovicky",
       "url": "https://cedardrop.com/product-pol-31642-Czerwony-portfel-damski-wykonany-ze-skory-naturalnej-zamykany-zatrzaskiem-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31551": {
       "name": "Poziomy portfel damski ze skóry naturalnej i ekologicznej w czerwonym kolorze - Rovicky",
@@ -5149,8 +5146,7 @@
       "name": "Czarny portfel damski wykonany ze skóry naturalnej, zamykany zatrzaskiem - Rovicky",
       "url": "https://cedardrop.com/product-pol-31643-Czarny-portfel-damski-wykonany-ze-skory-naturalnej-zamykany-zatrzaskiem-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31647": {
       "name": "Czerwony portfel damski ze skóry naturalnej, zamykany zatrzaskiem i wyposażony w system RFID - Rovicky",
@@ -5316,22 +5312,19 @@
       "name": "Duży, czerwony portfel damski wykonany ze skóry naturalnej, zamykany zatrzaskiem i suwakiem - Rovicky",
       "url": "https://cedardrop.com/product-pol-31644-Duzy-czerwony-portfel-damski-wykonany-ze-skory-naturalnej-zamykany-zatrzaskiem-i-suwakiem-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31637": {
       "name": "Elegancki, czarny portfel damski wykonany ze skóry naturalnej - Rovicky",
       "url": "https://cedardrop.com/product-pol-31637-Elegancki-czarny-portfel-damski-wykonany-ze-skory-naturalnej-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31636": {
       "name": "Elegancki, czerwony portfel damski wykonany ze skóry naturalnej - Rovicky",
       "url": "https://cedardrop.com/product-pol-31636-Elegancki-czerwony-portfel-damski-wykonany-ze-skory-naturalnej-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31714": {
       "name": "Mały portfel damski w granatowym kolorze wykonany ze skóry naturalnej i ekologicznej - Peterson",
@@ -5421,8 +5414,7 @@
       "name": "Czerwony portfel damski z lakierowanej skóry naturalnej zamykany na zatrzask - Rovicky",
       "url": "https://cedardrop.com/product-pol-31520-Czerwony-portfel-damski-z-lakierowanej-skory-naturalnej-zamykany-na-zatrzask-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31519": {
       "name": "Duży, czerwony portfel damski z lakierowanej skóry naturalnej, wyposażony w system RFID - Rovicky",
@@ -5660,8 +5652,7 @@
       "name": "Portfel-piórnik damski wykonany ze skóry ekologicznej w czerwonym kolorze, pokryty kwiatowym wzorem - Rovicky",
       "url": "https://cedardrop.com/product-pol-31239-Portfel-piornik-damski-wykonany-ze-skory-ekologicznej-w-czerwonym-kolorze-pokryty-kwiatowym-wzorem-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "31238": {
       "name": "Portfel-piórnik damski wykonany ze skóry ekologicznej w różowym kolorze - Rovicky",
@@ -10358,8 +10349,7 @@
       "name": "Duża shopperka damska ze skóry ekologicznej w brązowym kolorze zawieszona na wygodnych uchwytach z odpinanym etui w zestawie - Rovicky",
       "url": "https://cedardrop.com/product-pol-31750-Duza-shopperka-damska-ze-skory-ekologicznej-w-brazowym-kolorze-zawieszona-na-wygodnych-uchwytach-z-odpinanym-etui-w-zestawie-Rovicky.html",
       "category": "Torebki damskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "31640": {
       "name": "Skórzana, wyjątkowa torebka damska z ręcznie malowanym wzorem zamykana na magnes",
@@ -10877,8 +10867,7 @@
       "name": "Czarna, pojemna shopperka damska na uchwytach i doczepianym pasku - Peterson",
       "url": "https://cedardrop.com/product-pol-30535-Czarna-pojemna-shopperka-damska-na-uchwytach-i-doczepianym-pasku-Peterson.html",
       "category": "Torebki damskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "30534": {
       "name": "Duża, granatowa shopperka damska, jednokomorowa, zawieszona na uchwytach i doczepianym pasku - Peterson",
@@ -11617,7 +11606,7 @@
       "name": "Modna i funkcjonalna beżowa saszetka damska crossbody z eko skóry Peterson",
       "url": "https://cedardrop.com/product-pol-29475-Modna-i-funkcjonalna-bezowa-saszetka-damska-crossbody-z-eko-skory-Peterson.html",
       "category": "Torebki damskie",
-      "in_stock": true
+      "in_stock": false
     },
     "29473": {
       "name": "Mała miejska saszetka damska na ramię lub przez ramię crossbody granatowa ze złotymi okuciami eko skóra Peterson",
@@ -12243,8 +12232,7 @@
       "name": "Duża torebka damska ze skóry ekologicznej - David Jones",
       "url": "https://cedardrop.com/product-pol-27313-Duza-torebka-damska-ze-skory-ekologicznej-David-Jones.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "27516": {
       "name": "Praktyczna saszetka damska z trwałego poliestru - Rovicky",
@@ -15412,8 +15400,7 @@
       "name": "Praktyczny plecak damski wykonany z poliestru w kolorze ecru, jednokomorowy - Peterson",
       "url": "https://cedardrop.com/product-pol-30670-Praktyczny-plecak-damski-wykonany-z-poliestru-w-kolorze-ecru-jednokomorowy-Peterson.html",
       "category": "Plecaki",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "30657": {
       "name": "Bordowy, miejski plecak damski wykonany z poliestru - Peterson",
@@ -18003,7 +17990,7 @@
       "name": "Dwustronny pasek męski w czarnym i ciemnobrązowym kolorze z obrotową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31312-Dwustronny-pasek-meski-w-czarnym-i-ciemnobrazowym-kolorze-z-obrotowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31628": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -18207,13 +18194,13 @@
       "name": "Skórzany pasek męski w ciemnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31276-Skorzany-pasek-meski-w-ciemnobrazowym-kolorze-z-automatyczna-czarna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31260": {
       "name": "Pasek męski ze skóry naturalnej w ciemnobrązowym kolorze z automatyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31260-Pasek-meski-ze-skory-naturalnej-w-ciemnobrazowym-kolorze-z-automatyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31259": {
       "name": "Skórzany, solidny pasek męski w ciemnobrązowym kolorze z automatyczną klamrą - Peterson",
@@ -18279,7 +18266,7 @@
       "name": "Pasek męski ze skóry naturalnej w ciemnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31278-Pasek-meski-ze-skory-naturalnej-w-ciemnobrazowym-kolorze-z-automatyczna-czarna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31073": {
       "name": "Wąski pasek damski ze skóry ekologicznej w brązowym kolorze z klasyczną, srebrną klamrą - Peterson",
@@ -18303,7 +18290,7 @@
       "name": "Czarny, szeroki pasek męski wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-30972-Czarny-szeroki-pasek-meski-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30912": {
       "name": "Skórzany, czarny pasek damski ze srebrną, klasyczną klamrą - Peterson",
@@ -18526,7 +18513,7 @@
       "name": "Skórzany pasek męski w brązowym kolorze z automatyczną, srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29947-Skorzany-pasek-meski-w-brazowym-kolorze-z-automatyczna-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29944": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym kolorze z automatyczną, srebrną klamrą - Peterson",
@@ -18550,7 +18537,7 @@
       "name": "Skórzany pasek męski w brązowym kolorze z automatyczną, srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29941-Skorzany-pasek-meski-w-brazowym-kolorze-z-automatyczna-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29943": {
       "name": "Brązowy pasek męski ze skóry naturalnej z automatyczną klamrą - Peterson",
@@ -18586,7 +18573,7 @@
       "name": "Pasek męski w brązowym kolorze wykonany ze skóry naturalnej z automatyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29942-Pasek-meski-w-brazowym-kolorze-wykonany-ze-skory-naturalnej-z-automatyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29737": {
       "name": "Skórzany pasek męski w jasnobrązowym kolorze z tradycyjną klamrą - Peterson",
@@ -18700,8 +18687,7 @@
       "name": "Granatowy, uniseksowy pasek parciany - Rovicky",
       "url": "https://cedardrop.com/product-pol-29603-Granatowy-uniseksowy-pasek-parciany-Rovicky.html",
       "category": "Paski",
-      "stock_label": "Produkt niedostępny",
-      "in_stock": true
+      "in_stock": false
     },
     "29040": {
       "name": "Pasek męski z syntetycznego materiału w odcieniach szarości i bieli - Peterson",
@@ -19055,7 +19041,7 @@
       "name": "Wygodny parciany pasek metalową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-21846-Wygodny-parciany-pasek-metalowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "21287": {
       "name": "Cavaldi klasyczny pasek damski skórzany czarny",
@@ -19326,7 +19312,7 @@
       "name": "Klasyczny pasek damski z gładkiej eko skóry - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9071-Klasyczny-pasek-damski-z-gladkiej-eko-skory-Cavaldi.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "9053": {
       "name": "Wąski pasek damski ze skóry ekologicznej  - Cavaldi",
@@ -19362,13 +19348,13 @@
       "name": "Cienki pasek damski z przeszywanej skóry ekologicznej - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9017-Cienki-pasek-damski-z-przeszywanej-skory-ekologicznej-Cavaldi.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "9049": {
       "name": "Wąski pasek damski ze skóry ekologicznej  - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9049-Waski-pasek-damski-ze-skory-ekologicznej-Cavaldi.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "9014": {
       "name": "Cienki pasek damski z gładkiej skóry ekologicznej - Cavaldi",
@@ -23019,8 +23005,7 @@
       "name": "Niebieska nerka damska na biodra z kieszonką na froncie - Peterson",
       "url": "https://cedardrop.com/product-pol-28954-Niebieska-nerka-damska-na-biodra-z-kieszonka-na-froncie-Peterson.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt niedostępny",
-      "in_stock": true
+      "in_stock": false
     },
     "31158": {
       "name": "Pionowy, czarny portfel męski ze skóry ekologicznej bez zapięcia - 4U Cavaldi",
@@ -24299,6 +24284,90 @@
       "name": "Praktyczny plecak szkolny z portem USB mieszczący format A4 - Peterson",
       "url": "https://cedardrop.com/product-pol-27966-Praktyczny-plecak-szkolny-z-portem-USB-mieszczacy-format-A4-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "22859": {
+      "name": "Duży portfel męski z bydlęcej skóry naturalnej - Buffalo Wild",
+      "url": "https://cedardrop.com/product-pol-22859-Duzy-portfel-meski-z-bydlecej-skory-naturalnej-Buffalo-Wild.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "31184": {
+      "name": "Kwiatowy portfel damski ze skóry naturalnej wyposażony w system RFID - Peterson",
+      "url": "https://cedardrop.com/product-pol-31184-Kwiatowy-portfel-damski-ze-skory-naturalnej-wyposazony-w-system-RFID-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31183": {
+      "name": "Mały portfel damski ze skóry naturalnej w kwiatowy wzór, zamykany biglem i zatrzaskiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-31183-Maly-portfel-damski-ze-skory-naturalnej-w-kwiatowy-wzor-zamykany-biglem-i-zatrzaskiem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30779": {
+      "name": "Duży, beżowy portfel damski ze skóry ekologicznej wyposażony w system RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30779-Duzy-bezowy-portfel-damski-ze-skory-ekologicznej-wyposazony-w-system-RFID-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30903": {
+      "name": "Duża shopperka damska wykonana ze skóry ekologicznej w bordowym kolorze, jednokomorowa - Peterson",
+      "url": "https://cedardrop.com/product-pol-30903-Duza-shopperka-damska-wykonana-ze-skory-ekologicznej-w-bordowym-kolorze-jednokomorowa-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29127": {
+      "name": "Czarna kopertówka damska ze wzorem w jodełkę zawieszona na łańcuszku - Rovicky",
+      "url": "https://cedardrop.com/product-pol-29127-Czarna-kopertowka-damska-ze-wzorem-w-jodelke-zawieszona-na-lancuszku-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "28868": {
+      "name": "Listonoszka damska w kolorze lila z kieszenią na suwak na froncie - Peterson",
+      "url": "https://cedardrop.com/product-pol-28868-Listonoszka-damska-w-kolorze-lila-z-kieszenia-na-suwak-na-froncie-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30852": {
+      "name": "Czarna saszetka męska ze skóry ekologicznej idealna na dokumenty - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30852-Czarna-saszetka-meska-ze-skory-ekologicznej-idealna-na-dokumenty-Rovicky.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30774": {
+      "name": "Skórzana, poręczna listonoszka męska w czarnym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30774-Skorzana-poreczna-listonoszka-meska-w-czarnym-kolorze-Rovicky.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30637": {
+      "name": "Listonoszka męska wykonana ze skóry naturalnej w czarnym kolorze, zawieszona na odpinanym pasku - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30637-Listonoszka-meska-wykonana-ze-skory-naturalnej-w-czarnym-kolorze-zawieszona-na-odpinanym-pasku-Rovicky.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "27534": {
+      "name": "Skórzana torba męska z kieszeniami - Always Wild",
+      "url": "https://cedardrop.com/product-pol-27534-Skorzana-torba-meska-z-kieszeniami-Always-Wild.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "29976": {
+      "name": "Podróżny plecak z poliestru w szarym kolorze, wyposażony w dopinany pasek - Peterson",
+      "url": "https://cedardrop.com/product-pol-29976-Podrozny-plecak-z-poliestru-w-szarym-kolorze-wyposazony-w-dopinany-pasek-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "28941": {
+      "name": "Plecak damski z poliestru w kolorze lila, zawieszony na regulowanych szelkach - Peterson",
+      "url": "https://cedardrop.com/product-pol-28941-Plecak-damski-z-poliestru-w-kolorze-lila-zawieszony-na-regulowanych-szelkach-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "30409": {
+      "name": "Praktyczna kosmetyczka z tkaniny syntetycznej w beżowym kolorze, jednokomorowa - Peterson",
+      "url": "https://cedardrop.com/product-pol-30409-Praktyczna-kosmetyczka-z-tkaniny-syntetycznej-w-bezowym-kolorze-jednokomorowa-Peterson.html",
+      "category": "Walizki i torby podróżne",
       "in_stock": false
     }
   }
