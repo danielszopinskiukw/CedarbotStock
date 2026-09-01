@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-08-31T14:46:37.814999+00:00",
+  "last_checked": "2026-09-01T00:35:30.670051+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -24520,6 +24520,48 @@
       "name": "Brązowy pasek męski z automatyczną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-30645-Brazowy-pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
+      "in_stock": false
+    },
+    "31546": {
+      "name": "Czerwony portfel damski z lakierowanej skóry naturalnej zamykany zatrzaskiem i biglem - Peterson",
+      "url": "https://cedardrop.com/product-pol-31546-Czerwony-portfel-damski-z-lakierowanej-skory-naturalnej-zamykany-zatrzaskiem-i-biglem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30113": {
+      "name": "Elegancka, brązowa listonoszka męska ze skóry naturalnej, jednokomorowa - Peterson",
+      "url": "https://cedardrop.com/product-pol-30113-Elegancka-brazowa-listonoszka-meska-ze-skory-naturalnej-jednokomorowa-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30112": {
+      "name": "Skórzana, brązowa listonoszka męska, jednokomorowa i zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-30112-Skorzana-brazowa-listonoszka-meska-jednokomorowa-i-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30111": {
+      "name": "Skórzana, duża torba w brązowym kolorze mieszcząca format A4 - Peterson",
+      "url": "https://cedardrop.com/product-pol-30111-Skorzana-duza-torba-w-brazowym-kolorze-mieszczaca-format-A4-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30110": {
+      "name": "Listonoszka męska vintage ze skóry naturalnej w brązowym kolorze wyposażona w kieszonkę na telefon - Peterson",
+      "url": "https://cedardrop.com/product-pol-30110-Listonoszka-meska-vintage-ze-skory-naturalnej-w-brazowym-kolorze-wyposazona-w-kieszonke-na-telefon-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30109": {
+      "name": "Listonoszka męska vintage w brązowym kolorze z klapką - Peterson",
+      "url": "https://cedardrop.com/product-pol-30109-Listonoszka-meska-vintage-w-brazowym-kolorze-z-klapka-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30108": {
+      "name": "Skórzana listonoszka męska w brązowym kolorze zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-30108-Skorzana-listonoszka-meska-w-brazowym-kolorze-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "category": "Torby i torebki męskie",
       "in_stock": false
     }
   }
