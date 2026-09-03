@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-03T12:44:38.865947+00:00",
+  "last_checked": "2026-09-03T22:38:22.446935+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -2397,8 +2397,7 @@
       "name": "Duży, pionowy portfel męski ze skóry naturalnej - Always Wild",
       "url": "https://cedardrop.com/product-pol-24422-Duzy-pionowy-portfel-meski-ze-skory-naturalnej-Always-Wild.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "24380": {
       "name": "Duży, skórzany portfel męski z ozdobnym tłoczeniem - Peterson",
@@ -18361,7 +18360,7 @@
       "name": "Czarny pasek męski z automatyczną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-30644-Czarny-pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30402": {
       "name": "Czarny, wąski pasek damski ze skóry ekologicznej ze złotą klamrą - Peterson",
