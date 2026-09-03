@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-02T22:23:07.586166+00:00",
+  "last_checked": "2026-09-03T12:44:38.865947+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -24519,7 +24519,7 @@
       "name": "Brązowy pasek męski z automatyczną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-30645-Brazowy-pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31546": {
       "name": "Czerwony portfel damski z lakierowanej skóry naturalnej zamykany zatrzaskiem i biglem - Peterson",
@@ -24561,6 +24561,24 @@
       "name": "Skórzana listonoszka męska w brązowym kolorze zawieszona na regulowanym pasku - Peterson",
       "url": "https://cedardrop.com/product-pol-30108-Skorzana-listonoszka-meska-w-brazowym-kolorze-zawieszona-na-regulowanym-pasku-Peterson.html",
       "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30650": {
+      "name": "Pasek męski z automatyczną klamrą wykonany ze skóry naturalnej w czarnym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-30650-Pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-w-czarnym-kolorze-Peterson.html",
+      "category": "Paski",
+      "in_stock": true
+    },
+    "30646": {
+      "name": "Czarny pasek męski z automatyczną klamrą wykonany ze skóry naturalnej - Peterson",
+      "url": "https://cedardrop.com/product-pol-30646-Czarny-pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
+      "category": "Paski",
+      "in_stock": true
+    },
+    "28818": {
+      "name": "Niewielka kluczówka ze skóry naturalnej w ciemno zielonym kolorze z suwakiem na froncie",
+      "url": "https://cedardrop.com/product-pol-28818-Niewielka-kluczowka-ze-skory-naturalnej-w-ciemno-zielonym-kolorze-z-suwakiem-na-froncie.html",
+      "category": "Akcesoria",
       "in_stock": false
     }
   }
