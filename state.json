@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-03T22:38:22.446935+00:00",
+  "last_checked": "2026-09-04T12:25:07.284396+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -18180,7 +18180,7 @@
       "name": "Skórzany, szeroki pasek męski w jasnobrązowym kolorze z klasyczną, podwójną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31314-Skorzany-szeroki-pasek-meski-w-jasnobrazowym-kolorze-z-klasyczna-podwojna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31276": {
       "name": "Skórzany pasek męski w ciemnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
@@ -18481,7 +18481,7 @@
       "name": "Klasyczny, skórzany, czarny pasek męski z tradycyjną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30373-Klasyczny-skorzany-czarny-pasek-meski-z-tradycyjna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29948": {
       "name": "Klasyczny pasek męski w brązowym kolorze z automatyczną, srebrną klamrą - Peterson",
@@ -18559,7 +18559,7 @@
       "name": "Szeroki pasek męski ze skóry naturalnej w brązowym kolorze z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29886-Szeroki-pasek-meski-ze-skory-naturalnej-w-brazowym-kolorze-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29942": {
       "name": "Pasek męski w brązowym kolorze wykonany ze skóry naturalnej z automatyczną klamrą - Peterson",
@@ -19171,7 +19171,7 @@
       "name": "Wąski pasek męski z polerowanej skóry naturalnej licowej - Rovicky",
       "url": "https://cedardrop.com/product-pol-13656-Waski-pasek-meski-z-polerowanej-skory-naturalnej-licowej-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "12374": {
       "name": "Błyszczący, szeroki pasek męski ze skóry naturalnej",
@@ -24578,6 +24578,12 @@
       "name": "Niewielka kluczówka ze skóry naturalnej w ciemno zielonym kolorze z suwakiem na froncie",
       "url": "https://cedardrop.com/product-pol-28818-Niewielka-kluczowka-ze-skory-naturalnej-w-ciemno-zielonym-kolorze-z-suwakiem-na-froncie.html",
       "category": "Akcesoria",
+      "in_stock": false
+    },
+    "29559": {
+      "name": "Listonoszka damska ze skóry ekologicznej w beżowym kolorze zapinana na magnes i suwak - Peterson",
+      "url": "https://cedardrop.com/product-pol-29559-Listonoszka-damska-ze-skory-ekologicznej-w-bezowym-kolorze-zapinana-na-magnes-i-suwak-Peterson.html",
+      "category": "Torebki damskie",
       "in_stock": false
     }
   }
