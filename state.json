@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-06T21:53:30.756607+00:00",
+  "last_checked": "2026-09-07T13:40:00.651023+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -5158,8 +5158,7 @@
       "name": "Portfel damski z lakierowanej skóry naturalnej w czerwonym kolorze zamykany na zatrzask i bigiel - Rovicky",
       "url": "https://cedardrop.com/product-pol-31067-Portfel-damski-z-lakierowanej-skory-naturalnej-w-czerwonym-kolorze-zamykany-na-zatrzask-i-bigiel-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31549": {
       "name": "Niewielki portfel damski z czerwonej, lakierowanej skóry naturalnej, zdobiony wzorem w motyle - Rovicky",
@@ -18408,7 +18407,7 @@
       "name": "Pasek damski ze skóry ekologicznej w pięknym, burgundowym kolorze ze złotą klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30394-Pasek-damski-ze-skory-ekologicznej-w-pieknym-burgundowym-kolorze-ze-zlota-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30393": {
       "name": "Beżowy, wąski pasek damski ze skóry ekologicznej ze złotą klamrą - Peterson",
@@ -24596,6 +24595,96 @@
       "name": "Dwukomorowy plecak szkolny odszyty z poliestru w oryginalny wzór - Peterson",
       "url": "https://cedardrop.com/product-pol-29860-Dwukomorowy-plecak-szkolny-odszyty-z-poliestru-w-oryginalny-wzor-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "31032": {
+      "name": "Duży, skórzany portfel męski w czarnym kolorze bez zapięcia zewnętrznego - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-31032-Duzy-skorzany-portfel-meski-w-czarnym-kolorze-bez-zapiecia-zewnetrznego-4U-Cavaldi.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "30507": {
+      "name": "Czarna saszetka męska z kieszeniami zewnętrznymi na suwak zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-30507-Czarna-saszetka-meska-z-kieszeniami-zewnetrznymi-na-suwak-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30188": {
+      "name": "Elegancka kopertówka damska w srebrnym kolorze wykonana z tkaniny syntetycznej i zamykana klipsem magnetycznym - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30188-Elegancka-kopertowka-damska-w-srebrnym-kolorze-wykonana-z-tkaniny-syntetycznej-i-zamykana-klipsem-magnetycznym-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30174": {
+      "name": "Czarna, wizytowa torebka damska wykonana z tkaniny syntetycznej z wewnętrzną kieszonką - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30174-Czarna-wizytowa-torebka-damska-wykonana-z-tkaniny-syntetycznej-z-wewnetrzna-kieszonka-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "27992": {
+      "name": "Biała torebka-portfel 2w1 podzielona na dwie komory - Rovicky",
+      "url": "https://cedardrop.com/product-pol-27992-Biala-torebka-portfel-2w1-podzielona-na-dwie-komory-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "26824": {
+      "name": "Mini torebka-portfel 2w1 na doczepianym pasku - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-26824-Mini-torebka-portfel-2w1-na-doczepianym-pasku-4U-Cavaldi.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "24168": {
+      "name": "Mini torebka-portfel ze skóry ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-24168-Mini-torebka-portfel-ze-skory-ekologicznej-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "24165": {
+      "name": "Mini torebka-portfel ze skóry ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-24165-Mini-torebka-portfel-ze-skory-ekologicznej-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30849": {
+      "name": "Saszetka męska do ręki wykonana ze skóry ekologicznej w czarnym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30849-Saszetka-meska-do-reki-wykonana-ze-skory-ekologicznej-w-czarnym-kolorze-Rovicky.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "28097": {
+      "name": "Męska nerka na telefon i dokumenty czarna na suwak - Peterson",
+      "url": "https://cedardrop.com/product-pol-28097-Meska-nerka-na-telefon-i-dokumenty-czarna-na-suwak-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "28911": {
+      "name": "Podróżny plecak damski z poliestru w ciemno-beżowym kolorze z kieszenią na laptopa - Peterson",
+      "url": "https://cedardrop.com/product-pol-28911-Podrozny-plecak-damski-z-poliestru-w-ciemno-bezowym-kolorze-z-kieszenia-na-laptopa-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "28903": {
+      "name": "Duży plecak damski z poliestru w czarnym kolorze z miejscem na laptopa - Peterson",
+      "url": "https://cedardrop.com/product-pol-28903-Duzy-plecak-damski-z-poliestru-w-czarnym-kolorze-z-miejscem-na-laptopa-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "29885": {
+      "name": "Skórzany, szeroki pasek męski w czarnym kolorze z klasyczną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-29885-Skorzany-szeroki-pasek-meski-w-czarnym-kolorze-z-klasyczna-klamra-Peterson.html",
+      "category": "Paski",
+      "in_stock": false
+    },
+    "31138": {
+      "name": "Skórzane, patchworkowe etui na klucze",
+      "url": "https://cedardrop.com/product-pol-31138-Skorzane-patchworkowe-etui-na-klucze.html",
+      "category": "Akcesoria",
+      "in_stock": false
+    },
+    "28822": {
+      "name": "Brązowe, niewielkie etui na klucze zamykane suwakiem",
+      "url": "https://cedardrop.com/product-pol-28822-Brazowe-niewielkie-etui-na-klucze-zamykane-suwakiem.html",
+      "category": "Akcesoria",
       "in_stock": false
     }
   }
