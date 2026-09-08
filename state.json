@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-08T12:28:15.551782+00:00",
+  "last_checked": "2026-09-08T22:37:10.274189+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -18179,7 +18179,7 @@
       "name": "Skórzany, szeroki pasek męski w jasnobrązowym kolorze z klasyczną, podwójną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31314-Skorzany-szeroki-pasek-meski-w-jasnobrazowym-kolorze-z-klasyczna-podwojna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31276": {
       "name": "Skórzany pasek męski w ciemnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
@@ -24702,6 +24702,24 @@
       "name": "Zestaw 5 par skarpet męskich w rozmiarze 40-45 wykonanych z bawełny i poliestru - Peterson",
       "url": "https://cedardrop.com/product-pol-31271-Zestaw-5-par-skarpet-meskich-w-rozmiarze-40-45-wykonanych-z-bawelny-i-poliestru-Peterson.html",
       "category": "Akcesoria",
+      "in_stock": false
+    },
+    "30530": {
+      "name": "Duży, skórzany portfel męski w czarnym kolorze wyposażony w system RFID, zamykany zatrzaskiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30530-Duzy-skorzany-portfel-meski-w-czarnym-kolorze-wyposazony-w-system-RFID-zamykany-zatrzaskiem-Rovicky.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "22850": {
+      "name": "Duży portfel męski ze skóry naturalnej - Buffalo Wild",
+      "url": "https://cedardrop.com/product-pol-22850-Duzy-portfel-meski-ze-skory-naturalnej-Buffalo-Wild.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "22310": {
+      "name": "Skórzany portfel męski z zabezpieczeniem antykradzieżowym - Always Wild",
+      "url": "https://cedardrop.com/product-pol-22310-Skorzany-portfel-meski-z-zabezpieczeniem-antykradziezowym-Always-Wild.html",
+      "category": "Portfele męskie",
       "in_stock": false
     }
   }
