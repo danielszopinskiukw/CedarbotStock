@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-09T12:39:56.223324+00:00",
+  "last_checked": "2026-09-09T22:29:07.386419+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -24767,6 +24767,30 @@
       "name": "Listonoszka skórzana na regulowanym pasku - Peterson",
       "url": "https://cedardrop.com/product-pol-24619-Listonoszka-skorzana-na-regulowanym-pasku-Peterson.html",
       "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29085": {
+      "name": "Skórzany portfel damski zamykany biglem i zatrzaskiem  - Peterson",
+      "url": "https://cedardrop.com/product-pol-29085-Skorzany-portfel-damski-zamykany-biglem-i-zatrzaskiem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31364": {
+      "name": "Brązowa listonoszka damska mała torebka na ramię lub do ręki modna ze skóry ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31364-Brazowa-listonoszka-damska-mala-torebka-na-ramie-lub-do-reki-modna-ze-skory-ekologicznej-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30544": {
+      "name": "Jednokomorowa, beżowa shopperka damska zamykana suwakiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-30544-Jednokomorowa-bezowa-shopperka-damska-zamykana-suwakiem-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29858": {
+      "name": "Plecak młodzieżowy do szkoły odszyty z poliestru ze wzorem imitującym graffiti - Peterson",
+      "url": "https://cedardrop.com/product-pol-29858-Plecak-mlodziezowy-do-szkoly-odszyty-z-poliestru-ze-wzorem-imitujacym-graffiti-Peterson.html",
+      "category": "Plecaki",
       "in_stock": false
     }
   }
