@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-08T22:37:10.274189+00:00",
+  "last_checked": "2026-09-09T12:39:56.223324+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -7061,8 +7061,7 @@
       "name": "Czerwony, skórzany portfel damski na zatrzask z systemem RFID - Rovicky",
       "url": "https://cedardrop.com/product-pol-29412-Czerwony-skorzany-portfel-damski-na-zatrzask-z-systemem-RFID-Rovicky.html",
       "category": "Portfele damskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "29378": {
       "name": "Wielokolorowy portfel damski w kwiaty wykonany ze skóry naturalnej i ekologicznej - 4U Cavaldi",
@@ -18179,7 +18178,7 @@
       "name": "Skórzany, szeroki pasek męski w jasnobrązowym kolorze z klasyczną, podwójną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31314-Skorzany-szeroki-pasek-meski-w-jasnobrazowym-kolorze-z-klasyczna-podwojna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31276": {
       "name": "Skórzany pasek męski w ciemnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
@@ -24720,6 +24719,54 @@
       "name": "Skórzany portfel męski z zabezpieczeniem antykradzieżowym - Always Wild",
       "url": "https://cedardrop.com/product-pol-22310-Skorzany-portfel-meski-z-zabezpieczeniem-antykradziezowym-Always-Wild.html",
       "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "24655": {
+      "name": "Duży, skórzany portfel męski na zatrzask - Always Wild",
+      "url": "https://cedardrop.com/product-pol-24655-Duzy-skorzany-portfel-meski-na-zatrzask-Always-Wild.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "17881": {
+      "name": "Skórzany portfel męski z kieszenią na dowód rejestracyjny - Rovicky",
+      "url": "https://cedardrop.com/product-pol-17881-Skorzany-portfel-meski-z-kieszenia-na-dowod-rejestracyjny-Rovicky.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "29068": {
+      "name": "Duży, poziomy portfel damski na zatrzask, wykonany z lakierowanej skóry naturalnej w kwiatowy wzór - Peterson",
+      "url": "https://cedardrop.com/product-pol-29068-Duzy-poziomy-portfel-damski-na-zatrzask-wykonany-z-lakierowanej-skory-naturalnej-w-kwiatowy-wzor-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "26553": {
+      "name": "Mała, skórzana listonoszka damska - Rovicky",
+      "url": "https://cedardrop.com/product-pol-26553-Mala-skorzana-listonoszka-damska-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "26430": {
+      "name": "Modna, duża torba damska ze skóry ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-26430-Modna-duza-torba-damska-ze-skory-ekologicznej-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "24688": {
+      "name": "Skórzana listonoszka damska z klapką - Peterson",
+      "url": "https://cedardrop.com/product-pol-24688-Skorzana-listonoszka-damska-z-klapka-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "24623": {
+      "name": "Listonoszka damska z licowej skóry naturalnej - Peterson",
+      "url": "https://cedardrop.com/product-pol-24623-Listonoszka-damska-z-licowej-skory-naturalnej-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "24619": {
+      "name": "Listonoszka skórzana na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-24619-Listonoszka-skorzana-na-regulowanym-pasku-Peterson.html",
+      "category": "Torebki damskie",
       "in_stock": false
     }
   }
