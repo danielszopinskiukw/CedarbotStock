@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-11T22:22:18.739543+00:00",
+  "last_checked": "2026-09-12T11:54:08.948334+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -18424,7 +18424,7 @@
       "name": "Brązowy, wąski pasek damski ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-30388-Brazowy-waski-pasek-damski-ze-skory-ekologicznej-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30648": {
       "name": "Pasek męski z automatyczną klamrą wykonany ze skóry naturalnej w czarnym kolorze - Peterson",
@@ -24827,6 +24827,24 @@
       "name": "Jednokomorowy plecak miejski z zewnętrzną kieszenią - Peterson",
       "url": "https://cedardrop.com/product-pol-27970-Jednokomorowy-plecak-miejski-z-zewnetrzna-kieszenia-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "30902": {
+      "name": "Duża, brązowa shopperka damska wykonana ze skóry ekologicznej, jednokomorowa - Peterson",
+      "url": "https://cedardrop.com/product-pol-30902-Duza-brazowa-shopperka-damska-wykonana-ze-skory-ekologicznej-jednokomorowa-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "26925": {
+      "name": "Stylowa torebka-portfel na długim pasku - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-26925-Stylowa-torebka-portfel-na-dlugim-pasku-4U-Cavaldi.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "26241": {
+      "name": "Damska mini torebka-portfel ze skóry ekologicznej - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-26241-Damska-mini-torebka-portfel-ze-skory-ekologicznej-4U-Cavaldi.html",
+      "category": "Torebki damskie",
       "in_stock": false
     }
   }
