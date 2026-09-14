@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-13T22:08:50.855960+00:00",
+  "last_checked": "2026-09-14T13:31:09.326051+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -17956,7 +17956,7 @@
       "name": "Skórzany, czarny pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31414-Skorzany-czarny-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31567": {
       "name": "Skórzany, elegancki pasek męski ze skóry naturalnej w brązowym kolorze - Peterson",
@@ -18136,7 +18136,7 @@
       "name": "Czarny pasek męski z klasyczną, czarną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-31415-Czarny-pasek-meski-z-klasyczna-czarna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31324": {
       "name": "Pasek męski w ciemnobrązowym kolorze wykonany ze skóry naturalnej, wyposażony w klamrę automatyczną - Peterson",
@@ -18911,7 +18911,7 @@
       "name": "Skórzany, szeroki pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-25358-Skorzany-szeroki-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "23831": {
       "name": "Długi, parciany pasek z klamrą QR",
@@ -19266,7 +19266,7 @@
       "name": "Klasyczny pasek ze srebrną klamrą, model unisex, skóra ekologiczna - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9458-Klasyczny-pasek-ze-srebrna-klamra-model-unisex-skora-ekologiczna-Cavaldi.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "9377": {
       "name": "Pasek męski ze skóry naturalnej w stylu Oxford - Rovicky",
@@ -24845,6 +24845,12 @@
       "name": "Damska mini torebka-portfel ze skóry ekologicznej - 4U Cavaldi",
       "url": "https://cedardrop.com/product-pol-26241-Damska-mini-torebka-portfel-ze-skory-ekologicznej-4U-Cavaldi.html",
       "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "28979": {
+      "name": "Czarna, miejska torba męska ze skóry naturalnej z klapką - Peterson",
+      "url": "https://cedardrop.com/product-pol-28979-Czarna-miejska-torba-meska-ze-skory-naturalnej-z-klapka-Peterson.html",
+      "category": "Torby i torebki męskie",
       "in_stock": false
     }
   }
