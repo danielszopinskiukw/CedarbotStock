@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-14T13:31:09.326051+00:00",
+  "last_checked": "2026-09-14T23:26:05.048525+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -19266,7 +19266,7 @@
       "name": "Klasyczny pasek ze srebrną klamrą, model unisex, skóra ekologiczna - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9458-Klasyczny-pasek-ze-srebrna-klamra-model-unisex-skora-ekologiczna-Cavaldi.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "9377": {
       "name": "Pasek męski ze skóry naturalnej w stylu Oxford - Rovicky",
@@ -24851,6 +24851,18 @@
       "name": "Czarna, miejska torba męska ze skóry naturalnej z klapką - Peterson",
       "url": "https://cedardrop.com/product-pol-28979-Czarna-miejska-torba-meska-ze-skory-naturalnej-z-klapka-Peterson.html",
       "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "19509": {
+      "name": "Średni, skórzany portfel damski na zatrzask - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-19509-Sredni-skorzany-portfel-damski-na-zatrzask-4U-Cavaldi.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "28230": {
+      "name": "Nerka damska casual z paskiem na ramię - Rovicky",
+      "url": "https://cedardrop.com/product-pol-28230-Nerka-damska-casual-z-paskiem-na-ramie-Rovicky.html",
+      "category": "Torebki damskie",
       "in_stock": false
     }
   }
