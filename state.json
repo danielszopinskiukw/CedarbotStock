@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-14T23:26:05.048525+00:00",
+  "last_checked": "2026-09-15T13:08:45.765920+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -16214,8 +16214,7 @@
       "name": "Wodoodporny plecak miejski w fioletowo-miętowym kolorze zamykany suwakiem - Himawari",
       "url": "https://cedardrop.com/product-pol-29266-Wodoodporny-plecak-miejski-w-fioletowo-mietowym-kolorze-zamykany-suwakiem-Himawari.html",
       "category": "Plecaki",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "29263": {
       "name": "Beżowo-zielony, wodoodporny plecak miejski z miejscem na laptopa - Himawari",
@@ -18136,7 +18135,7 @@
       "name": "Czarny pasek męski z klasyczną, czarną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-31415-Czarny-pasek-meski-z-klasyczna-czarna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31324": {
       "name": "Pasek męski w ciemnobrązowym kolorze wykonany ze skóry naturalnej, wyposażony w klamrę automatyczną - Peterson",
@@ -18406,7 +18405,7 @@
       "name": "Pasek damski ze skóry ekologicznej w pięknym, burgundowym kolorze ze złotą klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30394-Pasek-damski-ze-skory-ekologicznej-w-pieknym-burgundowym-kolorze-ze-zlota-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30393": {
       "name": "Beżowy, wąski pasek damski ze skóry ekologicznej ze złotą klamrą - Peterson",
@@ -18424,7 +18423,7 @@
       "name": "Brązowy, wąski pasek damski ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-30388-Brazowy-waski-pasek-damski-ze-skory-ekologicznej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30648": {
       "name": "Pasek męski z automatyczną klamrą wykonany ze skóry naturalnej w czarnym kolorze - Peterson",
@@ -19169,7 +19168,7 @@
       "name": "Wąski pasek męski z polerowanej skóry naturalnej licowej - Rovicky",
       "url": "https://cedardrop.com/product-pol-13656-Waski-pasek-meski-z-polerowanej-skory-naturalnej-licowej-Rovicky.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "12374": {
       "name": "Błyszczący, szeroki pasek męski ze skóry naturalnej",
@@ -23323,14 +23322,14 @@
       "in_stock": false
     },
     "31798": {
-      "name": "Beżowa listonoszka damska z klapką wykonana ze skóry ekologicznej - Peterson",
-      "url": "https://cedardrop.com/product-pol-31798-Bezowa-listonoszka-damska-z-klapka-wykonana-ze-skory-ekologicznej-Peterson.html",
+      "name": "Beżowa listonoszka damska z klapką wykonana ze skóry syntetycznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31798-Bezowa-listonoszka-damska-z-klapka-wykonana-ze-skory-syntetycznej-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
     "31797": {
-      "name": "Listonoszka damska z klapką wykonana ze skóry ekologicznej w brązowym kolorze - Peterson",
-      "url": "https://cedardrop.com/product-pol-31797-Listonoszka-damska-z-klapka-wykonana-ze-skory-ekologicznej-w-brazowym-kolorze-Peterson.html",
+      "name": "Listonoszka damska z klapką wykonana ze skóry syntetycznej w brązowym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31797-Listonoszka-damska-z-klapka-wykonana-ze-skory-syntetycznej-w-brazowym-kolorze-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
@@ -23347,8 +23346,8 @@
       "in_stock": false
     },
     "31796": {
-      "name": "Listonoszka damska na ramię wykonana ze skóry ekologicznej w czarnym kolorze - Peterson",
-      "url": "https://cedardrop.com/product-pol-31796-Listonoszka-damska-na-ramie-wykonana-ze-skory-ekologicznej-w-czarnym-kolorze-Peterson.html",
+      "name": "Listonoszka damska na ramię wykonana ze skóry syntetycznej w czarnym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31796-Listonoszka-damska-na-ramie-wykonana-ze-skory-syntetycznej-w-czarnym-kolorze-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
@@ -23972,26 +23971,26 @@
       "in_stock": false
     },
     "31843": {
-      "name": "Czarna listonoszka damska ze skóry ekologicznej zawieszona na odpinanym pasku - Peterson",
-      "url": "https://cedardrop.com/product-pol-31843-Czarna-listonoszka-damska-ze-skory-ekologicznej-zawieszona-na-odpinanym-pasku-Peterson.html",
+      "name": "Czarna listonoszka damska ze skóry syntetycznej zawieszona na odpinanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31843-Czarna-listonoszka-damska-ze-skory-syntetycznej-zawieszona-na-odpinanym-pasku-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
     "31842": {
-      "name": "Beżowa listonoszka damska ze skóry ekologicznej zawieszona na odpinanym pasku - Peterson",
-      "url": "https://cedardrop.com/product-pol-31842-Bezowa-listonoszka-damska-ze-skory-ekologicznej-zawieszona-na-odpinanym-pasku-Peterson.html",
+      "name": "Beżowa listonoszka damska ze skóry syntetycznej zawieszona na odpinanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31842-Bezowa-listonoszka-damska-ze-skory-syntetycznej-zawieszona-na-odpinanym-pasku-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
     "31841": {
-      "name": "Listonoszka damska ze skóry ekologicznej w czarnym kolorze, zamykana klipsem magnetycznym i suwakiem - Rovicky",
-      "url": "https://cedardrop.com/product-pol-31841-Listonoszka-damska-ze-skory-ekologicznej-w-czarnym-kolorze-zamykana-klipsem-magnetycznym-i-suwakiem-Rovicky.html",
+      "name": "Listonoszka damska ze skóry syntetycznej w czarnym kolorze, zamykana klipsem magnetycznym i suwakiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31841-Listonoszka-damska-ze-skory-syntetycznej-w-czarnym-kolorze-zamykana-klipsem-magnetycznym-i-suwakiem-Rovicky.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
     "31840": {
-      "name": "Listonoszka damska ze skóry ekologicznej w beżowym kolorze, zamykana klipsem magnetycznym i suwakiem - Rovicky",
-      "url": "https://cedardrop.com/product-pol-31840-Listonoszka-damska-ze-skory-ekologicznej-w-bezowym-kolorze-zamykana-klipsem-magnetycznym-i-suwakiem-Rovicky.html",
+      "name": "Listonoszka damska ze skóry syntetycznej w beżowym kolorze, zamykana klipsem magnetycznym i suwakiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-31840-Listonoszka-damska-ze-skory-syntetycznej-w-bezowym-kolorze-zamykana-klipsem-magnetycznym-i-suwakiem-Rovicky.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
@@ -24863,6 +24862,84 @@
       "name": "Nerka damska casual z paskiem na ramię - Rovicky",
       "url": "https://cedardrop.com/product-pol-28230-Nerka-damska-casual-z-paskiem-na-ramie-Rovicky.html",
       "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "23454": {
+      "name": "Skórzany, średni portfel męski bez zapięcia - Peterson",
+      "url": "https://cedardrop.com/product-pol-23454-Skorzany-sredni-portfel-meski-bez-zapiecia-Peterson.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "21358": {
+      "name": "Duży, skórzany portfel męski z systemem RFID Protect - Cavaldi",
+      "url": "https://cedardrop.com/product-pol-21358-Duzy-skorzany-portfel-meski-z-systemem-RFID-Protect-Cavaldi.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "28762": {
+      "name": "Mały portfel skórzany na monety w czerwonym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-28762-Maly-portfel-skorzany-na-monety-w-czerwonym-kolorze-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "27817": {
+      "name": "Elegancki portfel damski na zatrzask ze skóry naturalnej - Rovicky",
+      "url": "https://cedardrop.com/product-pol-27817-Elegancki-portfel-damski-na-zatrzask-ze-skory-naturalnej-Rovicky.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "29600": {
+      "name": "Kopertówka damska ze skóry ekologicznej w złotym kolorze - Rovicky",
+      "url": "https://cedardrop.com/product-pol-29600-Kopertowka-damska-ze-skory-ekologicznej-w-zlotym-kolorze-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29478": {
+      "name": "Kompaktowa saszetka sportowa wykonana z poliestru w czerwonym kolorze",
+      "url": "https://cedardrop.com/product-pol-29478-Kompaktowa-saszetka-sportowa-wykonana-z-poliestru-w-czerwonym-kolorze.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29141": {
+      "name": "Modna saszetka na biodra lub przez ramię zamykana suwakiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-29141-Modna-saszetka-na-biodra-lub-przez-ramie-zamykana-suwakiem-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "26821": {
+      "name": "Mini torebka-portfel 2w1 na długim, doczepianym pasku - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-26821-Mini-torebka-portfel-2w1-na-dlugim-doczepianym-pasku-4U-Cavaldi.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "26100": {
+      "name": "Elegancki plecaczek damski ze skóry ekologicznej - David Jones",
+      "url": "https://cedardrop.com/product-pol-26100-Elegancki-plecaczek-damski-ze-skory-ekologicznej-David-Jones.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "26098": {
+      "name": "Elegancki plecaczek damski ze skóry ekologicznej - David Jones",
+      "url": "https://cedardrop.com/product-pol-26098-Elegancki-plecaczek-damski-ze-skory-ekologicznej-David-Jones.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "12168": {
+      "name": "Ciekawy skórzany pasek damski ze złotą klamrą, zwierzęcy motyw - Rovicky",
+      "url": "https://cedardrop.com/product-pol-12168-Ciekawy-skorzany-pasek-damski-ze-zlota-klamra-zwierzecy-motyw-Rovicky.html",
+      "category": "Paski",
+      "in_stock": true
+    },
+    "30332": {
+      "name": "Zestaw walizek podróżnych z tworzywa ABS w beżowym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-30332-Zestaw-walizek-podroznych-z-tworzywa-ABS-w-bezowym-kolorze-Peterson.html",
+      "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "27125": {
+      "name": "Listonoszka damska z klapką w kształcie półksiężyca - LuluCastagnette",
+      "url": "https://cedardrop.com/product-pol-27125-Listonoszka-damska-z-klapka-w-ksztalcie-polksiezyca-LuluCastagnette.html",
+      "category": "Letnia wyprzedaż",
       "in_stock": false
     }
   }
