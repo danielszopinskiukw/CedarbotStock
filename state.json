@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-15T22:45:15.196892+00:00",
+  "last_checked": "2026-09-16T12:54:45.388420+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -5231,8 +5231,8 @@
       "in_stock": false
     },
     "31727": {
-      "name": "Granatowy, poziomy portfel damski ze skóry naturalnej i ekologicznej wyposażony w system RFID - Peterson",
-      "url": "https://cedardrop.com/product-pol-31727-Granatowy-poziomy-portfel-damski-ze-skory-naturalnej-i-ekologicznej-wyposazony-w-system-RFID-Peterson.html",
+      "name": "Granatowy, poziomy portfel damski ze skóry naturalnej i syntetycznej wyposażony w system RFID - Peterson",
+      "url": "https://cedardrop.com/product-pol-31727-Granatowy-poziomy-portfel-damski-ze-skory-naturalnej-i-syntetycznej-wyposazony-w-system-RFID-Peterson.html",
       "category": "Portfele damskie",
       "in_stock": false
     },
@@ -24928,7 +24928,7 @@
       "name": "Ciekawy skórzany pasek damski ze złotą klamrą, zwierzęcy motyw - Rovicky",
       "url": "https://cedardrop.com/product-pol-12168-Ciekawy-skorzany-pasek-damski-ze-zlota-klamra-zwierzecy-motyw-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30332": {
       "name": "Zestaw walizek podróżnych z tworzywa ABS w beżowym kolorze - Peterson",
@@ -24940,6 +24940,48 @@
       "name": "Listonoszka damska z klapką w kształcie półksiężyca - LuluCastagnette",
       "url": "https://cedardrop.com/product-pol-27125-Listonoszka-damska-z-klapka-w-ksztalcie-polksiezyca-LuluCastagnette.html",
       "category": "Letnia wyprzedaż",
+      "in_stock": false
+    },
+    "26193": {
+      "name": "Portfel-piórnik damski ze skóry ekologicznej",
+      "url": "https://cedardrop.com/product-pol-26193-Portfel-piornik-damski-ze-skory-ekologicznej.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31848": {
+      "name": "Podróżny, praktyczny plecak z poliestru w czarnym kolorze zamykany suwakiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-31848-Podrozny-praktyczny-plecak-z-poliestru-w-czarnym-kolorze-zamykany-suwakiem-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31847": {
+      "name": "Zielony plecak damski z poliestru z miejscem na laptopa i portem USB - Peterson",
+      "url": "https://cedardrop.com/product-pol-31847-Zielony-plecak-damski-z-poliestru-z-miejscem-na-laptopa-i-portem-USB-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31846": {
+      "name": "Czerwony plecak damski z poliestru z miejscem na laptopa i portem USB - Peterson",
+      "url": "https://cedardrop.com/product-pol-31846-Czerwony-plecak-damski-z-poliestru-z-miejscem-na-laptopa-i-portem-USB-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31844": {
+      "name": "Jednokomorowy, niebieski plecak damski z poliestru wyposażony w port USB - Peterson",
+      "url": "https://cedardrop.com/product-pol-31844-Jednokomorowy-niebieski-plecak-damski-z-poliestru-wyposazony-w-port-USB-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "27957": {
+      "name": "Praktyczny plecak z poliestru w kolorze granatowo-różowym na ergonomicznych szelkach - Peterson",
+      "url": "https://cedardrop.com/product-pol-27957-Praktyczny-plecak-z-poliestru-w-kolorze-granatowo-rozowym-na-ergonomicznych-szelkach-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "29097": {
+      "name": "Walizka w rozmiarze M wykonana z poliestru w turkusowo-różowym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-29097-Walizka-w-rozmiarze-M-wykonana-z-poliestru-w-turkusowo-rozowym-kolorze-Peterson.html",
+      "category": "Walizki i torby podróżne",
       "in_stock": false
     }
   }
