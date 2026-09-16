@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-16T12:54:45.388420+00:00",
+  "last_checked": "2026-09-16T22:48:59.534779+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -2227,8 +2227,7 @@
       "name": "Duży portfel męski ze skóry ekologicznej - 4U Cavaldi",
       "url": "https://cedardrop.com/product-pol-25927-Duzy-portfel-meski-ze-skory-ekologicznej-4U-Cavaldi.html",
       "category": "Portfele męskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "25926": {
       "name": "Duży portfel męski ze skóry ekologicznej - 4U Cavaldi",
@@ -10539,14 +10538,14 @@
       "in_stock": false
     },
     "31450": {
-      "name": "Czarna listonoszka damska wykonana ze skóry ekologicznej - Peterson",
-      "url": "https://cedardrop.com/product-pol-31450-Czarna-listonoszka-damska-wykonana-ze-skory-ekologicznej-Peterson.html",
+      "name": "Czarna listonoszka damska wykonana ze skóry syntetycznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31450-Czarna-listonoszka-damska-wykonana-ze-skory-syntetycznej-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
     "31452": {
-      "name": "Beżowa listonoszka damska wykonana ze skóry ekologicznej, zapinana suwakiem - Peterson",
-      "url": "https://cedardrop.com/product-pol-31452-Bezowa-listonoszka-damska-wykonana-ze-skory-ekologicznej-zapinana-suwakiem-Peterson.html",
+      "name": "Beżowa listonoszka damska wykonana ze skóry syntetycznej, zapinana suwakiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-31452-Bezowa-listonoszka-damska-wykonana-ze-skory-syntetycznej-zapinana-suwakiem-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
@@ -10641,8 +10640,8 @@
       "in_stock": false
     },
     "31456": {
-      "name": "Miejska listonoszka damska ze skóry ekologicznej w czarnym kolorze, zawieszona na regulowanym pasku - Peterson",
-      "url": "https://cedardrop.com/product-pol-31456-Miejska-listonoszka-damska-ze-skory-ekologicznej-w-czarnym-kolorze-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "name": "Miejska listonoszka damska ze skóry syntetycznej w czarnym kolorze, zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31456-Miejska-listonoszka-damska-ze-skory-syntetycznej-w-czarnym-kolorze-zawieszona-na-regulowanym-pasku-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
@@ -23182,20 +23181,20 @@
       "in_stock": false
     },
     "31458": {
-      "name": "Beżowa listonoszka damska ze skóry ekologicznej, zawieszona na regulowanym pasku - Peterson",
-      "url": "https://cedardrop.com/product-pol-31458-Bezowa-listonoszka-damska-ze-skory-ekologicznej-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "name": "Beżowa listonoszka damska ze skóry syntetycznej, zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31458-Bezowa-listonoszka-damska-ze-skory-syntetycznej-zawieszona-na-regulowanym-pasku-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
     "31457": {
-      "name": "Miejska listonoszka damska ze skóry ekologicznej w brązowym kolorze, zawieszona na regulowanym pasku - Peterson",
-      "url": "https://cedardrop.com/product-pol-31457-Miejska-listonoszka-damska-ze-skory-ekologicznej-w-brazowym-kolorze-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "name": "Miejska listonoszka damska ze skóry syntetycznej w brązowym kolorze, zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31457-Miejska-listonoszka-damska-ze-skory-syntetycznej-w-brazowym-kolorze-zawieszona-na-regulowanym-pasku-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
     "31455": {
-      "name": "Trzykomorowa listonoszka damska ze skóry ekologicznej w beżowym kolorze - Peterson",
-      "url": "https://cedardrop.com/product-pol-31455-Trzykomorowa-listonoszka-damska-ze-skory-ekologicznej-w-bezowym-kolorze-Peterson.html",
+      "name": "Trzykomorowa listonoszka damska ze skóry syntetycznej w beżowym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31455-Trzykomorowa-listonoszka-damska-ze-skory-syntetycznej-w-bezowym-kolorze-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
@@ -23206,14 +23205,14 @@
       "in_stock": false
     },
     "31451": {
-      "name": "Listonoszka damska wykonana ze skóry ekologicznej w brązowym kolorze, zapinana suwakiem - Peterson",
-      "url": "https://cedardrop.com/product-pol-31451-Listonoszka-damska-wykonana-ze-skory-ekologicznej-w-brazowym-kolorze-zapinana-suwakiem-Peterson.html",
+      "name": "Listonoszka damska wykonana ze skóry syntetycznej w brązowym kolorze, zapinana suwakiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-31451-Listonoszka-damska-wykonana-ze-skory-syntetycznej-w-brazowym-kolorze-zapinana-suwakiem-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
     "31453": {
-      "name": "Czarna, miejska listonoszka damska wykonana ze skóry ekologicznej - Peterson",
-      "url": "https://cedardrop.com/product-pol-31453-Czarna-miejska-listonoszka-damska-wykonana-ze-skory-ekologicznej-Peterson.html",
+      "name": "Czarna, miejska listonoszka damska wykonana ze skóry syntetycznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31453-Czarna-miejska-listonoszka-damska-wykonana-ze-skory-syntetycznej-Peterson.html",
       "category": "Torebki damskie",
       "in_stock": false
     },
@@ -24981,6 +24980,96 @@
     "29097": {
       "name": "Walizka w rozmiarze M wykonana z poliestru w turkusowo-różowym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-29097-Walizka-w-rozmiarze-M-wykonana-z-poliestru-w-turkusowo-rozowym-kolorze-Peterson.html",
+      "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "12922": {
+      "name": "Portfel męski z naturalnej skóry licowej z przegródką na zdjęcie - Rovicky",
+      "url": "https://cedardrop.com/product-pol-12922-Portfel-meski-z-naturalnej-skory-licowej-z-przegrodka-na-zdjecie-Rovicky.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "31858": {
+      "name": "Miejska listonoszka damska ze skóry syntetycznej w burgundowym kolorze, zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31858-Miejska-listonoszka-damska-ze-skory-syntetycznej-w-burgundowym-kolorze-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31857": {
+      "name": "Miejska listonoszka damska ze skóry syntetycznej w szarym kolorze, zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-31857-Miejska-listonoszka-damska-ze-skory-syntetycznej-w-szarym-kolorze-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31856": {
+      "name": "Listonoszka damska wykonana ze skóry syntetycznej w burgundowym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31856-Listonoszka-damska-wykonana-ze-skory-syntetycznej-w-burgundowym-kolorze-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31855": {
+      "name": "Szara listonoszka damska wykonana ze skóry syntetycznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31855-Szara-listonoszka-damska-wykonana-ze-skory-syntetycznej-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31854": {
+      "name": "Szara, miejska listonoszka damska wykonana ze skóry syntetycznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31854-Szara-miejska-listonoszka-damska-wykonana-ze-skory-syntetycznej-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31853": {
+      "name": "Granatowa listonoszka damska wykonana ze skóry syntetycznej, zamykana suwakiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-31853-Granatowa-listonoszka-damska-wykonana-ze-skory-syntetycznej-zamykana-suwakiem-Peterson.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "31852": {
+      "name": "Pojemny plecak z poliestru w czarnym kolorze, wyposażony w przegrodę na laptopa i retraktor - Peterson",
+      "url": "https://cedardrop.com/product-pol-31852-Pojemny-plecak-z-poliestru-w-czarnym-kolorze-wyposazony-w-przegrode-na-laptopa-i-retraktor-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31851": {
+      "name": "Sportowy, pojemny plecak z poliestru wyposażony w przegrodę na laptopa, dwukomorowy - Peterson",
+      "url": "https://cedardrop.com/product-pol-31851-Sportowy-pojemny-plecak-z-poliestru-wyposazony-w-przegrode-na-laptopa-dwukomorowy-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31850": {
+      "name": "Duży, czarny plecak z poliestru wyposażony w przegrodę na laptopa, jednokomorowy - Peterson",
+      "url": "https://cedardrop.com/product-pol-31850-Duzy-czarny-plecak-z-poliestru-wyposazony-w-przegrode-na-laptopa-jednokomorowy-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31849": {
+      "name": "Duży plecak z poliestru w czarnym kolorze zamykany suwakiem, wyposażony w przegrodę na laptopa - Peterson",
+      "url": "https://cedardrop.com/product-pol-31849-Duzy-plecak-z-poliestru-w-czarnym-kolorze-zamykany-suwakiem-wyposazony-w-przegrode-na-laptopa-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31862": {
+      "name": "Walizka kabinowa z zamkiem szyfrowanym wykonana z tworzywa ABS w czarnym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31862-Walizka-kabinowa-z-zamkiem-szyfrowanym-wykonana-z-tworzywa-ABS-w-czarnym-kolorze-Peterson.html",
+      "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "31861": {
+      "name": "Walizka kabinowa na kółkach wykonana z tworzywa ABS w szarym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31861-Walizka-kabinowa-na-kolkach-wykonana-z-tworzywa-ABS-w-szarym-kolorze-Peterson.html",
+      "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "31860": {
+      "name": "Granatowa walizka kabinowa na kółkach wykonana z tworzywa ABS - Peterson",
+      "url": "https://cedardrop.com/product-pol-31860-Granatowa-walizka-kabinowa-na-kolkach-wykonana-z-tworzywa-ABS-Peterson.html",
+      "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "31859": {
+      "name": "Czerwona walizka kabinowa na kółkach wykonana z tworzywa ABS - Peterson",
+      "url": "https://cedardrop.com/product-pol-31859-Czerwona-walizka-kabinowa-na-kolkach-wykonana-z-tworzywa-ABS-Peterson.html",
       "category": "Walizki i torby podróżne",
       "in_stock": false
     }
