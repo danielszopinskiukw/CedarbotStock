@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-16T22:48:59.534779+00:00",
+  "last_checked": "2026-09-17T13:07:57.370542+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -18422,7 +18422,7 @@
       "name": "Brązowy, wąski pasek damski ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-30388-Brazowy-waski-pasek-damski-ze-skory-ekologicznej-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30648": {
       "name": "Pasek męski z automatyczną klamrą wykonany ze skóry naturalnej w czarnym kolorze - Peterson",
@@ -25071,6 +25071,12 @@
       "name": "Czerwona walizka kabinowa na kółkach wykonana z tworzywa ABS - Peterson",
       "url": "https://cedardrop.com/product-pol-31859-Czerwona-walizka-kabinowa-na-kolkach-wykonana-z-tworzywa-ABS-Peterson.html",
       "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "29971": {
+      "name": "Różowy, podróżny plecak z poliestru z uchwytem do zamocowania na walizce - Peterson",
+      "url": "https://cedardrop.com/product-pol-29971-Rozowy-podrozny-plecak-z-poliestru-z-uchwytem-do-zamocowania-na-walizce-Peterson.html",
+      "category": "Plecaki",
       "in_stock": false
     }
   }
