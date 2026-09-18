@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-17T22:49:17.867772+00:00",
+  "last_checked": "2026-09-18T12:32:20.786891+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -17954,7 +17954,7 @@
       "name": "Skórzany, czarny pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31414-Skorzany-czarny-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31567": {
       "name": "Skórzany, elegancki pasek męski ze skóry naturalnej w brązowym kolorze - Peterson",
@@ -18296,7 +18296,7 @@
       "name": "Pasek męski ze skóry ekologicznej w czarnym kolorze, zakończony srebrną, klasyczną klamrą",
       "url": "https://cedardrop.com/product-pol-30812-Pasek-meski-ze-skory-ekologicznej-w-czarnym-kolorze-zakonczony-srebrna-klasyczna-klamra.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30811": {
       "name": "Szeroki, czarny pasek męski ze skóry ekologicznej ze srebrną, klasyczną klamrą",
@@ -25077,6 +25077,24 @@
       "name": "Różowy, podróżny plecak z poliestru z uchwytem do zamocowania na walizce - Peterson",
       "url": "https://cedardrop.com/product-pol-29971-Rozowy-podrozny-plecak-z-poliestru-z-uchwytem-do-zamocowania-na-walizce-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "28711": {
+      "name": "Portfel męski na prezent ze skóry naturalnej RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-28711-Portfel-meski-na-prezent-ze-skory-naturalnej-RFID-Rovicky.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "16449": {
+      "name": "Klasyczny, zapinany portfel męski pionowy z naturalnej skóry z technologią RFID - Rovicky",
+      "url": "https://cedardrop.com/product-pol-16449-Klasyczny-zapinany-portfel-meski-pionowy-z-naturalnej-skory-z-technologia-RFID-Rovicky.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "3228": {
+      "name": "Skórzany portfel poziomy składany - Rovicky",
+      "url": "https://cedardrop.com/product-pol-3228-Skorzany-portfel-poziomy-skladany-Rovicky.html",
+      "category": "Portfele męskie",
       "in_stock": false
     }
   }
