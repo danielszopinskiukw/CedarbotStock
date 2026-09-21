@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-20T22:11:46.137726+00:00",
+  "last_checked": "2026-09-21T13:58:50.983009+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -12461,8 +12461,7 @@
       "name": "Mała listonoszka damska ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-26429-Mala-listonoszka-damska-ze-skory-ekologicznej-Peterson.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "26361": {
       "name": "Stylowa torebka damska z odpinanym paskiem - Peterson",
@@ -19131,7 +19130,7 @@
       "name": "Skórzany pasek męski z klasyczną klamrą - Rovicky",
       "url": "https://cedardrop.com/product-pol-23845-Skorzany-pasek-meski-z-klasyczna-klamra-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "20102": {
       "name": "Elegancki pasek automatyczny ze skóry naturalnej - Peterson",
@@ -19420,7 +19419,7 @@
       "name": "Elegancki pasek męski ze skóry naturalnej o wyrazistej fakturze - Rovicky",
       "url": "https://cedardrop.com/product-pol-1902-Elegancki-pasek-meski-ze-skory-naturalnej-o-wyrazistej-fakturze-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "445": {
       "name": "Skórzany pasek męski ze stylowym motywem żłobień  - Rovicky",
@@ -25113,6 +25112,18 @@
       "name": "Czarny plecak podróżny z poliestru idealny na bagaż podręczny - Peterson",
       "url": "https://cedardrop.com/product-pol-29977-Czarny-plecak-podrozny-z-poliestru-idealny-na-bagaz-podreczny-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "26524": {
+      "name": "Duża torebka damska ze skóry ekologicznej - Rovicky",
+      "url": "https://cedardrop.com/product-pol-26524-Duza-torebka-damska-ze-skory-ekologicznej-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "20822": {
+      "name": "Podróżna torba na bagaż podręczny - Peterson",
+      "url": "https://cedardrop.com/product-pol-20822-Podrozna-torba-na-bagaz-podreczny-Peterson.html",
+      "category": "Walizki i torby podróżne",
       "in_stock": false
     }
   }
