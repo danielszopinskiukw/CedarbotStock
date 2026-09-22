@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-21T23:30:02.015440+00:00",
+  "last_checked": "2026-09-22T12:48:11.865987+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -461,7 +461,7 @@
       "name": "Zestaw prezentowy: dwustronny pasek skórzany w brązowym i czarnym kolorze z dwoma wymiennymi klamrami - Peterson",
       "url": "https://cedardrop.com/product-pol-31139-Zestaw-prezentowy-dwustronny-pasek-skorzany-w-brazowym-i-czarnym-kolorze-z-dwoma-wymiennymi-klamrami-Peterson.html",
       "category": "Zestawy prezentowe",
-      "in_stock": true
+      "in_stock": false
     },
     "29152": {
       "name": "Zestaw prezentowy: czarny, elegancki notes A5 w linie i długopis z czarnym wkładem - Peterson",
@@ -17977,7 +17977,7 @@
       "name": "Dwustronny pasek męski w czarnym i ciemnobrązowym kolorze z obrotową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31312-Dwustronny-pasek-meski-w-czarnym-i-ciemnobrazowym-kolorze-z-obrotowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31628": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -19130,7 +19130,7 @@
       "name": "Skórzany pasek męski z klasyczną klamrą - Rovicky",
       "url": "https://cedardrop.com/product-pol-23845-Skorzany-pasek-meski-z-klasyczna-klamra-Rovicky.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "20102": {
       "name": "Elegancki pasek automatyczny ze skóry naturalnej - Peterson",
