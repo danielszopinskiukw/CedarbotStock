@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-22T22:48:59.661478+00:00",
+  "last_checked": "2026-09-23T12:48:26.072659+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -17977,7 +17977,7 @@
       "name": "Dwustronny pasek męski w czarnym i ciemnobrązowym kolorze z obrotową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31312-Dwustronny-pasek-meski-w-czarnym-i-ciemnobrazowym-kolorze-z-obrotowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31628": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -18403,7 +18403,7 @@
       "name": "Pasek damski ze skóry ekologicznej w pięknym, burgundowym kolorze ze złotą klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30394-Pasek-damski-ze-skory-ekologicznej-w-pieknym-burgundowym-kolorze-ze-zlota-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30393": {
       "name": "Beżowy, wąski pasek damski ze skóry ekologicznej ze złotą klamrą - Peterson",
@@ -18421,7 +18421,7 @@
       "name": "Brązowy, wąski pasek damski ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-30388-Brazowy-waski-pasek-damski-ze-skory-ekologicznej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30648": {
       "name": "Pasek męski z automatyczną klamrą wykonany ze skóry naturalnej w czarnym kolorze - Peterson",
@@ -19070,7 +19070,7 @@
       "name": "Męski pasek biznesowy z elegancką klamrą automatyczną - Peterson",
       "url": "https://cedardrop.com/product-pol-20095-Meski-pasek-biznesowy-z-elegancka-klamra-automatyczna-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "20094": {
       "name": "Męski pasek biznesowy z elegancką klamrą automatyczną - Peterson",
@@ -19263,7 +19263,7 @@
       "name": "Klasyczny pasek ze srebrną klamrą, model unisex, skóra ekologiczna - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9458-Klasyczny-pasek-ze-srebrna-klamra-model-unisex-skora-ekologiczna-Cavaldi.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "9377": {
       "name": "Pasek męski ze skóry naturalnej w stylu Oxford - Rovicky",
@@ -25124,6 +25124,18 @@
       "name": "Podróżna torba na bagaż podręczny - Peterson",
       "url": "https://cedardrop.com/product-pol-20822-Podrozna-torba-na-bagaz-podreczny-Peterson.html",
       "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "29069": {
+      "name": "Portfel damski ze skóry naturalnej w kwiatowy, kolorowy wzór - Peterson",
+      "url": "https://cedardrop.com/product-pol-29069-Portfel-damski-ze-skory-naturalnej-w-kwiatowy-kolorowy-wzor-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "27341": {
+      "name": "Skórzany, elegancki portfel damski na zatrzask - Rovicky",
+      "url": "https://cedardrop.com/product-pol-27341-Skorzany-elegancki-portfel-damski-na-zatrzask-Rovicky.html",
+      "category": "Portfele damskie",
       "in_stock": false
     }
   }
