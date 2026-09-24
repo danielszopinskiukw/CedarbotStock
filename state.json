@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-24T12:51:31.366768+00:00",
+  "last_checked": "2026-09-24T22:55:35.602022+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -5526,8 +5526,7 @@
       "name": "Skórzany portfel damski w czarnym kolorze zamykany zatrzaskiem i biglem - Peterson",
       "url": "https://cedardrop.com/product-pol-31472-Skorzany-portfel-damski-w-czarnym-kolorze-zamykany-zatrzaskiem-i-biglem-Peterson.html",
       "category": "Portfele damskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "31338": {
       "name": "Czerwony portfel damski średniej wielkości na suwak z lakierowanej skóry ekologicznej - Peterson",
@@ -17977,7 +17976,7 @@
       "name": "Dwustronny pasek męski w czarnym i ciemnobrązowym kolorze z obrotową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31312-Dwustronny-pasek-meski-w-czarnym-i-ciemnobrazowym-kolorze-z-obrotowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31628": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -19166,7 +19165,7 @@
       "name": "Wąski pasek męski z polerowanej skóry naturalnej licowej - Rovicky",
       "url": "https://cedardrop.com/product-pol-13656-Waski-pasek-meski-z-polerowanej-skory-naturalnej-licowej-Rovicky.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "12374": {
       "name": "Błyszczący, szeroki pasek męski ze skóry naturalnej",
@@ -20236,8 +20235,7 @@
       "name": "Syntetyczna kosmetyczka podróżna w czarnym kolorze z haczykiem zamykana na suwak - Peterson",
       "url": "https://cedardrop.com/product-pol-28847-Syntetyczna-kosmetyczka-podrozna-w-czarnym-kolorze-z-haczykiem-zamykana-na-suwak-Peterson.html",
       "category": "Walizki i torby podróżne",
-      "stock_label": "Produkt niedostępny",
-      "in_stock": true
+      "in_stock": false
     },
     "28478": {
       "name": "Kompaktowa brokatowa kosmetyczka na wyjazd - Peterson",
@@ -25142,6 +25140,12 @@
       "name": "Pionowy portfel ze schowkiem na suwak -  Always Wild",
       "url": "https://cedardrop.com/product-pol-3163-Pionowy-portfel-ze-schowkiem-na-suwak-Always-Wild.html",
       "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "26475": {
+      "name": "Portfel damski ze skóry naturalnej i ekologicznej o fakturze imitującej skórę węża - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-26475-Portfel-damski-ze-skory-naturalnej-i-ekologicznej-o-fakturze-imitujacej-skore-weza-4U-Cavaldi.html",
+      "category": "Portfele damskie",
       "in_stock": false
     }
   }
