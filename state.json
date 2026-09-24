@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-23T22:50:53.026909+00:00",
+  "last_checked": "2026-09-24T12:51:31.366768+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -18199,7 +18199,7 @@
       "name": "Skórzany pasek męski w jasnobrązowym kolorze z automatyczną, srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31258-Skorzany-pasek-meski-w-jasnobrazowym-kolorze-z-automatyczna-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31255": {
       "name": "Pasek męski w jasnobrązowym kolorze wykonany ze skóry naturalnej z automatyczną klamrą - Peterson",
@@ -18542,13 +18542,13 @@
       "name": "Brązowy, szeroki i skórzany pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29888-Brazowy-szeroki-i-skorzany-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29887": {
       "name": "Skórzany pasek męski w czarnym kolorze z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29887-Skorzany-pasek-meski-w-czarnym-kolorze-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29886": {
       "name": "Szeroki pasek męski ze skóry naturalnej w brązowym kolorze z klasyczną klamrą - Peterson",
@@ -19070,7 +19070,7 @@
       "name": "Męski pasek biznesowy z elegancką klamrą automatyczną - Peterson",
       "url": "https://cedardrop.com/product-pol-20095-Meski-pasek-biznesowy-z-elegancka-klamra-automatyczna-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "20094": {
       "name": "Męski pasek biznesowy z elegancką klamrą automatyczną - Peterson",
@@ -19166,7 +19166,7 @@
       "name": "Wąski pasek męski z polerowanej skóry naturalnej licowej - Rovicky",
       "url": "https://cedardrop.com/product-pol-13656-Waski-pasek-meski-z-polerowanej-skory-naturalnej-licowej-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "12374": {
       "name": "Błyszczący, szeroki pasek męski ze skóry naturalnej",
