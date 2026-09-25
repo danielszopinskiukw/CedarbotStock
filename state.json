@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-25T12:54:19.260296+00:00",
+  "last_checked": "2026-09-25T22:53:59.755963+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -25150,6 +25150,12 @@
       "name": "Duży, poziomy portfel damski ze skóry ekologicznej - 4U Cavaldi",
       "url": "https://cedardrop.com/product-pol-26692-Duzy-poziomy-portfel-damski-ze-skory-ekologicznej-4U-Cavaldi.html",
       "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "19929": {
+      "name": "Pojemna torba podróżna z uchwytem na walizkę — Peterson",
+      "url": "https://cedardrop.com/product-pol-19929-Pojemna-torba-podrozna-z-uchwytem-na-walizke-Peterson.html",
+      "category": "Walizki i torby podróżne",
       "in_stock": false
     }
   }
