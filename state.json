@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-24T22:55:35.602022+00:00",
+  "last_checked": "2026-09-25T12:54:19.260296+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -15062,8 +15062,7 @@
       "name": "Miejski plecak damski mały czarny ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-31361-Miejski-plecak-damski-maly-czarny-ze-skory-ekologicznej-Peterson.html",
       "category": "Plecaki",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "31711": {
       "name": "Plecak dla mamy wykonany z poliestru w beżowym kolorze, wyposażony w matę do przewijania i mocowanie do wózka - Peterson",
@@ -15147,8 +15146,7 @@
       "name": "Brązowy plecak damski z miejscem na laptopa, wykonany z poliestru i zamykany suwakiem - Peterson",
       "url": "https://cedardrop.com/product-pol-31501-Brazowy-plecak-damski-z-miejscem-na-laptopa-wykonany-z-poliestru-i-zamykany-suwakiem-Peterson.html",
       "category": "Plecaki",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "31500": {
       "name": "Plecak damski z miejscem na laptopa, wykonany z poliestru w czarnym kolorze - Peterson",
@@ -18132,7 +18130,7 @@
       "name": "Czarny pasek męski z klasyczną, czarną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-31415-Czarny-pasek-meski-z-klasyczna-czarna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31324": {
       "name": "Pasek męski w ciemnobrązowym kolorze wykonany ze skóry naturalnej, wyposażony w klamrę automatyczną - Peterson",
@@ -25145,6 +25143,12 @@
     "26475": {
       "name": "Portfel damski ze skóry naturalnej i ekologicznej o fakturze imitującej skórę węża - 4U Cavaldi",
       "url": "https://cedardrop.com/product-pol-26475-Portfel-damski-ze-skory-naturalnej-i-ekologicznej-o-fakturze-imitujacej-skore-weza-4U-Cavaldi.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "26692": {
+      "name": "Duży, poziomy portfel damski ze skóry ekologicznej - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-26692-Duzy-poziomy-portfel-damski-ze-skory-ekologicznej-4U-Cavaldi.html",
       "category": "Portfele damskie",
       "in_stock": false
     }
