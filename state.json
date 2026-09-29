@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-28T14:39:44.896481+00:00",
+  "last_checked": "2026-09-29T00:46:37.451147+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -25180,6 +25180,12 @@
       "name": "Plecak podróżny z funkcją torby, wykonany z poliestru w czarnym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-31313-Plecak-podrozny-z-funkcja-torby-wykonany-z-poliestru-w-czarnym-kolorze-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "31578": {
+      "name": "Plażowa, pojemna torba damska w kwiaty zamykana suwakiem, zawieszona na wygodnych uchwytach",
+      "url": "https://cedardrop.com/product-pol-31578-Plazowa-pojemna-torba-damska-w-kwiaty-zamykana-suwakiem-zawieszona-na-wygodnych-uchwytach.html",
+      "category": "Torebki damskie",
       "in_stock": false
     }
   }
