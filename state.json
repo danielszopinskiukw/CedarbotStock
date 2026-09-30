@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-29T23:43:45.500917+00:00",
+  "last_checked": "2026-09-30T13:49:48.727140+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -19025,7 +19025,7 @@
       "name": "Wygodny parciany pasek metalową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-21846-Wygodny-parciany-pasek-metalowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "21287": {
       "name": "Cavaldi klasyczny pasek damski skórzany czarny",
@@ -19163,7 +19163,7 @@
       "name": "Wąski pasek męski z polerowanej skóry naturalnej licowej - Rovicky",
       "url": "https://cedardrop.com/product-pol-13656-Waski-pasek-meski-z-polerowanej-skory-naturalnej-licowej-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "12374": {
       "name": "Błyszczący, szeroki pasek męski ze skóry naturalnej",
@@ -25216,6 +25216,24 @@
       "name": "Składana, czarna parasolka w eleganckim pokrowcu - Peterson",
       "url": "https://cedardrop.com/product-pol-29383-Skladana-czarna-parasolka-w-eleganckim-pokrowcu-Peterson.html",
       "category": "Akcesoria",
+      "in_stock": false
+    },
+    "31863": {
+      "name": "Uniwersalny, czarno-brązowy, dwustronny pasek męski ze skóry naturalnej w zestawie z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31863-Uniwersalny-czarno-brazowy-dwustronny-pasek-meski-ze-skory-naturalnej-w-zestawie-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": true
+    },
+    "31591": {
+      "name": "Modna shopperka damska z motywem w kwiaty, zawieszona na wygodnych uchwytach",
+      "url": "https://cedardrop.com/product-pol-31591-Modna-shopperka-damska-z-motywem-w-kwiaty-zawieszona-na-wygodnych-uchwytach.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30907": {
+      "name": "Skórzany pasek damski w czarnym kolorze ze złotą, klasyczną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-30907-Skorzany-pasek-damski-w-czarnym-kolorze-ze-zlota-klasyczna-klamra-Peterson.html",
+      "category": "Paski",
       "in_stock": false
     }
   }
