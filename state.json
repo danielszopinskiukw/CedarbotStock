@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-09-30T23:36:57.878573+00:00",
+  "last_checked": "2026-10-01T14:20:42.282918+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -2674,8 +2674,7 @@
       "name": "Duży, skórzany portfel męski bez zapięcia - Rovicky",
       "url": "https://cedardrop.com/product-pol-23517-Duzy-skorzany-portfel-meski-bez-zapiecia-Rovicky.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "23518": {
       "name": "Skórzany portfel męski w orientacji pionowej - Rovicky",
@@ -18953,7 +18952,7 @@
       "name": "Skórzany, szeroki pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-23534-Skorzany-szeroki-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "23405": {
       "name": "Pasek parciany z klamrą QR - Peterson",
@@ -25247,6 +25246,72 @@
       "url": "https://cedardrop.com/product-pol-31864-Czarno-brazowy-dwustronny-pasek-meski-ze-skory-naturalnej-w-zestawie-z-wymiennymi-klamrami-Peterson.html",
       "category": "Zestawy prezentowe",
       "in_stock": true
+    },
+    "23520": {
+      "name": "Klasyczny, skórzany portfel męski na zatrzask - Rovicky",
+      "url": "https://cedardrop.com/product-pol-23520-Klasyczny-skorzany-portfel-meski-na-zatrzask-Rovicky.html",
+      "category": "Portfele męskie",
+      "in_stock": false
+    },
+    "30835": {
+      "name": "Mały, skórzany portfel damski w czerwonym kolorze zamykany na zatrzask i bigiel - Peterson",
+      "url": "https://cedardrop.com/product-pol-30835-Maly-skorzany-portfel-damski-w-czerwonym-kolorze-zamykany-na-zatrzask-i-bigiel-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30826": {
+      "name": "Czerwony portfel damski z lakierowanej skóry naturalnej z ozdobnym tłoczeniem - Peterson",
+      "url": "https://cedardrop.com/product-pol-30826-Czerwony-portfel-damski-z-lakierowanej-skory-naturalnej-z-ozdobnym-tloczeniem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30822": {
+      "name": "Lakierowany, duży portfel-piórnik damski ze skóry naturalnej w czerwonym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-30822-Lakierowany-duzy-portfel-piornik-damski-ze-skory-naturalnej-w-czerwonym-kolorze-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30824": {
+      "name": "Duży portfel damski ze skóry naturalnej w czerwonym kolorze z ozdobnym tłoczeniem - Peterson",
+      "url": "https://cedardrop.com/product-pol-30824-Duzy-portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-z-ozdobnym-tloczeniem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30820": {
+      "name": "Mały portfel damski ze skóry naturalnej w czerwonym kolorze z tłoczonym wzorem w motylki - Peterson",
+      "url": "https://cedardrop.com/product-pol-30820-Maly-portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-z-tloczonym-wzorem-w-motylki-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30819": {
+      "name": "Lakierowany portfel damski ze skóry naturalnej w czerwonym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-30819-Lakierowany-portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30817": {
+      "name": "Czerwony portfel damski ze skóry naturalnej wyposażony w system RFID - Peterson",
+      "url": "https://cedardrop.com/product-pol-30817-Czerwony-portfel-damski-ze-skory-naturalnej-wyposazony-w-system-RFID-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30816": {
+      "name": "Portfel damski ze skóry naturalnej w czerwonym kolorze, zamykany biglem i zatrzaskiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-30816-Portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-zamykany-biglem-i-zatrzaskiem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30815": {
+      "name": "Elegancki portfel damski ze skóry naturalnej w czerwonym kolorze, zamykany zatrzaskiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-30815-Elegancki-portfel-damski-ze-skory-naturalnej-w-czerwonym-kolorze-zamykany-zatrzaskiem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31845": {
+      "name": "Jednokomorowy plecak damski z poliestru w burgundowym kolorze, wyposażony w port USB - Peterson",
+      "url": "https://cedardrop.com/product-pol-31845-Jednokomorowy-plecak-damski-z-poliestru-w-burgundowym-kolorze-wyposazony-w-port-USB-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
     }
   }
 }
