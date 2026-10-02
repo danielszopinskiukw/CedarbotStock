@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-02T13:50:33.347042+00:00",
+  "last_checked": "2026-10-02T23:39:00.818338+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -25370,6 +25370,18 @@
       "name": "Pojemna torba damska zprzegrodą na laptopa wykonana z poliestru w granatowym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-30542-Pojemna-torba-damska-zprzegroda-na-laptopa-wykonana-z-poliestru-w-granatowym-kolorze-Peterson.html",
       "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "20732": {
+      "name": "Czarny, parciany pasek męski - Peterson",
+      "url": "https://cedardrop.com/product-pol-20732-Czarny-parciany-pasek-meski-Peterson.html",
+      "category": "Paski",
+      "in_stock": false
+    },
+    "13653": {
+      "name": "Pasek męski ze skóry naturalnej licowej z tłoczonym wzorem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-13653-Pasek-meski-ze-skory-naturalnej-licowej-z-tloczonym-wzorem-Rovicky.html",
+      "category": "Paski",
       "in_stock": false
     }
   }
