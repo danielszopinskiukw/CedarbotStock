@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-04T22:51:18.058708+00:00",
+  "last_checked": "2026-10-05T15:12:50.210059+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -14519,8 +14519,7 @@
       "name": "Listonoszka męska ze skóry naturalnej - Always Wild",
       "url": "https://cedardrop.com/product-pol-27866-Listonoszka-meska-ze-skory-naturalnej-Always-Wild.html",
       "category": "Torby i torebki męskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "27871": {
       "name": "Skórzana torba męska z długim paskiem na ramię - Always Wild",
@@ -19162,7 +19161,7 @@
       "name": "Wąski pasek męski z polerowanej skóry naturalnej licowej - Rovicky",
       "url": "https://cedardrop.com/product-pol-13656-Waski-pasek-meski-z-polerowanej-skory-naturalnej-licowej-Rovicky.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "12374": {
       "name": "Błyszczący, szeroki pasek męski ze skóry naturalnej",
@@ -24506,7 +24505,7 @@
       "name": "Brązowy pasek męski z automatyczną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-30645-Brazowy-pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31546": {
       "name": "Czerwony portfel damski z lakierowanej skóry naturalnej zamykany zatrzaskiem i biglem - Peterson",
@@ -25381,6 +25380,48 @@
     "13653": {
       "name": "Pasek męski ze skóry naturalnej licowej z tłoczonym wzorem - Rovicky",
       "url": "https://cedardrop.com/product-pol-13653-Pasek-meski-ze-skory-naturalnej-licowej-z-tloczonym-wzorem-Rovicky.html",
+      "category": "Paski",
+      "in_stock": false
+    },
+    "27533": {
+      "name": "Skórzana listonoszka męska na ramię - Always Wild",
+      "url": "https://cedardrop.com/product-pol-27533-Skorzana-listonoszka-meska-na-ramie-Always-Wild.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "22382": {
+      "name": "Męska listonoszka ze skóry naturalnej - Always Wild",
+      "url": "https://cedardrop.com/product-pol-22382-Meska-listonoszka-ze-skory-naturalnej-Always-Wild.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "20383": {
+      "name": "Skórzana torba męska z kieszeniami - Always Wild",
+      "url": "https://cedardrop.com/product-pol-20383-Skorzana-torba-meska-z-kieszeniami-Always-Wild.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30915": {
+      "name": "Elegancki pasek męski ze skóry naturalnej w czarnym kolorze ze srebrną, klasyczną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-30915-Elegancki-pasek-meski-ze-skory-naturalnej-w-czarnym-kolorze-ze-srebrna-klasyczna-klamra-Peterson.html",
+      "category": "Paski",
+      "in_stock": false
+    },
+    "27063": {
+      "name": "Uniwersalny pasek parciany - Loren",
+      "url": "https://cedardrop.com/product-pol-27063-Uniwersalny-pasek-parciany-Loren.html",
+      "category": "Paski",
+      "in_stock": false
+    },
+    "16033": {
+      "name": "Męski pasek skórzany z metalową klamrą - Rovicky",
+      "url": "https://cedardrop.com/product-pol-16033-Meski-pasek-skorzany-z-metalowa-klamra-Rovicky.html",
+      "category": "Paski",
+      "in_stock": false
+    },
+    "189": {
+      "name": "Elegancki, skórzany pasek męski z efektownym motywem plecionki - Rovicky",
+      "url": "https://cedardrop.com/product-pol-189-Elegancki-skorzany-pasek-meski-z-efektownym-motywem-plecionki-Rovicky.html",
       "category": "Paski",
       "in_stock": false
     }
