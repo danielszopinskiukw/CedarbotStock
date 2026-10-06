@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-06T01:36:17.478211+00:00",
+  "last_checked": "2026-10-06T14:25:28.071557+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -13952,10 +13952,10 @@
       "in_stock": false
     },
     "30040": {
-      "name": "30040",
+      "name": "Skórzana, czarna listonoszka męska na złoty suwak w zestawie z saszetką - Peterson",
       "url": "https://cedardrop.com/product-pol-30040-Skorzana-czarna-listonoszka-meska-na-zloty-suwak-w-zestawie-z-saszetka-Peterson.html",
       "category": "Torby i torebki męskie",
-      "in_stock": null
+      "in_stock": false
     },
     "30042": {
       "name": "Skórzana torebka męska w czarnym kolorze zawieszona na pasku. W zestawie saszetka na klucze - Peterson",
@@ -13976,10 +13976,10 @@
       "in_stock": false
     },
     "29999": {
-      "name": "29999",
+      "name": "Elegancka listonoszka męska ze skóry naturalnej w czarnym kolorze zamykana suwakiem - Peterson",
       "url": "https://cedardrop.com/product-pol-29999-Elegancka-listonoszka-meska-ze-skory-naturalnej-w-czarnym-kolorze-zamykana-suwakiem-Peterson.html",
       "category": "Torby i torebki męskie",
-      "in_stock": null
+      "in_stock": false
     },
     "29998": {
       "name": "Elegancka, skórzana listonoszka męska w brązowym kolorze zamykana suwakiem - Peterson",
@@ -18398,7 +18398,7 @@
       "name": "Pasek damski ze skóry ekologicznej w pięknym, burgundowym kolorze ze złotą klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30394-Pasek-damski-ze-skory-ekologicznej-w-pieknym-burgundowym-kolorze-ze-zlota-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30393": {
       "name": "Beżowy, wąski pasek damski ze skóry ekologicznej ze złotą klamrą - Peterson",
@@ -19083,7 +19083,7 @@
       "name": "Skórzany pasek męski z klasyczną klamrą - Pierre Cardin",
       "url": "https://cedardrop.com/product-pol-18761-Skorzany-pasek-meski-z-klasyczna-klamra-Pierre-Cardin.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "18431": {
       "name": "Szeroki pasek męski ze skóry ekologicznej - Cavaldi",
@@ -24661,7 +24661,7 @@
       "name": "Skórzany, szeroki pasek męski w czarnym kolorze z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29885-Skorzany-szeroki-pasek-meski-w-czarnym-kolorze-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31138": {
       "name": "Skórzane, patchworkowe etui na klucze",
@@ -25423,6 +25423,18 @@
       "name": "Elegancki, skórzany pasek męski z efektownym motywem plecionki - Rovicky",
       "url": "https://cedardrop.com/product-pol-189-Elegancki-skorzany-pasek-meski-z-efektownym-motywem-plecionki-Rovicky.html",
       "category": "Paski",
+      "in_stock": false
+    },
+    "29135": {
+      "name": "Miejska saszetka damska z poliestru zamykana suwakiem, pokryta roślinnym wzorem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-29135-Miejska-saszetka-damska-z-poliestru-zamykana-suwakiem-pokryta-roslinnym-wzorem-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29132": {
+      "name": "Nerka damska z poliestru pokryta roślinnym wzorem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-29132-Nerka-damska-z-poliestru-pokryta-roslinnym-wzorem-Rovicky.html",
+      "category": "Torebki damskie",
       "in_stock": false
     }
   }
