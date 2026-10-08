@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-07T14:20:27.729322+00:00",
+  "last_checked": "2026-10-08T00:16:02.659816+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -6728,7 +6728,7 @@
       "name": "Portfel damski w kwiaty wykonany ze skóry naturalnej i ekologicznej, zamykany zatrzaskiem - Peterson",
       "url": "https://cedardrop.com/product-pol-29786-Portfel-damski-w-kwiaty-wykonany-ze-skory-naturalnej-i-ekologicznej-zamykany-zatrzaskiem-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": true
     },
     "29914": {
       "name": "Beżowy portfel damski ze skóry ekologicznej zamykany na zatrzask - Peterson",
@@ -18170,7 +18170,7 @@
       "name": "Skórzany, szeroki pasek męski w jasnobrązowym kolorze z klasyczną, podwójną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31314-Skorzany-szeroki-pasek-meski-w-jasnobrazowym-kolorze-z-klasyczna-podwojna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31276": {
       "name": "Skórzany pasek męski w ciemnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
@@ -25471,6 +25471,12 @@
       "name": "Szkolny tornister z poliestru pokryty wzorem w piłkę nożną - Peterson",
       "url": "https://cedardrop.com/product-pol-29855-Szkolny-tornister-z-poliestru-pokryty-wzorem-w-pilke-nozna-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "29908": {
+      "name": "Szkolny piórnik  z poliestru zapinany suwakami, pokryty gamingowym wzorem - Peterson",
+      "url": "https://cedardrop.com/product-pol-29908-Szkolny-piornik-z-poliestru-zapinany-suwakami-pokryty-gamingowym-wzorem-Peterson.html",
+      "category": "Akcesoria",
       "in_stock": false
     }
   }
