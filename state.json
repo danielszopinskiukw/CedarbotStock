@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-11T23:13:47.068188+00:00",
+  "last_checked": "2026-10-12T16:04:22.575420+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -17972,7 +17972,7 @@
       "name": "Dwustronny pasek męski w czarnym i ciemnobrązowym kolorze z obrotową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31312-Dwustronny-pasek-meski-w-czarnym-i-ciemnobrazowym-kolorze-z-obrotowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31628": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -18050,7 +18050,7 @@
       "name": "Uniwersalny pasek męski z automatyczną klamrą wykonany ze skóry naturalnej w czarnym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-31533-Uniwersalny-pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-w-czarnym-kolorze-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31624": {
       "name": "Skórzany pasek męski w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -18128,7 +18128,7 @@
       "name": "Czarny pasek męski z klasyczną, czarną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-31415-Czarny-pasek-meski-z-klasyczna-czarna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31324": {
       "name": "Pasek męski w ciemnobrązowym kolorze wykonany ze skóry naturalnej, wyposażony w klamrę automatyczną - Peterson",
@@ -18537,7 +18537,7 @@
       "name": "Brązowy, szeroki i skórzany pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29888-Brazowy-szeroki-i-skorzany-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29887": {
       "name": "Skórzany pasek męski w czarnym kolorze z klasyczną klamrą - Peterson",
@@ -18987,7 +18987,7 @@
       "name": "Szeroki, skórzany pasek męski z metalową klamrą - Rovicky",
       "url": "https://cedardrop.com/product-pol-23020-Szeroki-skorzany-pasek-meski-z-metalowa-klamra-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "22607": {
       "name": "Dwukolorowy pasek parciany - Peterson",
@@ -19294,7 +19294,7 @@
       "name": "Klasyczny pasek damski z gładkiej eko skóry - Cavaldi",
       "url": "https://cedardrop.com/product-pol-9071-Klasyczny-pasek-damski-z-gladkiej-eko-skory-Cavaldi.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "9053": {
       "name": "Wąski pasek damski ze skóry ekologicznej  - Cavaldi",
@@ -24505,7 +24505,7 @@
       "name": "Brązowy pasek męski z automatyczną klamrą wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-30645-Brazowy-pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31546": {
       "name": "Czerwony portfel damski z lakierowanej skóry naturalnej zamykany zatrzaskiem i biglem - Peterson",
@@ -24661,7 +24661,7 @@
       "name": "Skórzany, szeroki pasek męski w czarnym kolorze z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29885-Skorzany-szeroki-pasek-meski-w-czarnym-kolorze-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31138": {
       "name": "Skórzane, patchworkowe etui na klucze",
@@ -25531,6 +25531,54 @@
       "name": "Czarny, turystyczny plecak zawieszony na regulowanych szelkach - Peterson",
       "url": "https://cedardrop.com/product-pol-29876-Czarny-turystyczny-plecak-zawieszony-na-regulowanych-szelkach-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "31283": {
+      "name": "Czerwony portfel damski ze skóry ekologicznej z tłoczonym wzorem skóry krokodyla - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-31283-Czerwony-portfel-damski-ze-skory-ekologicznej-z-tloczonym-wzorem-skory-krokodyla-4U-Cavaldi.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30511": {
+      "name": "Duży, brązowy portfel damski ze skóry ekologicznej - 4U Cavaldi",
+      "url": "https://cedardrop.com/product-pol-30511-Duzy-brazowy-portfel-damski-ze-skory-ekologicznej-4U-Cavaldi.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "29111": {
+      "name": "Elegancka, czarna kopertówka damska z tkaniny syntetycznej z marszczeniami - Rovicky",
+      "url": "https://cedardrop.com/product-pol-29111-Elegancka-czarna-kopertowka-damska-z-tkaniny-syntetycznej-z-marszczeniami-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "28969": {
+      "name": "Czarna, miejska listonoszka męska ze skóry naturalnej z kieszonką na telefon - Peterson",
+      "url": "https://cedardrop.com/product-pol-28969-Czarna-miejska-listonoszka-meska-ze-skory-naturalnej-z-kieszonka-na-telefon-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "28967": {
+      "name": "Czarna listonoszka męska ze skóry naturalnej zawieszona na regulowanym pasku - Peterson",
+      "url": "https://cedardrop.com/product-pol-28967-Czarna-listonoszka-meska-ze-skory-naturalnej-zawieszona-na-regulowanym-pasku-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "24208": {
+      "name": "Męska torba na laptopa ze skóry naturalnej - Peterson",
+      "url": "https://cedardrop.com/product-pol-24208-Meska-torba-na-laptopa-ze-skory-naturalnej-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "577": {
+      "name": "Srebrny naszyjnik z zawieszką w kształcie ażurowego kwiatka - Lorenti",
+      "url": "https://cedardrop.com/product-pol-577-Srebrny-naszyjnik-z-zawieszka-w-ksztalcie-azurowego-kwiatka-Lorenti.html",
+      "category": "Akcesoria",
+      "in_stock": false
+    },
+    "574": {
+      "name": "Naszyjnik damski w srebrnym kolorze z zawieszką w kształcie ananasa -  Lorenti",
+      "url": "https://cedardrop.com/product-pol-574-Naszyjnik-damski-w-srebrnym-kolorze-z-zawieszka-w-ksztalcie-ananasa-Lorenti.html",
+      "category": "Akcesoria",
       "in_stock": false
     }
   }
