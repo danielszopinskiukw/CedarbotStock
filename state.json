@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-13T01:49:18.191975+00:00",
+  "last_checked": "2026-10-13T15:33:13.849595+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -413,7 +413,7 @@
       "name": "Zestaw prezentowy: dwustronny pasek skórzany w jasnobrązowym i czarnym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-31148-Zestaw-prezentowy-dwustronny-pasek-skorzany-w-jasnobrazowym-i-czarnym-kolorze-Peterson.html",
       "category": "Zestawy prezentowe",
-      "in_stock": true
+      "in_stock": false
     },
     "31142": {
       "name": "Zestaw prezentowy: dwustronny pasek skórzany w brązowym i czarnym kolorze - Peterson",
@@ -684,8 +684,7 @@
       "name": "Skórzana torebka damska w zestawie z portfelem - Peterson",
       "url": "https://cedardrop.com/product-pol-24339-Skorzana-torebka-damska-w-zestawie-z-portfelem-Peterson.html",
       "category": "Zestawy prezentowe",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "24322": {
       "name": "Duży, pionowy portfel damski ze skóry naturalnej na suwak i magnes - Peterson",
@@ -12373,8 +12372,7 @@
       "name": "Mini torebka-portfel ze skóry naturalnej - 4U Cavaldi",
       "url": "https://cedardrop.com/product-pol-26872-Mini-torebka-portfel-ze-skory-naturalnej-4U-Cavaldi.html",
       "category": "Torebki damskie",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "26695": {
       "name": "Listonoszka w kształcie podkówki ze skóry ekologicznej - Peterson",
@@ -17972,7 +17970,7 @@
       "name": "Dwustronny pasek męski w czarnym i ciemnobrązowym kolorze z obrotową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31312-Dwustronny-pasek-meski-w-czarnym-i-ciemnobrazowym-kolorze-z-obrotowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31628": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -18050,7 +18048,7 @@
       "name": "Uniwersalny pasek męski z automatyczną klamrą wykonany ze skóry naturalnej w czarnym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-31533-Uniwersalny-pasek-meski-z-automatyczna-klamra-wykonany-ze-skory-naturalnej-w-czarnym-kolorze-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31624": {
       "name": "Skórzany pasek męski w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -18398,7 +18396,7 @@
       "name": "Pasek damski ze skóry ekologicznej w pięknym, burgundowym kolorze ze złotą klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30394-Pasek-damski-ze-skory-ekologicznej-w-pieknym-burgundowym-kolorze-ze-zlota-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30393": {
       "name": "Beżowy, wąski pasek damski ze skóry ekologicznej ze złotą klamrą - Peterson",
@@ -19402,7 +19400,7 @@
       "name": "Gładki pasek męski z klasyczną klamrą, skóra naturalna - Rovicky",
       "url": "https://cedardrop.com/product-pol-1894-Gladki-pasek-meski-z-klasyczna-klamra-skora-naturalna-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "1890": {
       "name": "Klasyczny, gładki pasek męski z tradycyjną srebrną klamrą -  Rovicky",
@@ -24661,7 +24659,7 @@
       "name": "Skórzany, szeroki pasek męski w czarnym kolorze z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29885-Skorzany-szeroki-pasek-meski-w-czarnym-kolorze-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31138": {
       "name": "Skórzane, patchworkowe etui na klucze",
@@ -25578,6 +25576,168 @@
     "574": {
       "name": "Naszyjnik damski w srebrnym kolorze z zawieszką w kształcie ananasa -  Lorenti",
       "url": "https://cedardrop.com/product-pol-574-Naszyjnik-damski-w-srebrnym-kolorze-z-zawieszka-w-ksztalcie-ananasa-Lorenti.html",
+      "category": "Akcesoria",
+      "in_stock": false
+    },
+    "31883": {
+      "name": "Dwustronny pasek męski ze skóry naturalnej w czarnym i brązowym kolorze w zestawie z dwiema klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31883-Dwustronny-pasek-meski-ze-skory-naturalnej-w-czarnym-i-brazowym-kolorze-w-zestawie-z-dwiema-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31882": {
+      "name": "Elegancki, dwustronny pasek męski ze skóry naturalnej w czarnym i brązowym kolorze w zestawie z dwiema klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31882-Elegancki-dwustronny-pasek-meski-ze-skory-naturalnej-w-czarnym-i-brazowym-kolorze-w-zestawie-z-dwiema-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31881": {
+      "name": "Elegancki, dwustronny pasek męski ze skóry naturalnej w czarnym i brązowym kolorze w zestawie z dwiema klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31881-Elegancki-dwustronny-pasek-meski-ze-skory-naturalnej-w-czarnym-i-brazowym-kolorze-w-zestawie-z-dwiema-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31880": {
+      "name": "Skórzany, elegancki i dwustronny pasek męski w czarnym i brązowym kolorze w zestawie z dwiema klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31880-Skorzany-elegancki-i-dwustronny-pasek-meski-w-czarnym-i-brazowym-kolorze-w-zestawie-z-dwiema-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31879": {
+      "name": "Skórzany, dwustronny pasek męski w czarnym i brązowym kolorze w zestawie z dwiema klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31879-Skorzany-dwustronny-pasek-meski-w-czarnym-i-brazowym-kolorze-w-zestawie-z-dwiema-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31878": {
+      "name": "Dwustronny, skórzany pasek męski w czarnym i brązowym kolorze w zestawie z dwiema klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31878-Dwustronny-skorzany-pasek-meski-w-czarnym-i-brazowym-kolorze-w-zestawie-z-dwiema-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31877": {
+      "name": "Dwustronny, skórzany pasek męski w czarnym i brązowym kolorze w zestawie z dwiema klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31877-Dwustronny-skorzany-pasek-meski-w-czarnym-i-brazowym-kolorze-w-zestawie-z-dwiema-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31876": {
+      "name": "Zestaw prezentowy: czarny, pionowy portfel skórzany na zatrzask i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31876-Zestaw-prezentowy-czarny-pionowy-portfel-skorzany-na-zatrzask-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31875": {
+      "name": "Zestaw prezentowy: czarny, pionowy portfel skórzany i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31875-Zestaw-prezentowy-czarny-pionowy-portfel-skorzany-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31874": {
+      "name": "Zestaw prezentowy: poziomy portfel skórzany w czarnym kolorze i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31874-Zestaw-prezentowy-poziomy-portfel-skorzany-w-czarnym-kolorze-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31873": {
+      "name": "Zestaw prezentowy: czarny, praktyczny portfel skórzany i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31873-Zestaw-prezentowy-czarny-praktyczny-portfel-skorzany-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31872": {
+      "name": "Zestaw prezentowy: czarny, pionowy portfel skórzany i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31872-Zestaw-prezentowy-czarny-pionowy-portfel-skorzany-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31870": {
+      "name": "Zestaw prezentowy: czarny, pionowy portfel skórzany i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31870-Zestaw-prezentowy-czarny-pionowy-portfel-skorzany-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31869": {
+      "name": "Zestaw prezentowy: męski, czarny portfel skórzany i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31869-Zestaw-prezentowy-meski-czarny-portfel-skorzany-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31868": {
+      "name": "Zestaw prezentowy: poziomy portfel skórzany w czarnym kolorze i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31868-Zestaw-prezentowy-poziomy-portfel-skorzany-w-czarnym-kolorze-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31867": {
+      "name": "Zestaw prezentowy: czarny, poziomy portfel skórzany i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31867-Zestaw-prezentowy-czarny-poziomy-portfel-skorzany-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "31866": {
+      "name": "Zestaw prezentowy: męski, czarny portfel skórzany i dwustronny pasek z wymiennymi klamrami - Peterson",
+      "url": "https://cedardrop.com/product-pol-31866-Zestaw-prezentowy-meski-czarny-portfel-skorzany-i-dwustronny-pasek-z-wymiennymi-klamrami-Peterson.html",
+      "category": "Zestawy prezentowe",
+      "in_stock": false
+    },
+    "29061": {
+      "name": "Duży, wielokolorowy portfel damski ze skóry naturalnej na zatrzask i bigiel - Peterson",
+      "url": "https://cedardrop.com/product-pol-29061-Duzy-wielokolorowy-portfel-damski-ze-skory-naturalnej-na-zatrzask-i-bigiel-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "26612": {
+      "name": "Mały portfel damski ze skóry ekologicznej zamykany zatrzaskiem i biglem - Milano Design",
+      "url": "https://cedardrop.com/product-pol-26612-Maly-portfel-damski-ze-skory-ekologicznej-zamykany-zatrzaskiem-i-biglem-Milano-Design.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30918": {
+      "name": "Czarna, skórzana saszetka damska zamykana na suwak - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30918-Czarna-skorzana-saszetka-damska-zamykana-na-suwak-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "27389": {
+      "name": "Listonoszka damska ze skóry naturalnej - Rovicky",
+      "url": "https://cedardrop.com/product-pol-27389-Listonoszka-damska-ze-skory-naturalnej-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "2426": {
+      "name": "Kwadratowy shopper bag ściągany troczkiem, skóra naturalna  -  Rovicky",
+      "url": "https://cedardrop.com/product-pol-2426-Kwadratowy-shopper-bag-sciagany-troczkiem-skora-naturalna-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "30848": {
+      "name": "Listonoszka męska ze skóry naturalnej w czarnym kolorze, jednokomorowa - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30848-Listonoszka-meska-ze-skory-naturalnej-w-czarnym-kolorze-jednokomorowa-Rovicky.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "30847": {
+      "name": "Mała, skórzana listonoszka męska w czarnym kolorze zamykana suwakiem - Rovicky",
+      "url": "https://cedardrop.com/product-pol-30847-Mala-skorzana-listonoszka-meska-w-czarnym-kolorze-zamykana-suwakiem-Rovicky.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "27510": {
+      "name": "Pojemna, poręczna torba męska z poliestru - Rovicky",
+      "url": "https://cedardrop.com/product-pol-27510-Pojemna-poreczna-torba-meska-z-poliestru-Rovicky.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "24640": {
+      "name": "Torba męska z wieloma kieszonkami - Peterson",
+      "url": "https://cedardrop.com/product-pol-24640-Torba-meska-z-wieloma-kieszonkami-Peterson.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "21485": {
+      "name": "Klasyczny wizytownik ze skóry ekologicznej - Peterson",
+      "url": "https://cedardrop.com/product-pol-21485-Klasyczny-wizytownik-ze-skory-ekologicznej-Peterson.html",
       "category": "Akcesoria",
       "in_stock": false
     }
