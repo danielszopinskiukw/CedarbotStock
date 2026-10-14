@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-13T15:33:13.849595+00:00",
+  "last_checked": "2026-10-14T00:08:10.649861+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -17820,7 +17820,7 @@
       "name": "Duży pakowny plecak miejsce na laptopa do 15 cali - Rovicky",
       "url": "https://cedardrop.com/product-pol-5911-Duzy-pakowny-plecak-miejsce-na-laptopa-do-15-cali-Rovicky.html",
       "category": "Plecaki",
-      "in_stock": false
+      "in_stock": true
     },
     "30412": {
       "name": "Męska torba na laptopa z wytrzymałej cordury w czarnym kolorze, zamykana suwakiem - Peterson",
@@ -25739,6 +25739,12 @@
       "name": "Klasyczny wizytownik ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-21485-Klasyczny-wizytownik-ze-skory-ekologicznej-Peterson.html",
       "category": "Akcesoria",
+      "in_stock": false
+    },
+    "26118": {
+      "name": "Miejska, pikowana nerka damska ze skóry ekologicznej - Rovicky",
+      "url": "https://cedardrop.com/product-pol-26118-Miejska-pikowana-nerka-damska-ze-skory-ekologicznej-Rovicky.html",
+      "category": "Torebki damskie",
       "in_stock": false
     }
   }
