@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-14T12:50:14.780823+00:00",
+  "last_checked": "2026-10-14T22:57:31.908929+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -25744,6 +25744,12 @@
     "26118": {
       "name": "Miejska, pikowana nerka damska ze skóry ekologicznej - Rovicky",
       "url": "https://cedardrop.com/product-pol-26118-Miejska-pikowana-nerka-damska-ze-skory-ekologicznej-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "27861": {
+      "name": "Kopertówka damska ze skóry ekologicznej - Rovicky",
+      "url": "https://cedardrop.com/product-pol-27861-Kopertowka-damska-ze-skory-ekologicznej-Rovicky.html",
       "category": "Torebki damskie",
       "in_stock": false
     }
