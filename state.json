@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-14T22:57:31.908929+00:00",
+  "last_checked": "2026-10-15T12:27:40.007514+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -17970,7 +17970,7 @@
       "name": "Dwustronny pasek męski w czarnym i ciemnobrązowym kolorze z obrotową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31312-Dwustronny-pasek-meski-w-czarnym-i-ciemnobrazowym-kolorze-z-obrotowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "31628": {
       "name": "Elegancki pasek męski ze skóry naturalnej w brązowym i czarnym kolorze w zestawie z dwiema, wymiennymi klamrami - Peterson",
@@ -25751,6 +25751,36 @@
       "name": "Kopertówka damska ze skóry ekologicznej - Rovicky",
       "url": "https://cedardrop.com/product-pol-27861-Kopertowka-damska-ze-skory-ekologicznej-Rovicky.html",
       "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "23700": {
+      "name": "Listonoszka męska z tkaniny i skóry naturalnej - Always Wild",
+      "url": "https://cedardrop.com/product-pol-23700-Listonoszka-meska-z-tkaniny-i-skory-naturalnej-Always-Wild.html",
+      "category": "Torby i torebki męskie",
+      "in_stock": false
+    },
+    "29839": {
+      "name": "Podróżny plecak z poliestru w czarnym kolorze, idealny na bagaż podręczny - Peterson",
+      "url": "https://cedardrop.com/product-pol-29839-Podrozny-plecak-z-poliestru-w-czarnym-kolorze-idealny-na-bagaz-podreczny-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "29582": {
+      "name": "Beżowy plecak z miejscem na laptopa, idealny na bagaż podręczny do samolotu - Peterson",
+      "url": "https://cedardrop.com/product-pol-29582-Bezowy-plecak-z-miejscem-na-laptopa-idealny-na-bagaz-podreczny-do-samolotu-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "28877": {
+      "name": "Męska, czarna kosmetyczka podróżna z poliestru zamykana suwakiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-28877-Meska-czarna-kosmetyczka-podrozna-z-poliestru-zamykana-suwakiem-Peterson.html",
+      "category": "Walizki i torby podróżne",
+      "in_stock": false
+    },
+    "28876": {
+      "name": "Kosmetyczka podróżna z poliestru w czarnym kolorze z wygodnym uchwytem - Peterson",
+      "url": "https://cedardrop.com/product-pol-28876-Kosmetyczka-podrozna-z-poliestru-w-czarnym-kolorze-z-wygodnym-uchwytem-Peterson.html",
+      "category": "Walizki i torby podróżne",
       "in_stock": false
     }
   }
