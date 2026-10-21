@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-21T12:46:25.287783+00:00",
+  "last_checked": "2026-10-21T22:55:42.253163+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -2310,8 +2310,7 @@
       "name": "Skórzany portfel męski z systemem RFID - Always Wild",
       "url": "https://cedardrop.com/product-pol-25888-Skorzany-portfel-meski-z-systemem-RFID-Always-Wild.html",
       "category": "Portfele męskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "25131": {
       "name": "Duży, skórzany portfel męski na zatrzask - Peterson",
@@ -3880,8 +3879,7 @@
       "name": "Skórzany portfel męski bez zapięcia - Always Wild",
       "url": "https://cedardrop.com/product-pol-20268-Skorzany-portfel-meski-bez-zapiecia-Always-Wild.html",
       "category": "Portfele męskie",
-      "stock_label": "Produkt dostępny w bardzo dużej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "20265": {
       "name": "Skórzany portfel męski na zatrzask - Always Wild",
