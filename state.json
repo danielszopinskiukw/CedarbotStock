@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-23T22:40:29.086674+00:00",
+  "last_checked": "2026-10-24T11:48:42.548292+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -18148,7 +18148,7 @@
       "name": "Skórzany, dwustronny pasek męski w czarnym i brązowym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-31311-Skorzany-dwustronny-pasek-meski-w-czarnym-i-brazowym-kolorze-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31295": {
       "name": "Pasek męski w ciemnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
@@ -18443,7 +18443,7 @@
       "name": "Wąski pasek damski ze skóry ekologicznej w jasnobrązowym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-30390-Waski-pasek-damski-ze-skory-ekologicznej-w-jasnobrazowym-kolorze-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30370": {
       "name": "Brązowy pasek męski ze skóry naturalnej z klasyczną, bezniklową klamrą - Peterson",
@@ -19491,10 +19491,10 @@
       "in_stock": false
     },
     "30999": {
-      "name": "Czarna kosmetyczka ze skóry ekologicznej zamykana suwakiem - Rovicky",
+      "name": "30999",
       "url": "https://cedardrop.com/product-pol-30999-Czarna-kosmetyczka-ze-skory-ekologicznej-zamykana-suwakiem-Rovicky.html",
       "category": "Walizki i torby podróżne",
-      "in_stock": false
+      "in_stock": null
     },
     "30998": {
       "name": "Beżowa kosmetyczka ze skóry ekologicznej, jednokomorowa i zamykana suwakiem - Rovicky",
@@ -26043,6 +26043,12 @@
       "name": "Skórzany, szeroki pasek męski - Rovicky",
       "url": "https://cedardrop.com/product-pol-25039-Skorzany-szeroki-pasek-meski-Rovicky.html",
       "category": "Paski",
+      "in_stock": false
+    },
+    "30228": {
+      "name": "Czarna walizka kabinowa z polipropylenu z wysuwaną, teleskopową rączką i obrotowymi kółkami - Peterson",
+      "url": "https://cedardrop.com/product-pol-30228-Czarna-walizka-kabinowa-z-polipropylenu-z-wysuwana-teleskopowa-raczka-i-obrotowymi-kolkami-Peterson.html",
+      "category": "Walizki i torby podróżne",
       "in_stock": false
     }
   }
