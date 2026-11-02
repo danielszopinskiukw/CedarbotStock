@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-01T23:23:27.865898+00:00",
+  "last_checked": "2026-11-02T16:19:18.110581+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -7097,8 +7097,7 @@
       "name": "Portfel damski ze skóry naturalnej pokryty kwiatowym wzorem - Peterson",
       "url": "https://cedardrop.com/product-pol-29073-Portfel-damski-ze-skory-naturalnej-pokryty-kwiatowym-wzorem-Peterson.html",
       "category": "Portfele damskie",
-      "stock_label": "Cena na telefon",
-      "in_stock": true
+      "in_stock": false
     },
     "29489": {
       "name": "Portfel damski ze skóry ekologicznej zamykany na zatrzask i suwak. Portfel w granatowym kolorze - Peterson",
@@ -18094,7 +18093,7 @@
       "name": "Skórzany, czarny pasek męski z automatyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31525-Skorzany-czarny-pasek-meski-z-automatyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31532": {
       "name": "Czarny, uniwersalny pasek męski z automatyczną klamrą wykonany ze skóry naturalnej - Peterson",
@@ -18352,7 +18351,7 @@
       "name": "Czarny, wąski pasek damski ze skóry ekologicznej ze złotą klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30402-Czarny-waski-pasek-damski-ze-skory-ekologicznej-ze-zlota-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30401": {
       "name": "Beżowy pasek damski ze skóry ekologicznej ze srebrną, klasyczną klamrą - Peterson",
@@ -18388,7 +18387,7 @@
       "name": "Czarny, wąski pasek damski ze skóry ekologicznej ze srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30395-Czarny-waski-pasek-damski-ze-skory-ekologicznej-ze-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30394": {
       "name": "Pasek damski ze skóry ekologicznej w pięknym, burgundowym kolorze ze złotą klamrą - Peterson",
@@ -18569,7 +18568,7 @@
       "name": "Skórzany, brązowy pasek męski z tradycyjną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29736-Skorzany-brazowy-pasek-meski-z-tradycyjna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29718": {
       "name": "Skórzany pasek męski w czarnym kolorze z możliwością samodzielnego skrócenia - Peterson",
@@ -23105,7 +23104,7 @@
       "name": "Pasek damski ze skóry ekologicznej w burgundowym kolorze ze srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30400-Pasek-damski-ze-skory-ekologicznej-w-burgundowym-kolorze-ze-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30398": {
       "name": "Uniwersalny pasek damski ze skóry ekologicznej w brązowym kolorze ze srebrną klamrą - Peterson",
@@ -26283,6 +26282,66 @@
       "name": "Wygodny parciany pasek metalową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-21847-Wygodny-parciany-pasek-metalowa-klamra-Peterson.html",
       "category": "Paski",
+      "in_stock": false
+    },
+    "29062": {
+      "name": "Duży, poziomy portfel damski ze skóry naturalnej na zatrzask i bigiel - Peterson",
+      "url": "https://cedardrop.com/product-pol-29062-Duzy-poziomy-portfel-damski-ze-skory-naturalnej-na-zatrzask-i-bigiel-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "25568": {
+      "name": "Pojemny, skórzany portfel damski z systemem RFID - Peterson",
+      "url": "https://cedardrop.com/product-pol-25568-Pojemny-skorzany-portfel-damski-z-systemem-RFID-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "23355": {
+      "name": "Elegancki portfel damski ze skóry naturalnej - Peterson",
+      "url": "https://cedardrop.com/product-pol-23355-Elegancki-portfel-damski-ze-skory-naturalnej-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "20641": {
+      "name": "Skórzany, średni portfel damski na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-20641-Skorzany-sredni-portfel-damski-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "28404": {
+      "name": "Mała torebka damska z szerokim paskiem na ramię - Rovicky",
+      "url": "https://cedardrop.com/product-pol-28404-Mala-torebka-damska-z-szerokim-paskiem-na-ramie-Rovicky.html",
+      "category": "Torebki damskie",
+      "in_stock": false
+    },
+    "29731": {
+      "name": "Różowy, stylowy plecak na laptopa z portem USB - Himawari",
+      "url": "https://cedardrop.com/product-pol-29731-Rozowy-stylowy-plecak-na-laptopa-z-portem-USB-Himawari.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "29276": {
+      "name": "Czarny, praktyczny plecak miejski zamykany suwakami zawieszony na regulowanych szelkach - Himawari",
+      "url": "https://cedardrop.com/product-pol-29276-Czarny-praktyczny-plecak-miejski-zamykany-suwakami-zawieszony-na-regulowanych-szelkach-Himawari.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "29273": {
+      "name": "Pojemny plecak miejski w turkusowo-pomarańczowym kolorze z przegrodą na laptopa - Himawari",
+      "url": "https://cedardrop.com/product-pol-29273-Pojemny-plecak-miejski-w-turkusowo-pomaranczowym-kolorze-z-przegroda-na-laptopa-Himawari.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "29249": {
+      "name": "Wielokolorowy, praktyczny plecak z miejscem na laptopa odszyty z poliestru - Himawari",
+      "url": "https://cedardrop.com/product-pol-29249-Wielokolorowy-praktyczny-plecak-z-miejscem-na-laptopa-odszyty-z-poliestru-Himawari.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31376": {
+      "name": "Saszetka damska na ramię listonoszka mała miejska beżowa Peterson",
+      "url": "https://cedardrop.com/product-pol-31376-Saszetka-damska-na-ramie-listonoszka-mala-miejska-bezowa-Peterson.html",
+      "category": "Akcesoria",
       "in_stock": false
     }
   }
