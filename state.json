@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-03T15:09:18.513691+00:00",
+  "last_checked": "2026-11-04T00:28:42.117508+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -18405,7 +18405,7 @@
       "name": "Wąski pasek damski ze skóry ekologicznej w granatowym kolorze ze złotą klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30391-Waski-pasek-damski-ze-skory-ekologicznej-w-granatowym-kolorze-ze-zlota-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "30388": {
       "name": "Brązowy, wąski pasek damski ze skóry ekologicznej - Peterson",
@@ -21258,7 +21258,7 @@
       "name": "Czarny, składany mini parasol podróżny - Peterson",
       "url": "https://cedardrop.com/product-pol-31076-Czarny-skladany-mini-parasol-podrozny-Peterson.html",
       "category": "Akcesoria",
-      "in_stock": false
+      "in_stock": true
     },
     "31020": {
       "name": "Niebieski, duży, elegancki i składany parasol w pokrowcu - Peterson",
@@ -26413,6 +26413,78 @@
     "31921": {
       "name": "Portfel damski w jasnobrązowym kolorze zamykany na zatrzask, wyposażony w system RFID - Peterson",
       "url": "https://cedardrop.com/product-pol-31921-Portfel-damski-w-jasnobrazowym-kolorze-zamykany-na-zatrzask-wyposazony-w-system-RFID-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31944": {
+      "name": "Skórzany portfel damski w czarnym kolorze zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-31944-Skorzany-portfel-damski-w-czarnym-kolorze-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31943": {
+      "name": "Skórzany, granatowy portfel damski zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-31943-Skorzany-granatowy-portfel-damski-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31942": {
+      "name": "Skórzany, jasnobrązowy portfel damski zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-31942-Skorzany-jasnobrazowy-portfel-damski-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31941": {
+      "name": "Czarny portfel damski wykonany ze skóry naturalnej, zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-31941-Czarny-portfel-damski-wykonany-ze-skory-naturalnej-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31940": {
+      "name": "Granatowy portfel damski wykonany ze skóry naturalnej, zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-31940-Granatowy-portfel-damski-wykonany-ze-skory-naturalnej-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31939": {
+      "name": "Jasnobrązowy portfel damski wykonany ze skóry naturalnej, zamykany na zatrzask - Peterson",
+      "url": "https://cedardrop.com/product-pol-31939-Jasnobrazowy-portfel-damski-wykonany-ze-skory-naturalnej-zamykany-na-zatrzask-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31938": {
+      "name": "Mały, czarny portfel damski ze skóry naturalnej - Peterson",
+      "url": "https://cedardrop.com/product-pol-31938-Maly-czarny-portfel-damski-ze-skory-naturalnej-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31937": {
+      "name": "Mały portfel damski ze skóry naturalnej w granatowym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31937-Maly-portfel-damski-ze-skory-naturalnej-w-granatowym-kolorze-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31936": {
+      "name": "Mały portfel damski ze skóry naturalnej w jasnobrązowym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31936-Maly-portfel-damski-ze-skory-naturalnej-w-jasnobrazowym-kolorze-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31935": {
+      "name": "Czarny portfel damski ze skóry naturalnej z systemem RFID - Peterson",
+      "url": "https://cedardrop.com/product-pol-31935-Czarny-portfel-damski-ze-skory-naturalnej-z-systemem-RFID-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31934": {
+      "name": "Mały, granatowy portfel damski ze skóry naturalnej z systemem RFID - Peterson",
+      "url": "https://cedardrop.com/product-pol-31934-Maly-granatowy-portfel-damski-ze-skory-naturalnej-z-systemem-RFID-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31933": {
+      "name": "Mały, jasnobrązowy portfel damski ze skóry naturalnej z systemem RFID - Peterson",
+      "url": "https://cedardrop.com/product-pol-31933-Maly-jasnobrazowy-portfel-damski-ze-skory-naturalnej-z-systemem-RFID-Peterson.html",
       "category": "Portfele damskie",
       "in_stock": false
     }
