@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-05T00:50:10.281432+00:00",
+  "last_checked": "2026-11-05T15:37:51.638974+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -431,7 +431,7 @@
       "name": "Zestaw prezentowy: dwustronny pasek skórzany w brązowym i czarnym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-31141-Zestaw-prezentowy-dwustronny-pasek-skorzany-w-brazowym-i-czarnym-kolorze-Peterson.html",
       "category": "Zestawy prezentowe",
-      "in_stock": true
+      "in_stock": false
     },
     "31143": {
       "name": "Zestaw prezentowy: dwustronny pasek skórzany w brązowym i czarnym kolorze - Peterson",
@@ -18015,7 +18015,7 @@
       "name": "Czarny, wąski pasek damski ze skóry ekologicznej - Peterson",
       "url": "https://cedardrop.com/product-pol-30389-Czarny-waski-pasek-damski-ze-skory-ekologicznej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31623": {
       "name": "Skórzany pasek męski w brązowym i czarnym kolorze w zestawie z dwiema klamrami - Peterson",
@@ -18321,7 +18321,7 @@
       "name": "Pasek damski ze skóry ekologicznej w granatowym kolorze z klasyczną, srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-31072-Pasek-damski-ze-skory-ekologicznej-w-granatowym-kolorze-z-klasyczna-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30771": {
       "name": "Elegancki pasek męski ze skóry ekologicznej w czarnym kolorze z tradycyjną klamrą - Peterson",
@@ -18387,7 +18387,7 @@
       "name": "Czarny, wąski pasek damski ze skóry ekologicznej ze srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30395-Czarny-waski-pasek-damski-ze-skory-ekologicznej-ze-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30394": {
       "name": "Pasek damski ze skóry ekologicznej w pięknym, burgundowym kolorze ze złotą klamrą - Peterson",
@@ -18556,7 +18556,7 @@
       "name": "Skórzany pasek męski w jasnobrązowym kolorze z tradycyjną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29737-Skorzany-pasek-meski-w-jasnobrazowym-kolorze-z-tradycyjna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29889": {
       "name": "Szeroki pasek męski wykonany ze skóry naturalnej w jasnobrązowym kolorze z klasyczną klamrą - Peterson",
@@ -18568,7 +18568,7 @@
       "name": "Skórzany, brązowy pasek męski z tradycyjną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29736-Skorzany-brazowy-pasek-meski-z-tradycyjna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29718": {
       "name": "Skórzany pasek męski w czarnym kolorze z możliwością samodzielnego skrócenia - Peterson",
@@ -18820,7 +18820,7 @@
       "name": "Skórzany pasek męski z klasyczną klamrą - Rovicky",
       "url": "https://cedardrop.com/product-pol-25906-Skorzany-pasek-meski-z-klasyczna-klamra-Rovicky.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "25656": {
       "name": "Skórzany, uniwersalny pasek męski z automatyczną klamrą - Rovicky",
@@ -19018,7 +19018,7 @@
       "name": "Wygodny parciany pasek metalową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-21846-Wygodny-parciany-pasek-metalowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "21287": {
       "name": "Cavaldi klasyczny pasek damski skórzany czarny",
@@ -23104,13 +23104,13 @@
       "name": "Pasek damski ze skóry ekologicznej w burgundowym kolorze ze srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30400-Pasek-damski-ze-skory-ekologicznej-w-burgundowym-kolorze-ze-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30398": {
       "name": "Uniwersalny pasek damski ze skóry ekologicznej w brązowym kolorze ze srebrną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30398-Uniwersalny-pasek-damski-ze-skory-ekologicznej-w-brazowym-kolorze-ze-srebrna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31353": {
       "name": "Torba podróżna duża na kółkach czarna z poliestru - Peterson",
@@ -26486,6 +26486,36 @@
       "name": "Mały, jasnobrązowy portfel damski ze skóry naturalnej z systemem RFID - Peterson",
       "url": "https://cedardrop.com/product-pol-31933-Maly-jasnobrazowy-portfel-damski-ze-skory-naturalnej-z-systemem-RFID-Peterson.html",
       "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "30033": {
+      "name": "Poziomy, czerwony portfel damski ze skóry naturalnej i ekologicznej zamykany zatrzaskiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-30033-Poziomy-czerwony-portfel-damski-ze-skory-naturalnej-i-ekologicznej-zamykany-zatrzaskiem-Peterson.html",
+      "category": "Portfele damskie",
+      "in_stock": false
+    },
+    "31948": {
+      "name": "Czarny plecak podróżny z poliestru wyposażony w kieszeń na laptopa i port USB, dwukomorowy - Peterson",
+      "url": "https://cedardrop.com/product-pol-31948-Czarny-plecak-podrozny-z-poliestru-wyposazony-w-kieszen-na-laptopa-i-port-USB-dwukomorowy-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31947": {
+      "name": "Czarny plecak podróżny z poliestru wyposażony w komorę na laptopa - Peterson",
+      "url": "https://cedardrop.com/product-pol-31947-Czarny-plecak-podrozny-z-poliestru-wyposazony-w-komore-na-laptopa-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31946": {
+      "name": "Pojemny plecak podróżny z poliestru w czarnym kolorze, zamykany suwakiem - Peterson",
+      "url": "https://cedardrop.com/product-pol-31946-Pojemny-plecak-podrozny-z-poliestru-w-czarnym-kolorze-zamykany-suwakiem-Peterson.html",
+      "category": "Plecaki",
+      "in_stock": false
+    },
+    "31945": {
+      "name": "Duży, pojemny plecak podróżny z poliestru w czarnym kolorze - Peterson",
+      "url": "https://cedardrop.com/product-pol-31945-Duzy-pojemny-plecak-podrozny-z-poliestru-w-czarnym-kolorze-Peterson.html",
+      "category": "Plecaki",
       "in_stock": false
     }
   }
