@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-06T00:53:22.738776+00:00",
+  "last_checked": "2026-11-06T16:19:56.992391+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -948,7 +948,7 @@
       "name": "Skórzany pasek męski do garnituru klamra - Rovicky",
       "url": "https://cedardrop.com/product-pol-9307-Skorzany-pasek-meski-do-garnituru-klamra-Rovicky.html",
       "category": "Zestawy prezentowe",
-      "in_stock": false
+      "in_stock": true
     },
     "17644": {
       "name": "Ponadczasowy, skórzany portfel męski bez zapięcia RFID - Peterson",
@@ -7624,16 +7624,16 @@
       "in_stock": false
     },
     "28085": {
-      "name": "Kompaktowy portfel damski ze skóry naturalnej w odcieniu krwistej czerwieni - Peterson",
+      "name": "28085",
       "url": "https://cedardrop.com/product-pol-28085-Kompaktowy-portfel-damski-ze-skory-naturalnej-w-odcieniu-krwistej-czerwieni-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28081": {
-      "name": "Skórzany damski portfel w zmysłowym czerwonym kolorze z wężową klapą - Peterson",
+      "name": "28081",
       "url": "https://cedardrop.com/product-pol-28081-Skorzany-damski-portfel-w-zmyslowym-czerwonym-kolorze-z-wezowa-klapa-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28078": {
       "name": "Zgrabny portfel damski z eleganckiej lakierowanej skóry naturalnej - Peterson",
@@ -7642,10 +7642,10 @@
       "in_stock": false
     },
     "28064": {
-      "name": "Elegancki portfel damski z lakierowaną klapką pokryty wzorem imitującym skórę gadów - Peterson",
+      "name": "28064",
       "url": "https://cedardrop.com/product-pol-28064-Elegancki-portfel-damski-z-lakierowana-klapka-pokryty-wzorem-imitujacym-skore-gadow-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28164": {
       "name": "Duży i pojemny czerwony portfel damski z systemem RFID - Peterson",
@@ -7654,10 +7654,10 @@
       "in_stock": false
     },
     "28062": {
-      "name": "Duży, skórzany portfel damski w czarnym kolorze zamykany na zamek i zatrzask - Peterson",
+      "name": "28062",
       "url": "https://cedardrop.com/product-pol-28062-Duzy-skorzany-portfel-damski-w-czarnym-kolorze-zamykany-na-zamek-i-zatrzask-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28156": {
       "name": "Skórzany, czerwony portfel damski na zatrzask z systemem RFID - Peterson",
@@ -7666,16 +7666,16 @@
       "in_stock": false
     },
     "28059": {
-      "name": "Duży portfel damski w kolorze czarnym ze zdobieniem imitującym skórę węża - Peterson",
+      "name": "28059",
       "url": "https://cedardrop.com/product-pol-28059-Duzy-portfel-damski-w-kolorze-czarnym-ze-zdobieniem-imitujacym-skore-weza-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28060": {
-      "name": "Portfel damski w kolorze czerwonym z wzorem na klapie imitującym skórę węża zamykany na zatrzask - Peterson",
+      "name": "28060",
       "url": "https://cedardrop.com/product-pol-28060-Portfel-damski-w-kolorze-czerwonym-z-wzorem-na-klapie-imitujacym-skore-weza-zamykany-na-zatrzask-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28061": {
       "name": "Kompaktowy portfel damski ze skóry naturalnej w czarnym kolorze zamykany na zatrzask - Peterson",
@@ -7690,22 +7690,22 @@
       "in_stock": false
     },
     "28055": {
-      "name": "Niewielki portfel w kolorze złotym wykonany ze skóry naturalnej z miejscem na fotografię - Peterson",
+      "name": "28055",
       "url": "https://cedardrop.com/product-pol-28055-Niewielki-portfel-w-kolorze-zlotym-wykonany-ze-skory-naturalnej-z-miejscem-na-fotografie-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28058": {
-      "name": "Duży, klasyczny portfel damski w kolorze czarnym zamykany na zatrzask - Peterson",
+      "name": "28058",
       "url": "https://cedardrop.com/product-pol-28058-Duzy-klasyczny-portfel-damski-w-kolorze-czarnym-zamykany-na-zatrzask-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28057": {
-      "name": "Lakierowany, duży portfel damski w kolorze czerwonym z systemem RFID - Peterson",
+      "name": "28057",
       "url": "https://cedardrop.com/product-pol-28057-Lakierowany-duzy-portfel-damski-w-kolorze-czerwonym-z-systemem-RFID-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28052": {
       "name": "Mały portfel damski w kolorze beżowym zamykany na zamek i zatrzask - Peterson",
@@ -7750,10 +7750,10 @@
       "in_stock": false
     },
     "28054": {
-      "name": "Elegancki, niewielki portfel w kolorze złotym wykonany ze skóry naturalnej - Peterson",
+      "name": "28054",
       "url": "https://cedardrop.com/product-pol-28054-Elegancki-niewielki-portfel-w-kolorze-zlotym-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": false
+      "in_stock": null
     },
     "28053": {
       "name": "Kompaktowy portfel w kolorze czarnym z systemem RFID - Peterson",
@@ -18147,7 +18147,7 @@
       "name": "Skórzany, dwustronny pasek męski w czarnym i brązowym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-31311-Skorzany-dwustronny-pasek-meski-w-czarnym-i-brazowym-kolorze-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "31295": {
       "name": "Pasek męski w ciemnobrązowym kolorze z automatyczną, czarną klamrą - Peterson",
@@ -18273,7 +18273,7 @@
       "name": "Skórzany, czarny pasek damski ze srebrną, klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30912-Skorzany-czarny-pasek-damski-ze-srebrna-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30813": {
       "name": "Uniwersalny pasek męski ze skóry ekologicznej w czarnym kolorze",
@@ -18448,19 +18448,19 @@
       "name": "Brązowy pasek męski ze skóry naturalnej z klasyczną, bezniklową klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30370-Brazowy-pasek-meski-ze-skory-naturalnej-z-klasyczna-bezniklowa-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30372": {
       "name": "Skórzany, brązowy pasek męski z klasyczną klamrą i dwiema szlufkami - Peterson",
       "url": "https://cedardrop.com/product-pol-30372-Skorzany-brazowy-pasek-meski-z-klasyczna-klamra-i-dwiema-szlufkami-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30369": {
       "name": "Pasek męski ze skóry naturalnej w czarnym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-30369-Pasek-meski-ze-skory-naturalnej-w-czarnym-kolorze-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "30373": {
       "name": "Klasyczny, skórzany, czarny pasek męski z tradycyjną klamrą - Peterson",
@@ -18478,7 +18478,7 @@
       "name": "Skórzany, czarny pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30371-Skorzany-czarny-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29949": {
       "name": "Skórzany pasek męski w brązowym kolorze z możliwością samodzielnego skrócenia - Peterson",
@@ -18568,7 +18568,7 @@
       "name": "Skórzany, brązowy pasek męski z tradycyjną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29736-Skorzany-brazowy-pasek-meski-z-tradycyjna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "29718": {
       "name": "Skórzany pasek męski w czarnym kolorze z możliwością samodzielnego skrócenia - Peterson",
@@ -18706,7 +18706,7 @@
       "name": "Czarny, skórzany pasek męski z tradycyjną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-29733-Czarny-skorzany-pasek-meski-z-tradycyjna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29033": {
       "name": "Parciany pasek męski do spodni z tradycyjną klamrą - Peterson",
@@ -18934,7 +18934,7 @@
       "name": "Skórzany, szeroki pasek męski z klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-23674-Skorzany-szeroki-pasek-meski-z-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": true
+      "in_stock": false
     },
     "23673": {
       "name": "Szeroki, skórzany pasek męski z tradycyjną klamrą - Rovicky",
@@ -24140,7 +24140,7 @@
       "name": "Elegancki, czarny pasek męski ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-29738-Elegancki-czarny-pasek-meski-ze-skory-naturalnej-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "28004": {
       "name": "Organizer podróżny w złotym kolorze z uchwytem do przenoszenia - Peterson",
@@ -25400,7 +25400,7 @@
       "name": "Elegancki pasek męski ze skóry naturalnej w czarnym kolorze ze srebrną, klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30915-Elegancki-pasek-meski-ze-skory-naturalnej-w-czarnym-kolorze-ze-srebrna-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "27063": {
       "name": "Uniwersalny pasek parciany - Loren",
@@ -25520,7 +25520,7 @@
       "name": "Skórzany pasek damski w brązowym kolorze ze srebrną, klasyczną klamrą - Peterson",
       "url": "https://cedardrop.com/product-pol-30910-Skorzany-pasek-damski-w-brazowym-kolorze-ze-srebrna-klasyczna-klamra-Peterson.html",
       "category": "Paski",
-      "in_stock": false
+      "in_stock": true
     },
     "29876": {
       "name": "Czarny, turystyczny plecak zawieszony na regulowanych szelkach - Peterson",
@@ -26516,6 +26516,42 @@
       "name": "Duży, pojemny plecak podróżny z poliestru w czarnym kolorze - Peterson",
       "url": "https://cedardrop.com/product-pol-31945-Duzy-pojemny-plecak-podrozny-z-poliestru-w-czarnym-kolorze-Peterson.html",
       "category": "Plecaki",
+      "in_stock": false
+    },
+    "30914": {
+      "name": "Skórzany, elegancki pasek męski w brązowym kolorze ze srebrną, klasyczną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-30914-Skorzany-elegancki-pasek-meski-w-brazowym-kolorze-ze-srebrna-klasyczna-klamra-Peterson.html",
+      "category": "Paski",
+      "in_stock": true
+    },
+    "30909": {
+      "name": "Czarny pasek damski ze skóry naturalnej ze srebrną, klasyczną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-30909-Czarny-pasek-damski-ze-skory-naturalnej-ze-srebrna-klasyczna-klamra-Peterson.html",
+      "category": "Paski",
+      "in_stock": true
+    },
+    "30908": {
+      "name": "Elegancki pasek damski ze skóry naturalnej w czarnym kolorze ze złotą, klasyczną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-30908-Elegancki-pasek-damski-ze-skory-naturalnej-w-czarnym-kolorze-ze-zlota-klasyczna-klamra-Peterson.html",
+      "category": "Paski",
+      "in_stock": true
+    },
+    "30906": {
+      "name": "Skórzany, wąski pasek damski w brązowym kolorze ze srebrną, klasyczną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-30906-Skorzany-waski-pasek-damski-w-brazowym-kolorze-ze-srebrna-klasyczna-klamra-Peterson.html",
+      "category": "Paski",
+      "in_stock": true
+    },
+    "29734": {
+      "name": "Skórzany pasek męski w brązowym kolorze z tradycyjną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-29734-Skorzany-pasek-meski-w-brazowym-kolorze-z-tradycyjna-klamra-Peterson.html",
+      "category": "Paski",
+      "in_stock": true
+    },
+    "22441": {
+      "name": "Skórzany pasek męski z klasyczną klamrą - Peterson",
+      "url": "https://cedardrop.com/product-pol-22441-Skorzany-pasek-meski-z-klasyczna-klamra-Peterson.html",
+      "category": "Paski",
       "in_stock": false
     }
   }
