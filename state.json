@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-06T16:19:56.992391+00:00",
+  "last_checked": "2026-11-07T00:16:49.821778+00:00",
   "products": {
     "31612": {
       "name": "Zestaw prezentowy: duży, skórzany portfel męski w czarnym kolorze z systemem RFID i pasek ze skóry naturalnej - Peterson",
@@ -7624,16 +7624,16 @@
       "in_stock": false
     },
     "28085": {
-      "name": "28085",
+      "name": "Kompaktowy portfel damski ze skóry naturalnej w odcieniu krwistej czerwieni - Peterson",
       "url": "https://cedardrop.com/product-pol-28085-Kompaktowy-portfel-damski-ze-skory-naturalnej-w-odcieniu-krwistej-czerwieni-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28081": {
-      "name": "28081",
+      "name": "Skórzany damski portfel w zmysłowym czerwonym kolorze z wężową klapą - Peterson",
       "url": "https://cedardrop.com/product-pol-28081-Skorzany-damski-portfel-w-zmyslowym-czerwonym-kolorze-z-wezowa-klapa-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28078": {
       "name": "Zgrabny portfel damski z eleganckiej lakierowanej skóry naturalnej - Peterson",
@@ -7642,10 +7642,10 @@
       "in_stock": false
     },
     "28064": {
-      "name": "28064",
+      "name": "Elegancki portfel damski z lakierowaną klapką pokryty wzorem imitującym skórę gadów - Peterson",
       "url": "https://cedardrop.com/product-pol-28064-Elegancki-portfel-damski-z-lakierowana-klapka-pokryty-wzorem-imitujacym-skore-gadow-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28164": {
       "name": "Duży i pojemny czerwony portfel damski z systemem RFID - Peterson",
@@ -7654,10 +7654,10 @@
       "in_stock": false
     },
     "28062": {
-      "name": "28062",
+      "name": "Duży, skórzany portfel damski w czarnym kolorze zamykany na zamek i zatrzask - Peterson",
       "url": "https://cedardrop.com/product-pol-28062-Duzy-skorzany-portfel-damski-w-czarnym-kolorze-zamykany-na-zamek-i-zatrzask-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28156": {
       "name": "Skórzany, czerwony portfel damski na zatrzask z systemem RFID - Peterson",
@@ -7666,16 +7666,16 @@
       "in_stock": false
     },
     "28059": {
-      "name": "28059",
+      "name": "Duży portfel damski w kolorze czarnym ze zdobieniem imitującym skórę węża - Peterson",
       "url": "https://cedardrop.com/product-pol-28059-Duzy-portfel-damski-w-kolorze-czarnym-ze-zdobieniem-imitujacym-skore-weza-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28060": {
-      "name": "28060",
+      "name": "Portfel damski w kolorze czerwonym z wzorem na klapie imitującym skórę węża zamykany na zatrzask - Peterson",
       "url": "https://cedardrop.com/product-pol-28060-Portfel-damski-w-kolorze-czerwonym-z-wzorem-na-klapie-imitujacym-skore-weza-zamykany-na-zatrzask-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28061": {
       "name": "Kompaktowy portfel damski ze skóry naturalnej w czarnym kolorze zamykany na zatrzask - Peterson",
@@ -7690,22 +7690,22 @@
       "in_stock": false
     },
     "28055": {
-      "name": "28055",
+      "name": "Niewielki portfel w kolorze złotym wykonany ze skóry naturalnej z miejscem na fotografię - Peterson",
       "url": "https://cedardrop.com/product-pol-28055-Niewielki-portfel-w-kolorze-zlotym-wykonany-ze-skory-naturalnej-z-miejscem-na-fotografie-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28058": {
-      "name": "28058",
+      "name": "Duży, klasyczny portfel damski w kolorze czarnym zamykany na zatrzask - Peterson",
       "url": "https://cedardrop.com/product-pol-28058-Duzy-klasyczny-portfel-damski-w-kolorze-czarnym-zamykany-na-zatrzask-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28057": {
-      "name": "28057",
+      "name": "Lakierowany, duży portfel damski w kolorze czerwonym z systemem RFID - Peterson",
       "url": "https://cedardrop.com/product-pol-28057-Lakierowany-duzy-portfel-damski-w-kolorze-czerwonym-z-systemem-RFID-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28052": {
       "name": "Mały portfel damski w kolorze beżowym zamykany na zamek i zatrzask - Peterson",
@@ -7750,10 +7750,10 @@
       "in_stock": false
     },
     "28054": {
-      "name": "28054",
+      "name": "Elegancki, niewielki portfel w kolorze złotym wykonany ze skóry naturalnej - Peterson",
       "url": "https://cedardrop.com/product-pol-28054-Elegancki-niewielki-portfel-w-kolorze-zlotym-wykonany-ze-skory-naturalnej-Peterson.html",
       "category": "Portfele damskie",
-      "in_stock": null
+      "in_stock": false
     },
     "28053": {
       "name": "Kompaktowy portfel w kolorze czarnym z systemem RFID - Peterson",
@@ -23116,8 +23116,7 @@
       "name": "Torba podróżna duża na kółkach czarna z poliestru - Peterson",
       "url": "https://cedardrop.com/product-pol-31353-Torba-podrozna-duza-na-kolkach-czarna-z-poliestru-Peterson.html",
       "category": "Walizki i torby podróżne",
-      "stock_label": "Produkt dostępny w bardzo małej ilości",
-      "in_stock": true
+      "in_stock": false
     },
     "29096": {
       "name": "Średnich rozmiarów walizka z miękkiego materiału, wykonana z poliestru w czerwono-niebieskim kolorze - Peterson",
